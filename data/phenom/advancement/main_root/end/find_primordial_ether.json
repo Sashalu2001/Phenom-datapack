@@ -1,0 +1,73 @@
+{
+  "parent": "phenom:main_root/end/entry_ether_drill",
+  "criteria": {
+    "find_primordial_ether": {
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:vault",
+                "state": {
+                  "ominous": "false"
+                },
+                "nbt": {
+                  "config": {
+                    "loot_table": "phenom:ether_drill/drill_vault",
+                    "override_loot_table_to_display": "phenom:ether_drill/display_drill_vault"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": "minecraft:trial_key",
+              "components": {
+                "custom_data":{
+                  "ether_vault_key": true
+                },
+                "item_name": {
+                  "type": "translatable",
+                  "translate": "phenom.item.ether_vault_key.name",
+                  "fallback": "Ether Vault Key"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:item_used_on_block"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "phenom.advancement.main_root.end.find_primordial_ether.description",
+      "fallback": "Get the Primordial Ether"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:test_instance_block",
+      "components": {
+        "custom_data": {
+            "ether": true
+        },
+        "item_model": "echo_shard"
+      }
+    },
+    "title": {
+      "translate": "phenom.advancement.main_root.end.find_primordial_ether.title",
+      "fallback": "The Mysterious Mineral"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "requirements": [
+    [
+      "find_primordial_ether"
+    ]
+  ],
+  "sends_telemetry_event": false
+}

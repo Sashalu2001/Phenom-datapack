@@ -1,0 +1,78 @@
+{
+    "name": "minecraft:village/taiga/town_centers",
+    "fallback": "minecraft:empty",
+    "elements": [
+      {
+        "weight": 98,
+        "element": {
+          "location": "minecraft:village/taiga/town_centers/taiga_meeting_point_1",
+          "processors": "minecraft:empty",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 98,
+        "element": {
+          "location": "minecraft:village/taiga/town_centers/taiga_meeting_point_2",
+          "processors": "minecraft:empty",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 98,
+        "element": {
+          "location": "minecraft:village/taiga/town_centers/taiga_meeting_point_3",
+          "processors": "minecraft:empty",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 98,
+        "element": {
+          "location": "minecraft:village/taiga/town_centers/taiga_meeting_point_4",
+          "processors": "minecraft:empty",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 2,
+        "element": {
+          "location": "minecraft:village/taiga/zombie/town_centers/taiga_meeting_point_1",
+          "processors": "minecraft:zombie_taiga",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 2,
+        "element": {
+          "location": "minecraft:village/taiga/zombie/town_centers/taiga_meeting_point_2",
+          "processors": "minecraft:zombie_taiga",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 2,
+        "element": {
+          "location": "minecraft:village/taiga/zombie/town_centers/taiga_meeting_point_3",
+          "processors": "minecraft:zombie_taiga",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 2,
+        "element": {
+          "location": "minecraft:village/taiga/zombie/town_centers/taiga_meeting_point_4",
+          "processors": "minecraft:zombie_taiga",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      }
+    ]
+  }

@@ -1,0 +1,50 @@
+[
+    {
+              "function": "minecraft:set_custom_data",
+              "tag": {
+                "amulet": true,
+                "amulet_id": "afterlife"
+              }
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "!minecraft:death_protection": {},
+                "minecraft:item_model": "minecraft:end_crystal",
+                "minecraft:enchantment_glint_override": true,
+                "minecraft:item_name": {
+                  "type": "translatable",
+                  "translate": "phenom.item.amulet.afterlife.name",
+                  "fallback": "Afterlife Amulet",
+                  "color": "#01a4da"
+                },
+                "minecraft:equippable": {
+                    "slot": "body",
+                    "equip_sound": "block.respawn_anchor.charge"
+                },
+                "minecraft:attribute_modifiers": [
+                  {
+                    "type": "minecraft:max_health",
+                    "id": "amulet",
+                    "amount": 4,
+                    "operation": "add_value",
+                    "slot": "body"
+                  }
+                ],
+                "minecraft:lore": [
+                  {
+                    "translate": "phenom.item.amulet.afterlife.description_1",
+                    "fallback": "Increases the maximum",
+                    "color": "#bb3fe9",
+                    "italic": false
+                  },
+                  {
+                    "translate": "phenom.item.amulet.afterlife.description_2",
+                    "fallback": "amount of health",
+                    "color": "#bb3fe9",
+                    "italic": false
+                  }
+                ]
+              }
+            }
+]

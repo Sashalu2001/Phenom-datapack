@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    "stick",
+    "iron_nugget"
+  ],
+  "result": {
+    "id": "minecraft:totem_of_undying",
+    "count": 1,
+    "components": {
+      "!minecraft:death_protection": {},
+      "minecraft:item_name": {
+        "translate": "phenom.item.amulet_disabler.name",
+        "fallback": "Remove current amulet"
+      },
+      "minecraft:equippable": {
+        "slot": "body"
+      },
+      "minecraft:rarity": "uncommon",
+      "minecraft:item_model": "minecraft:end_crystal",
+      "minecraft:enchantment_glint_override": false,
+      "minecraft:custom_data": {
+        "item_removes_amulet": true
+      }
+    }
+  }
+}

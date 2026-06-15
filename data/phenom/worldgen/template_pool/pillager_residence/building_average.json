@@ -1,0 +1,104 @@
+{
+  "elements": [
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "phenom:pillager_residence/building_average/building_average_1",
+        "processors": "phenom:pillager_residence_append_loot",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "phenom:pillager_residence/building_average/building_average_2",
+        "processors": "phenom:pillager_residence_append_loot",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "phenom:pillager_residence/building_average/building_average_3",
+        "processors": "phenom:pillager_residence_append_loot",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "phenom:pillager_residence/building_average/building_average_4",
+        "processors": "phenom:pillager_residence_append_loot",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "phenom:pillager_residence/building_average/building_average_5",
+        "processors": "phenom:pillager_residence_append_loot",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "phenom:pillager_residence/building_average/building_average_6",
+        "processors": "phenom:pillager_residence_append_loot",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "phenom:pillager_residence/building_average/building_average_7",
+        "processors": "phenom:pillager_residence_append_loot",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "phenom:pillager_residence/building_average/building_average_8",
+        "processors": "phenom:pillager_residence_append_loot",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "phenom:pillager_residence/building_average/building_average_9",
+        "processors": "phenom:pillager_residence_append_loot",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "phenom:pillager_residence/building_average/building_average_10",
+        "processors": "phenom:pillager_residence_append_loot",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "phenom:pillager_residence/building_average/building_average_11",
+        "processors": "phenom:pillager_residence_append_loot",
+        "projection": "rigid"
+      },
+      "weight": 1
+    }
+  ],
+  "fallback": "minecraft:empty"
+}

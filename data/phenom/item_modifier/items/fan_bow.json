@@ -1,0 +1,57 @@
+[
+    {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "type": "translatable",
+                  "translate": "phenom.item.fan_bow.description_1",
+                  "fallback": "A weapon that once belonged",
+                  "color": "#998f4d",
+                  "italic": false
+                },
+                {
+                  "type": "translatable",
+                  "translate": "phenom.item.fan_bow.description_2",
+                  "fallback": "to one of the Rulers",
+                  "color": "#998f4d",
+                  "italic": false
+                },
+                {
+                  "type": "translatable",
+                  "translate": "phenom.item.fan_bow.description_3",
+                  "fallback": "Fires 5 projectiles per shot",
+                  "color": "#fd8a58",
+                  "italic": false
+                }
+              ],
+              "mode": "append"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "type": "translatable",
+                "translate": "phenom.item.fan_bow.name",
+                "fallback": "Fan Bow",
+                "color": "#E6E400"
+              },
+              "target": "item_name"
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": {
+                "pillager_leader_weapon": true
+              }
+            },
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:multishot": 2
+              }
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:max_damage": 1920
+              }
+    }
+]

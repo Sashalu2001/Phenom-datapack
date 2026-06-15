@@ -1,0 +1,27 @@
+[
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "type": "translatable",
+                "translate": "phenom.item.splash_potion_of_sustained_weakness.name",
+                "fallback": "Splash Potion of Sustained Weakness",
+                "italic": false
+              },
+              "target": "custom_name"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:potion_contents": {
+                  "custom_color": 6198694,
+                  "custom_effects": [
+                    {
+                      "id": "minecraft:weakness",
+                      "amplifier": 1,
+                      "duration": 1200
+                    }
+                  ]
+                }
+              }
+            }
+]

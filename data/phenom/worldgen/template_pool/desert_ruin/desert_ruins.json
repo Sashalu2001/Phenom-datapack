@@ -1,0 +1,50 @@
+{
+  "elements": [
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "phenom:desert_ruin/variant_1",
+        "processors": "phenom:desert_ruin_append_loot",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "phenom:desert_ruin/variant_2",
+        "processors": "phenom:desert_ruin_append_loot",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "phenom:desert_ruin/variant_3",
+        "processors": "phenom:desert_ruin_append_loot",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "phenom:desert_ruin/variant_4",
+        "processors": "phenom:desert_ruin_append_loot",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "phenom:desert_ruin/variant_5",
+        "processors": "phenom:desert_ruin_append_loot",
+        "projection": "rigid"
+      },
+      "weight": 1
+    }
+  ],
+  "fallback": "minecraft:empty"
+}

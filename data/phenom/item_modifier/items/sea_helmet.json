@@ -1,0 +1,51 @@
+[
+    {
+        "function": "set_components",
+        "components": {
+                "minecraft:item_name": {
+                  "translate": "phenom.item.sea_helmet.name",
+                  "fallback": "The Helmet of the Guardian of the Sea"
+                },
+                "minecraft:rarity": "uncommon",
+                "minecraft:trim": {
+                  "material": "minecraft:diamond",
+                  "pattern": "minecraft:tide"
+                },
+                "minecraft:tooltip_display": {
+                  "hidden_components": [
+                    "minecraft:trim"
+                  ]
+                },
+                "minecraft:attribute_modifiers": [
+                  {
+                    "type": "minecraft:armor",
+                    "id": "h1",
+                    "amount": 3,
+                    "operation": "add_value",
+                    "slot": "head"
+                  },
+                  {
+                    "type": "minecraft:armor_toughness",
+                    "id": "ht1",
+                    "amount": 2,
+                    "operation": "add_value",
+                    "slot": "head"
+                  },
+                  {
+                    "type": "minecraft:oxygen_bonus",
+                    "id": "ob1",
+                    "amount": 0.25,
+                    "operation": "add_multiplied_total",
+                    "slot": "head"
+                  },
+                  {
+                    "type": "minecraft:water_movement_efficiency",
+                    "id": "wme1",
+                    "amount": 0.1,
+                    "operation": "add_multiplied_total",
+                    "slot": "head"
+                  }
+                ]
+        }
+    }
+]

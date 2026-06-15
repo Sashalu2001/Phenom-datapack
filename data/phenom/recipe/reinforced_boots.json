@@ -1,0 +1,64 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": "minecraft:structure_block",
+  "base": "minecraft:diamond_boots",
+  "result": {
+    "components": {
+      "minecraft:custom_data": {
+        "reinforced_boots": true
+      },
+      "minecraft:item_name": {
+          "translate": "phenom.item.reinforced_boots.name",
+          "fallback": "Reinforced Boots",
+          "color": "#d1b3ff"
+      },
+      "minecraft:max_damage": 1103,
+      "minecraft:damage_resistant": {
+          "types": "#phenom:is_fire_explosion"
+      },
+      "minecraft:repairable": {
+        "items": "minecraft:structure_block"
+      },
+      "minecraft:attribute_modifiers": [
+        {
+          "type": "minecraft:armor",
+          "id": "reinforced_boots_armor",
+          "amount": 4,
+          "operation": "add_value",
+          "slot": "feet"
+        },
+        {
+          "type": "minecraft:armor_toughness",
+          "id": "reinforced_boots_armor_toughness",
+          "amount": 4,
+          "operation": "add_value",
+          "slot": "feet"
+        },
+        {
+          "type": "minecraft:movement_speed",
+          "id": "reinforced_boots_movement_speed",
+          "amount": -0.125,
+          "operation": "add_multiplied_total",
+          "slot": "feet"
+        },
+        {
+          "type": "minecraft:knockback_resistance",
+          "id": "reinforced_boots_knockback_resistance",
+          "amount": 0.2,
+          "operation": "add_value",
+          "slot": "feet"
+        },
+        {
+          "type": "minecraft:explosion_knockback_resistance",
+          "id": "reinforced_boots_explosion_knockback_resistance",
+          "amount": 0.1,
+          "operation": "add_value",
+          "slot": "feet"
+        }
+      ]
+    },
+    "count": 1,
+    "id": "minecraft:netherite_boots"
+  },
+  "template": "minecraft:debug_stick"
+}

@@ -1,0 +1,110 @@
+{
+  "type": "minecraft:equipment",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+            "type": "minecraft:loot_table",
+            "weight": 4,
+            "value": {
+                "pools": [
+                    {
+                        "rolls": 1,
+                        "entries": [
+                            {
+                                "type": "minecraft:item",
+                                "name": "minecraft:iron_chestplate",
+                                "functions": [
+                                    {
+                                        "function": "minecraft:set_attributes",
+                                        "modifiers": [
+                                            {
+                                                "attribute": "armor",
+                                                "id": "mob_armor",
+                                                "amount": 8,
+                                                "operation": "add_value",
+                                                "slot": "chest"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "type": "minecraft:loot_table",
+            "weight": 1,
+            "value": {
+                "pools": [
+                    {
+                        "rolls": 1,
+                        "entries": [
+                            {
+                                "type": "minecraft:item",
+                                "name": "minecraft:iron_chestplate",
+                                "functions": [
+                                    {
+                                        "function": "minecraft:set_attributes",
+                                        "modifiers": [
+                                            {
+                                                "attribute": "scale",
+                                                "id": "mob_scale",
+                                                "amount": 0.15,
+                                                "operation": "add_value",
+                                                "slot": "chest"
+                                            },
+                                            {
+                                                "attribute": "armor",
+                                                "id": "mob_armor",
+                                                "amount": 18,
+                                                "operation": "add_value",
+                                                "slot": "chest"
+                                            },
+                                            {
+                                                "attribute": "armor_toughness",
+                                                "id": "mob_armor_toughness",
+                                                "amount": 4,
+                                                "operation": "add_value",
+                                                "slot": "chest"
+                                            },
+                                            {
+                                                "attribute": "movement_speed",
+                                                "id": "mob_movement_speed",
+                                                "amount": -0.1,
+                                                "operation": "add_multiplied_total",
+                                                "slot": "chest"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "rolls": 1,
+                        "entries": [
+                            {
+                                "type": "minecraft:item",
+                                "name": "minecraft:golden_axe",
+                                "functions": [
+                                    {
+                                        "function": "minecraft:set_enchantments",
+                                        "enchantments": {
+                                            "knockback": 1
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+          }
+        }
+      ]
+    }
+  ]
+}

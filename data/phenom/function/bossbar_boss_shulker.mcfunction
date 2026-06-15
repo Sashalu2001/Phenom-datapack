@@ -1,0 +1,2 @@
+execute as @e[type=shulker,tag=boss_shulker] run function phenom:bossbar_boss_shulker_update
+execute unless entity @e[type=shulker,tag=boss_shulker] run bossbar set phenom:bossbar_boss_shulker visible false

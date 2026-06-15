@@ -1,0 +1,48 @@
+{
+  "gives": {
+    "id": "minecraft:diamond",
+    "count": 5
+  },
+  "max_uses": 1,
+  "reputation_discount": 0.05,
+  "wants": {
+    "id": "minecraft:totem_of_undying",
+    "components": {
+                "custom_data": {
+                    "amulet": true,
+                    "amulet_id": "righteous_wrath"
+                },
+                "minecraft:item_model": "minecraft:end_crystal",
+                "minecraft:enchantment_glint_override": true,
+                "minecraft:item_name": {
+                  "type": "translatable",
+                  "translate": "phenom.item.amulet.righteous_wrath.name",
+                  "fallback": "Righteous Wrath Amulet",
+                  "color": "#e60000"
+                },
+                "minecraft:equippable": {
+                    "slot": "body",
+                    "equip_sound": "block.respawn_anchor.charge"
+                },
+                "minecraft:attribute_modifiers": [
+                  {
+                    "type": "minecraft:attack_damage",
+                    "id": "amulet",
+                    "amount": 0.1,
+                    "operation": "add_multiplied_total",
+                    "slot": "body"
+                  }
+                ],
+                "minecraft:lore": [
+                  {
+                    "type": "translatable",
+                    "translate": "phenom.item.amulet.righteous_wrath.description",
+                    "fallback": "Increases attack strength",
+                    "color": "#bb3fe9",
+                    "italic": false
+                  }
+                ]
+              }
+  },
+  "xp": 60
+}

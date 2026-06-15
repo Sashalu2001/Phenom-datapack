@@ -1,0 +1,55 @@
+{
+  "type": "minecraft:jigsaw",
+  "biomes": [
+    "minecraft:badlands",
+    "minecraft:bamboo_jungle",
+    "minecraft:birch_forest",
+    "minecraft:cherry_grove",
+    "minecraft:dark_forest",
+    "minecraft:desert",
+    "minecraft:eroded_badlands",
+    "minecraft:flower_forest",
+    "minecraft:forest",
+    "minecraft:jungle",
+    "minecraft:mangrove_swamp",
+    "minecraft:old_growth_birch_forest",
+    "minecraft:old_growth_pine_taiga",
+    "minecraft:old_growth_spruce_taiga",
+    "minecraft:plains",
+    "minecraft:savanna",
+    "minecraft:savanna_plateau",
+    "minecraft:snowy_beach",
+    "minecraft:snowy_plains",
+    "minecraft:snowy_taiga",
+    "minecraft:sparse_jungle",
+    "minecraft:sunflower_plains",
+    "minecraft:swamp",
+    "minecraft:taiga",
+    "minecraft:wooded_badlands",
+    "minecraft:dripstone_caves",
+    "minecraft:lush_caves"
+  ],
+  "max_distance_from_center": 116,
+  "size": 6,
+  "spawn_overrides": {
+    "monster": {
+      "bounding_box": "piece",
+      "spawns": []
+    }
+  },
+  "start_height": {
+    "type": "uniform",
+    "max_inclusive": {
+      "absolute": 16
+    },
+    "min_inclusive": {
+      "absolute": -24
+    }
+  },
+  "start_pool": "phenom:pale_trial_dungeon/entry",
+  "start_jigsaw_name": "phenom:structure_center",
+  "step": "underground_structures",
+  "terrain_adaptation": "encapsulate",
+  "use_expansion_hack": false,
+  "liquid_settings": "ignore_waterlogging"
+}

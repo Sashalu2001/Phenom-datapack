@@ -1,0 +1,40 @@
+{
+  "parent": "phenom:main_root/nether/entry_nether_prison",
+  "criteria": {
+    "generate_loot": {
+      "trigger": "minecraft:player_generates_container_loot",
+      "conditions": {
+        "loot_table": "phenom:nether_prison/chest_epic"
+      }
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "phenom.advancement.main_root.nether.loot_nether_prison_governor.description",
+      "fallback": "Loot the Prison Governor's chest"
+    },
+    "icon": {
+      "components": {
+        "minecraft:enchantment_glint_override": true,
+        "minecraft:custom_data":
+        {
+            "fire_resistance_cream": true
+        }
+      },
+      "count": 1,
+      "id": "minecraft:magma_cream"
+    },
+    "title": {
+      "translate": "phenom.advancement.main_root.nether.loot_nether_prison_governor.title",
+      "fallback": "You Are Free"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "requirements": [
+    [
+      "generate_loot"
+    ]
+  ],
+  "sends_telemetry_event": false
+}

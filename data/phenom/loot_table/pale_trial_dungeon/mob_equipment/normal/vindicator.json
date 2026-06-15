@@ -1,0 +1,133 @@
+{
+  "type": "minecraft:equipment",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+            "type": "minecraft:loot_table",
+            "weight": 5,
+            "value": {
+                "pools": [
+                    {
+                        "rolls": 1,
+                        "entries": [
+                            {
+                                "type": "minecraft:item",
+                                "name": "minecraft:iron_sword"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "type": "minecraft:loot_table",
+            "weight": 3,
+            "value": {
+                "pools": [
+                    {
+                        "rolls": 1,
+                        "entries": [
+                            {
+                                "type": "minecraft:item",
+                                "name": "minecraft:leather_helmet"
+                            }
+                        ]
+                    },
+                    {
+                        "rolls": 1,
+                        "entries": [
+                            {
+                                "type": "minecraft:item",
+                                "name": "minecraft:leather_chestplate"
+                            }
+                        ]
+                    },
+                    {
+                        "rolls": 1,
+                        "entries": [
+                            {
+                                "type": "minecraft:item",
+                                "name": "minecraft:leather_leggings"
+                            }
+                        ]
+                    },
+                    {
+                        "rolls": 1,
+                        "entries": [
+                            {
+                                "type": "minecraft:item",
+                                "name": "minecraft:leather_boots"
+                            }
+                        ]
+                    },
+                    {
+                        "rolls": 1,
+                        "entries": [
+                            {
+                                "type": "minecraft:item",
+                                "name": "minecraft:copper_axe"
+                            }
+                        ]
+                    }
+                ]
+          }
+        },
+        {
+            "type": "minecraft:loot_table",
+            "weight": 2,
+            "value": {
+                "pools": [
+                    {
+                        "rolls": 1,
+                        "entries": [
+                            {
+                                "type": "minecraft:item",
+                                "name": "minecraft:copper_helmet"
+                            }
+                        ]
+                    },
+                    {
+                        "rolls": 1,
+                        "entries": [
+                            {
+                                "type": "minecraft:item",
+                                "name": "minecraft:copper_chestplate"
+                            }
+                        ]
+                    },
+                    {
+                        "rolls": 1,
+                        "entries": [
+                            {
+                                "type": "minecraft:item",
+                                "name": "minecraft:copper_leggings"
+                            }
+                        ]
+                    },
+                    {
+                        "rolls": 1,
+                        "entries": [
+                            {
+                                "type": "minecraft:item",
+                                "name": "minecraft:copper_boots"
+                            }
+                        ]
+                    },
+                    {
+                        "rolls": 1,
+                        "entries": [
+                            {
+                                "type": "minecraft:item",
+                                "name": "minecraft:iron_axe"
+                            }
+                        ]
+                    }
+                ]
+          }
+        }
+      ]
+    }
+  ]
+}

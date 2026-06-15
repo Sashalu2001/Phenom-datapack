@@ -1,0 +1,27 @@
+[
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "type": "translatable",
+                "translate": "phenom.item.splash_potion_of_sustained_poison.name",
+                "fallback": "Splash Potion of Sustained Poison",
+                "italic": false
+              },
+              "target": "custom_name"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:potion_contents": {
+                  "custom_color": 1304431,
+                  "custom_effects": [
+                    {
+                      "id": "minecraft:poison",
+                      "amplifier": 1,
+                      "duration": 900
+                    }
+                  ]
+                }
+              }
+            }
+]

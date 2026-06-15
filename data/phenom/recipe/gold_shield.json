@@ -1,0 +1,77 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "i": "minecraft:gold_ingot",
+    "b": "minecraft:gold_block"
+  },
+  "pattern": [
+    "ibi",
+    "iii",
+    " i "
+  ],
+  "result": {
+    "components": {
+      "minecraft:item_name": {
+        "translate": "phenom.item.gold_shield.name",
+        "fallback": "Golden shield"
+      },
+      "minecraft:blocks_attacks": {
+        "disable_cooldown_scale": 0.6,
+        "item_damage": {
+          "threshold": 0,
+          "base": 0,
+          "factor": 0.7
+        },
+        "block_sound": "minecraft:block.iron.hit",
+        "disabled_sound": "minecraft:block.iron.break",
+        "bypassed_by": "#minecraft:bypasses_shield"
+      },
+      "minecraft:max_damage": 96,
+      "minecraft:banner_patterns": [
+        {
+          "color": "white",
+          "pattern": "minecraft:base"
+        },
+        {
+          "color": "brown",
+          "pattern": "minecraft:diagonal_up_right"
+        },
+        {
+          "color": "yellow",
+          "pattern": "minecraft:gradient_up"
+        },
+        {
+          "color": "yellow",
+          "pattern": "minecraft:gradient"
+        },
+        {
+          "color": "yellow",
+          "pattern": "minecraft:gradient"
+        },
+        {
+          "color": "yellow",
+          "pattern": "minecraft:gradient_up"
+        },
+        {
+          "color": "yellow",
+          "pattern": "minecraft:border"
+        }
+      ],
+      "minecraft:repairable": {
+        "items": "minecraft:gold_ingot"
+      },
+      "minecraft:tooltip_display": {
+        "hidden_components": [
+          "minecraft:banner_patterns"
+        ]
+      },
+      "minecraft:custom_data": {
+        "shield": true,
+        "shield_type": "gold"
+      }
+    },
+    "count": 1,
+    "id": "minecraft:shield"
+  }
+}

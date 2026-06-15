@@ -1,0 +1,92 @@
+{
+  "parent": "phenom:main_root/nether/entry_nether_trial_dungeon",
+  "criteria": {
+    "open_nether_ominous_vault": {
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:vault",
+                "state": {
+                  "ominous": "true"
+                },
+                "nbt": {
+                  "config": {
+                    "loot_table": "phenom:nether_trial_dungeon/vaults/ominous/ominous_vault"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": "minecraft:ominous_trial_key",
+              "components": {
+                "custom_data":{
+                  "nether_key": true
+                },
+                "item_name": {
+                  "type": "translatable",
+                  "translate": "phenom.item.nether_ominous_trial_key.name",
+                  "fallback": "Nether ominous trial key"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:item_used_on_block"
+    },
+    "find_enchantment": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:enchanted_book",
+            "predicates": {
+            "minecraft:stored_enchantments": [
+              {
+                "enchantments": "phenom:long_handle"
+              }
+            ]
+          }
+          }
+        ]
+      }
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "phenom.advancement.main_root.nether.find_enchantment_long_handle.description",
+      "fallback": "Obtain the \"Long Handle\" enchantment"
+    },
+    "icon": {
+      "components": {
+        "minecraft:enchantment_glint_override": true,
+        "minecraft:stored_enchantments": {
+          "phenom:long_handle": 3
+        }
+      },
+      "count": 1,
+      "id": "minecraft:enchanted_book"
+    },
+    "title": {
+      "translate": "phenom.advancement.main_root.nether.find_enchantment_long_handle.title",
+      "fallback": "Unknown Magic II"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "requirements": [
+    [
+      "open_nether_ominous_vault"
+    ],
+    [
+      "find_enchantment"
+    ]
+  ],
+  "sends_telemetry_event": false
+}

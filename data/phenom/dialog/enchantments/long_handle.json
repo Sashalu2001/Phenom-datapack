@@ -1,0 +1,105 @@
+{
+  "type": "minecraft:notice",
+  "external_title": {
+    "type": "translatable",
+    "translate": "phenom.dialog.help.enchantments.long_handle.title",
+    "fallback": "Long Handle"
+  },
+  "title": {
+    "type": "translatable",
+    "translate": "phenom.dialog.help.enchantments.long_handle.title",
+    "fallback": "Long Handle"
+  },
+  "body": [
+    {
+      "type": "minecraft:item",
+      "item": {
+        "id": "minecraft:enchanted_book",
+        "count": 1,
+        "components": {
+          "minecraft:stored_enchantments": {
+            "phenom:long_handle": 3
+          }
+        }
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "width": 300,
+      "contents": {
+        "type": "translatable",
+        "translate": "phenom.dialog.help.enchantments.long_handle.name",
+        "fallback": "Long Handle",
+        "color": "yellow",
+        "extra": [
+          {
+            "type": "translatable",
+            "translate": "phenom.dialog.help.enchantments.long_handle.desc_start",
+            "fallback": " - an enchantment that increases attack and block interaction range (by 0.5 blocks per level). Applies to most tools and melee weapons. Conflicts with the enchantment ",
+            "color": "white"
+          },
+          {
+            "type": "translatable",
+            "translate": "phenom.dialog.help.enchantments.lightness.name",
+            "fallback": "Lightness",
+            "color": "yellow",
+            "click_event": {
+              "action": "show_dialog",
+              "dialog": "phenom:enchantments/lightness"
+            },
+            "hover_event": {
+              "action": "show_text",
+              "value": {
+                "type": "translatable",
+                "translate": "phenom.dialog.help.amulets.hover",
+                "fallback": "Click here to learn more",
+                "color": "#e9baff"
+              }
+            }
+          },
+          {
+            "type": "translatable",
+            "translate": "phenom.dialog.help.enchantments.long_handle.desc_mid",
+            "fallback": ". Can only be found in ominous vaults ",
+            "color": "white"
+          },
+          {
+            "type": "translatable",
+            "translate": "phenom.dialog.help.structure.nether_trial_dungeon",
+            "fallback": "Nether Trial Dungeon",
+            "color": "#ff7d7d",
+            "click_event": {
+              "action": "show_dialog",
+              "dialog": "phenom:structures/nether_trial_dungeon"
+            },
+            "hover_event": {
+              "action": "show_text",
+              "value": {
+                "type": "translatable",
+                "translate": "phenom.dialog.help.amulets.hover",
+                "fallback": "Click here to learn more",
+                "color": "#e9baff"
+              }
+            }
+          },
+          {
+            "type": "translatable",
+            "translate": "phenom.dialog.help.enchantments.long_handle.desc_end",
+            "fallback": ". Max level - III.",
+            "color": "white"
+          }
+        ]
+      }
+    }
+  ],
+  "action": {
+    "label": {
+      "translate": "gui.back"
+    },
+    "width": 150,
+    "action": {
+      "type": "minecraft:show_dialog",
+      "dialog": "phenom:enchantments"
+    }
+  }
+}

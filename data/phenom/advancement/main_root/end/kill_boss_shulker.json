@@ -1,0 +1,42 @@
+{
+  "parent": "phenom:main_root/end/entry_illusion_cube",
+  "criteria": {
+    "kill_entity": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:shulker",
+              "nbt": "{Tags:[\"boss_shulker\"]}"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "phenom.advancement.main_root.end.kill_boss_shulker.description",
+      "fallback": "Get rid of the Cube Illusion"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:shulker_spawn_egg"
+    },
+    "title": {
+      "translate": "phenom.advancement.main_root.end.kill_boss_shulker.title",
+      "fallback": "Sober Mind"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "requirements": [
+    [
+      "kill_entity"
+    ]
+  ],
+  "sends_telemetry_event": false
+}

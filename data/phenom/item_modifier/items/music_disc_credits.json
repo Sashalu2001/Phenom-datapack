@@ -1,0 +1,10 @@
+[
+    {
+        "function": "set_components",
+        "components": {
+           "enchantment_glint_override": true,
+            "rarity": "epic",
+            "minecraft:jukebox_playable": "phenom:credits"
+        }
+    }
+]

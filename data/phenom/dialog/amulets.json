@@ -1,0 +1,1069 @@
+{
+  "type": "minecraft:notice",
+  "external_title": {
+    "type": "translatable",
+    "translate": "phenom.dialog.help.amulets.title",
+    "fallback": "Amulets"
+  },
+  "title": {
+    "type": "translatable",
+    "translate": "phenom.dialog.help.amulets.title",
+    "fallback": "Amulets"
+  },
+  "body": [
+    {
+      "type": "minecraft:item",
+      "item": {
+        "id": "minecraft:end_crystal",
+        "count": 1,
+        "components": {
+          "enchantment_glint_override": true
+        }
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "width": 300,
+      "contents": {
+        "type": "translatable",
+        "translate": "phenom.dialog.help.amulets.description",
+        "fallback": "Amulets - special artifacts that improve various character stats. To activate the effect, simply place it in a hidden slot with the right mouse button, holding it in your hand.",
+        "color": "white"
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "width": 300,
+      "contents": {
+        "type": "translatable",
+        "translate": "phenom.dialog.help.amulets.count",
+        "fallback": "There are 10 amulets in total, each can be found in a unique structure:",
+        "color": "white"
+      }
+    },
+    {
+      "type": "minecraft:item",
+      "item": {
+        "id": "minecraft:totem_of_undying",
+        "count": 1,
+        "components": {
+          "minecraft:item_model": "minecraft:end_crystal",
+          "minecraft:enchantment_glint_override": true,
+          "minecraft:custom_name": {
+            "type": "translatable",
+            "translate": "phenom.item.amulet.highstep.name",
+            "fallback": "Ascension Amulet",
+            "color": "#f1faa1",
+            "italic": false
+          },
+          "minecraft:custom_data": {
+            "amulet": true,
+            "amulet_id": "highstep"
+          },
+          "minecraft:equippable": {
+                    "slot": "body",
+                    "equip_sound": "block.respawn_anchor.charge"
+                },
+                "minecraft:attribute_modifiers": [
+                  {
+                    "type": "minecraft:step_height",
+                    "id": "amulet",
+                    "amount": 1,
+                    "operation": "add_value",
+                    "slot": "body"
+                  },
+                  {
+                    "type": "minecraft:jump_strength",
+                    "id": "amulet",
+                    "amount": 0.21,
+                    "operation": "add_value",
+                    "slot": "body"
+                  }
+                ],
+                "minecraft:lore": [
+                  {
+                    "type": "translatable",
+                    "translate": "phenom.item.amulet.highstep.description",
+                    "fallback": "Increases the height of the jump and step",
+                    "color": "#bb3fe9",
+                    "italic": false
+                  }
+                ]
+        }
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "width": 300,
+      "contents": {
+        "type": "translatable",
+        "translate": "phenom.item.amulet.highstep.name",
+        "fallback": "Ascension Amulet",
+        "color": "#f1faa1",
+        "extra": [
+          {
+            "type": "translatable",
+            "translate": "phenom.dialog.help.amulets.locations",
+            "fallback": " - can be found in the structures ",
+            "color": "white"
+          },
+          {
+            "type": "translatable",
+            "translate":"phenom.dialog.structure.forgotten_tower",
+            "fallback": "Forgotten Tower",
+            "color": "green",
+            "click_event": {
+              "action": "show_dialog",
+              "dialog": "phenom:structures/forgotten_tower"
+            },
+            "hover_event": {
+              "action": "show_text",
+              "value": {
+                "type": "translatable",
+                "translate": "phenom.dialog.help.amulets.hover",
+                "fallback": "Click here to learn more",
+                "color": "#e9baff"
+              }
+            }
+          },
+          {
+            "type": "translatable",
+            "translate": "phenom.dialog.help.comma",
+            "fallback": ", ",
+            "color": "white"
+          },
+          {
+            "type": "translatable",
+            "translate":"phenom.dialog.structure.badlands_tower",
+            "fallback": "Badlands Tower",
+            "color": "green",
+            "click_event": {
+              "action": "show_dialog",
+              "dialog": "phenom:structures/badlands_tower"
+            },
+            "hover_event": {
+              "action": "show_text",
+              "value": {
+                "type": "translatable",
+                "translate": "phenom.dialog.help.amulets.hover",
+                "fallback": "Click here to learn more",
+                "color": "#e9baff"
+              }
+            }
+          },
+          {
+            "type": "translatable",
+            "translate": "phenom.dialog.help.amulets.suffix",
+            "fallback": ".",
+            "color": "white"
+          }
+        ]
+      }
+    },
+    {
+      "type": "minecraft:item",
+      "item": {
+        "id": "minecraft:totem_of_undying",
+        "count": 1,
+        "components": {
+          "minecraft:item_model": "minecraft:end_crystal",
+          "minecraft:enchantment_glint_override": true,
+          "minecraft:custom_name": {
+            "type": "translatable",
+            "translate": "phenom.item.amulet.restless_soul.name",
+            "fallback": "Restless Soul Amulet",
+            "color": "#74fbf8",
+            "italic": false
+          },
+          "minecraft:custom_data": {
+            "amulet": true,
+            "amulet_id": "restless_soul"
+          },
+          "minecraft:equippable": {
+                    "slot": "body",
+                    "equip_sound": "block.respawn_anchor.charge"
+                },
+                "minecraft:attribute_modifiers": [
+                  {
+                    "type": "minecraft:movement_speed",
+                    "id": "amulet",
+                    "amount": 0.2,
+                    "operation": "add_multiplied_total",
+                    "slot": "body"
+                  },
+                  {
+                    "type": "minecraft:sneaking_speed",
+                    "id": "amulet",
+                    "amount": 0.15,
+                    "operation": "add_value",
+                    "slot": "body"
+                  }
+                ],
+                "minecraft:lore": [
+                  {
+                    "type": "translatable",
+                    "translate": "phenom.item.amulet.restless_soul.description_1",
+                    "fallback": "Increases the movement speed",
+                    "color": "#bb3fe9",
+                    "italic": false
+                  },
+                  {
+                    "type": "translatable",
+                    "translate": "phenom.item.amulet.restless_soul.description_2",
+                    "fallback": "and sneaking speed",
+                    "color": "#bb3fe9",
+                    "italic": false
+                  }
+                ]
+        }
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "width": 300,
+      "contents": {
+        "type": "translatable",
+        "translate": "phenom.item.amulet.restless_soul.name",
+        "fallback": "Restless Soul Amulet",
+        "color": "#74fbf8",
+        "extra": [
+          {
+            "type": "translatable",
+            "translate": "phenom.dialog.help.amulets.location",
+            "fallback": " - can be found in the structure ",
+            "color": "white"
+          },
+          {
+            "type": "translatable",
+            "translate": "phenom.dialog.help.structure.ancient_tomb",
+            "fallback": "Ancient Tomb",
+            "color": "green",
+            "click_event": {
+              "action": "show_dialog",
+              "dialog": "phenom:structures/ancient_tomb"
+            },
+            "hover_event": {
+              "action": "show_text",
+              "value": {
+                "type": "translatable",
+                "translate": "phenom.dialog.help.amulets.hover",
+                "fallback": "Click here to learn more",
+                "color": "#e9baff"
+              }
+            }
+          },
+          {
+            "type": "translatable",
+            "translate": "phenom.dialog.help.amulets.suffix",
+            "fallback": ".",
+            "color": "white"
+          }
+        ]
+      }
+    },
+    {
+      "type": "minecraft:item",
+      "item": {
+        "id": "minecraft:totem_of_undying",
+        "count": 1,
+        "components": {
+          "minecraft:item_model": "minecraft:end_crystal",
+          "minecraft:enchantment_glint_override": true,
+          "minecraft:custom_name": {
+            "type": "translatable",
+            "translate": "phenom.item.amulet.cold.name",
+            "fallback": "Great Cold Amulet",
+            "color": "#6be1ff",
+            "italic": false
+          },
+          "minecraft:custom_data": {
+            "amulet": true,
+            "amulet_id": "cold"
+          },
+          "minecraft:equippable": {
+                    "slot": "body",
+                    "equip_sound": "block.respawn_anchor.charge"
+                },
+                "minecraft:attribute_modifiers": [
+                  {
+                    "type": "minecraft:burning_time",
+                    "id": "amulet",
+                    "amount": -0.7,
+                    "operation": "add_multiplied_total",
+                    "slot": "body"
+                  }
+                ],
+                "minecraft:lore": [
+                  {
+                    "type": "translatable",
+                    "translate": "phenom.item.amulet.cold.description",
+                    "fallback": "Reduces the burning time",
+                    "color": "#bb3fe9",
+                    "italic": false
+                  }
+                ]
+        }
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "width": 300,
+      "contents": {
+        "type": "translatable",
+        "translate": "phenom.item.amulet.cold.name",
+        "fallback": "Great Cold Amulet",
+        "color": "#6be1ff",
+        "extra": [
+          {
+            "type": "translatable",
+            "translate": "phenom.dialog.help.amulets.location",
+            "fallback": " - can be found in the structure ",
+            "color": "white"
+          },
+          {
+            "type": "translatable",
+            "translate": "phenom.dialog.help.structure.snowy_ruin",
+            "fallback": "Snowy Ruins",
+            "color": "green",
+            "click_event": {
+              "action": "show_dialog",
+              "dialog": "phenom:structures/snowy_ruin"
+            },
+            "hover_event": {
+              "action": "show_text",
+              "value": {
+                "type": "translatable",
+                "translate": "phenom.dialog.help.amulets.hover",
+                "fallback": "Click here to learn more",
+                "color": "#e9baff"
+              }
+            }
+          },
+          {
+            "type": "translatable",
+            "translate": "phenom.dialog.help.amulets.suffix",
+            "fallback": ".",
+            "color": "white"
+          }
+        ]
+      }
+    },
+    {
+      "type": "minecraft:item",
+      "item": {
+        "id": "minecraft:totem_of_undying",
+        "count": 1,
+        "components": {
+          "minecraft:item_model": "minecraft:end_crystal",
+          "minecraft:enchantment_glint_override": true,
+          "minecraft:custom_name": {
+            "type": "translatable",
+            "translate": "phenom.item.amulet.afterlife.name",
+            "fallback": "Afterlife Amulet",
+            "color": "#01a4da",
+            "italic": false
+          },
+          "minecraft:custom_data": {
+            "amulet": true,
+            "amulet_id": "afterlife"
+          },
+          "minecraft:equippable": {
+                    "slot": "body",
+                    "equip_sound": "block.respawn_anchor.charge"
+                },
+                "minecraft:attribute_modifiers": [
+                  {
+                    "type": "minecraft:max_health",
+                    "id": "amulet",
+                    "amount": 4,
+                    "operation": "add_value",
+                    "slot": "body"
+                  }
+                ],
+                "minecraft:lore": [
+                  {
+                    "translate": "phenom.item.amulet.afterlife.description_1",
+                    "fallback": "Increases the maximum",
+                    "color": "#bb3fe9",
+                    "italic": false
+                  },
+                  {
+                    "translate": "phenom.item.amulet.afterlife.description_2",
+                    "fallback": "amount of health",
+                    "color": "#bb3fe9",
+                    "italic": false
+                  }
+                ]
+        }
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "width": 300,
+      "contents": {
+        "type": "translatable",
+        "translate": "phenom.item.amulet.afterlife.name",
+        "fallback": "Afterlife Amulet",
+        "color": "#01a4da",
+        "extra": [
+          {
+            "type": "translatable",
+            "translate": "phenom.dialog.help.amulets.location",
+            "fallback": " - can be found in the structure ",
+            "color": "white"
+          },
+          {
+            "type": "translatable",
+            "translate": "phenom.dialog.help.structure.haunted_mansion",
+            "fallback": "Haunted Mansion",
+            "color": "green",
+            "click_event": {
+              "action": "show_dialog",
+              "dialog": "phenom:structures/haunted_mansion"
+            },
+            "hover_event": {
+              "action": "show_text",
+              "value": {
+                "type": "translatable",
+                "translate": "phenom.dialog.help.amulets.hover",
+                "fallback": "Click here to learn more",
+                "color": "#e9baff"
+              }
+            }
+          },
+          {
+            "type": "translatable",
+            "translate": "phenom.dialog.help.amulets.suffix",
+            "fallback": ".",
+            "color": "white"
+          }
+        ]
+      }
+    },
+    {
+      "type": "minecraft:item",
+      "item": {
+        "id": "minecraft:totem_of_undying",
+        "count": 1,
+        "components": {
+          "minecraft:item_model": "minecraft:end_crystal",
+          "minecraft:enchantment_glint_override": true,
+          "minecraft:custom_name": {
+            "type": "translatable",
+            "translate": "phenom.item.amulet.immortal.name",
+            "fallback": "Immortality Amulet",
+            "color": "#6bff42",
+            "italic": false
+          },
+          "minecraft:custom_data": {
+            "amulet": true,
+            "amulet_id": "immortal"
+          },
+          "minecraft:lore": [
+                {
+                  "type": "translatable",
+                  "translate": "phenom.item.amulet.immortal.description_1",
+                  "fallback": "An artifact that once belonged",
+                  "color": "#998f4d",
+                  "italic": false
+                },
+                {
+                  "type": "translatable",
+                  "translate": "phenom.item.amulet.immortal.description_2",
+                  "fallback": "to one of the Rulers",
+                  "color": "#998f4d",
+                  "italic": false
+                },
+                {
+                  "type": "translatable",
+                  "translate": "phenom.item.amulet.immortal.description_3",
+                  "fallback": "Allows you to survive",
+                  "color": "#23a43d",
+                  "italic": false
+                },
+                {
+                  "type": "translatable",
+                  "translate": "phenom.item.amulet.immortal.description_4",
+                  "fallback": "fatal damage",
+                  "color": "#23a43d",
+                  "italic": false
+                }
+              ]
+        }
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "width": 300,
+      "contents": {
+        "type": "translatable",
+        "translate": "phenom.item.amulet.immortal.name",
+        "fallback": "Immortality Amulet",
+        "color": "#6bff42",
+        "extra": [
+          {
+            "type": "translatable",
+            "translate": "phenom.dialog.help.amulets.location",
+            "fallback": " - can be found in the structure ",
+            "color": "white"
+          },
+          {
+            "type": "translatable",
+            "translate": "phenom.dialog.help.structure.pillager_residence",
+            "fallback": "Pillager Residence",
+            "color": "green",
+            "click_event": {
+              "action": "show_dialog",
+              "dialog": "phenom:structures/pillager_residence"
+            },
+            "hover_event": {
+              "action": "show_text",
+              "value": {
+                "type": "translatable",
+                "translate": "phenom.dialog.help.amulets.hover",
+                "fallback": "Click here to learn more",
+                "color": "#e9baff"
+              }
+            }
+          },
+          {
+            "type": "translatable",
+            "translate": "phenom.dialog.help.amulets.immortality_amulet_description",
+            "fallback": ". This amulet must be held in your hand.",
+            "color": "white"
+          }
+        ]
+      }
+    },
+    {
+      "type": "minecraft:item",
+      "item": {
+        "id": "minecraft:totem_of_undying",
+        "count": 1,
+        "components": {
+          "minecraft:item_model": "minecraft:end_crystal",
+          "minecraft:enchantment_glint_override": true,
+          "minecraft:custom_name": {
+            "type": "translatable",
+            "translate": "phenom.item.amulet.sea.name",
+            "fallback": "Lonely Depths Amulet",
+            "color": "#547ff8",
+            "italic": false
+          },
+          "minecraft:custom_data": {
+            "amulet": true,
+            "amulet_id": "sea"
+          },
+          "minecraft:equippable": {
+                    "slot": "body",
+                    "equip_sound": "block.respawn_anchor.charge"
+                },
+                "minecraft:attribute_modifiers": [
+                  {
+                    "type": "minecraft:oxygen_bonus",
+                    "id": "amulet",
+                    "amount": 1.5,
+                    "operation": "add_value",
+                    "slot": "body"
+                  },
+                  {
+                    "type": "minecraft:water_movement_efficiency",
+                    "id": "amulet",
+                    "amount": 0.3,
+                    "operation": "add_value",
+                    "slot": "body"
+                  }
+                ],
+                "minecraft:lore": [
+                  {
+                    "type": "translatable",
+                    "translate": "phenom.item.amulet.sea.description_1",
+                    "fallback": "Increases the movement speed",
+                    "color": "#bb3fe9",
+                    "italic": false
+                  },
+                  {
+                    "type": "translatable",
+                    "translate": "phenom.item.amulet.sea.description_2",
+                    "fallback": "and oxygen supply under water",
+                    "color": "#bb3fe9",
+                    "italic": false
+                  }
+                ]
+        }
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "width": 300,
+      "contents": {
+        "type": "translatable",
+        "translate": "phenom.item.amulet.sea.name",
+        "fallback": "Lonely Depths Amulet",
+        "color": "#547ff8",
+        "extra": [
+          {
+            "type": "translatable",
+            "translate": "phenom.dialog.help.amulets.location",
+            "fallback": " - can be found in the structure ",
+            "color": "white"
+          },
+          {
+            "type": "translatable",
+            "translate": "phenom.dialog.help.structure.sea_palace",
+            "fallback": "Sea Palace",
+            "color": "green",
+            "click_event": {
+              "action": "show_dialog",
+              "dialog": "phenom:structures/sea_palace"
+            },
+            "hover_event": {
+              "action": "show_text",
+              "value": {
+                "type": "translatable",
+                "translate": "phenom.dialog.help.amulets.hover",
+                "fallback": "Click here to learn more",
+                "color": "#e9baff"
+              }
+            }
+          },
+          {
+            "type": "translatable",
+            "translate": "phenom.dialog.help.amulets.suffix",
+            "fallback": ".",
+            "color": "white"
+          }
+        ]
+      }
+    },
+    {
+      "type": "minecraft:item",
+      "item": {
+        "id": "minecraft:totem_of_undying",
+        "count": 1,
+        "components": {
+          "minecraft:item_model": "minecraft:end_crystal",
+          "minecraft:enchantment_glint_override": true,
+          "minecraft:custom_name": {
+            "type": "translatable",
+            "translate": "phenom.item.amulet.dune.name",
+            "fallback": "Forgotten Dunes Amulet",
+            "color": "#ffef0d",
+            "italic": false
+          },
+          "minecraft:custom_data": {
+            "amulet": true,
+            "amulet_id": "dune"
+          },
+          "minecraft:equippable": {
+                    "slot": "body",
+                    "equip_sound": "block.respawn_anchor.charge"
+                },
+                "minecraft:attribute_modifiers": [
+                  {
+                    "type": "minecraft:block_break_speed",
+                    "id": "amulet",
+                    "amount": 0.5,
+                    "operation": "add_multiplied_total",
+                    "slot": "body"
+                  }
+                ],
+                "minecraft:lore": [
+                  {
+                    "type": "translatable",
+                    "translate": "phenom.item.amulet.dune.description",
+                    "fallback": "Increases the mining speed of blocks",
+                    "color": "#bb3fe9",
+                    "italic": false
+                  }
+                ]
+        }
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "width": 300,
+      "contents": {
+        "type": "translatable",
+        "translate": "phenom.item.amulet.dune.name",
+        "fallback": "Forgotten Dunes Amulet",
+        "color": "#ffef0d",
+        "extra": [
+          {
+            "type": "translatable",
+            "translate": "phenom.dialog.help.amulets.location",
+            "fallback": " - can be found in the structure ",
+            "color": "white"
+          },
+          {
+            "type": "translatable",
+            "translate": "phenom.dialog.structure.desert_pyramid",
+            "fallback": "Desert Pyramid",
+            "color": "green",
+            "click_event": {
+              "action": "show_dialog",
+              "dialog": "phenom:structures/desert_pyramid"
+            },
+            "hover_event": {
+              "action": "show_text",
+              "value": {
+                "type": "translatable",
+                "translate": "phenom.dialog.help.amulets.hover",
+                "fallback": "Click here to learn more",
+                "color": "#e9baff"
+              }
+            }
+          },
+          {
+            "type": "translatable",
+            "translate": "phenom.dialog.help.amulets.suffix",
+            "fallback": ".",
+            "color": "white"
+          }
+        ]
+      }
+    },
+    {
+      "type": "minecraft:item",
+      "item": {
+        "id": "minecraft:totem_of_undying",
+        "count": 1,
+        "components": {
+          "minecraft:item_model": "minecraft:end_crystal",
+          "minecraft:enchantment_glint_override": true,
+          "minecraft:custom_name": {
+            "type": "translatable",
+            "translate": "phenom.item.amulet.resistance.name",
+            "fallback": "Pristine Resistance Amulet",
+            "color": "#d6bfdd",
+            "italic": false
+          },
+          "minecraft:custom_data": {
+            "amulet": true,
+            "amulet_id": "resistance"
+          },
+          "minecraft:equippable": {
+                    "slot": "body",
+                    "equip_sound": "block.respawn_anchor.charge"
+                },
+                "minecraft:attribute_modifiers": [
+                  {
+                    "type": "minecraft:knockback_resistance",
+                    "id": "amulet",
+                    "amount": 0.5,
+                    "operation": "add_value",
+                    "slot": "body"
+                  },
+                  {
+                    "type": "minecraft:explosion_knockback_resistance",
+                    "id": "amulet",
+                    "amount": 0.5,
+                    "operation": "add_value",
+                    "slot": "body"
+                  },
+                  {
+                    "type": "minecraft:armor",
+                    "id": "amulet",
+                    "amount": 1,
+                    "operation": "add_value",
+                    "slot": "body"
+                  }
+                ],
+                "minecraft:lore": [
+                  {
+                    "type": "translatable",
+                    "translate": "phenom.item.amulet.resistance.description_1",
+                    "fallback": "Increases the common knockback",
+                    "color": "#bb3fe9",
+                    "italic": false
+                  },
+                  {
+                    "type": "translatable",
+                    "translate": "phenom.item.amulet.resistance.description_2",
+                    "fallback": "resistance and armor",
+                    "color": "#bb3fe9",
+                    "italic": false
+                  }
+                ]
+        }
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "width": 300,
+      "contents": {
+        "type": "translatable",
+        "translate": "phenom.item.amulet.resistance.name",
+        "fallback": "Pristine Resistance Amulet",
+        "color": "#d6bfdd",
+        "extra": [
+          {
+            "type": "translatable",
+            "translate": "phenom.dialog.help.amulets.location",
+            "fallback": " - can be found in the structure ",
+            "color": "white"
+          },
+          {
+            "type": "translatable",
+            "translate": "phenom.dialog.help.structure.pale_trial_dungeon",
+            "fallback": "Pale Trial Dungeon",
+            "color": "green",
+            "click_event": {
+              "action": "show_dialog",
+              "dialog": "phenom:structures/pale_trial_dungeon"
+            },
+            "hover_event": {
+              "action": "show_text",
+              "value": {
+                "type": "translatable",
+                "translate": "phenom.dialog.help.amulets.hover",
+                "fallback": "Click here to learn more",
+                "color": "#e9baff"
+              }
+            }
+          },
+          {
+            "type": "translatable",
+            "translate": "phenom.dialog.help.amulets.suffix",
+            "fallback": ".",
+            "color": "white"
+          }
+        ]
+      }
+    },
+    {
+      "type": "minecraft:item",
+      "item": {
+        "id": "minecraft:totem_of_undying",
+        "count": 1,
+        "components": {
+          "minecraft:item_model": "minecraft:end_crystal",
+          "minecraft:enchantment_glint_override": true,
+          "minecraft:custom_name": {
+            "type": "translatable",
+            "translate": "phenom.item.amulet.righteous_wrath.name",
+            "fallback": "Righteous Wrath Amulet",
+            "color": "#e60000",
+            "italic": false
+          },
+          "minecraft:custom_data": {
+            "amulet": true,
+            "amulet_id": "righteous_wrath"
+          },
+          "minecraft:equippable": {
+                    "slot": "body",
+                    "equip_sound": "block.respawn_anchor.charge"
+                },
+                "minecraft:attribute_modifiers": [
+                  {
+                    "type": "minecraft:attack_damage",
+                    "id": "amulet",
+                    "amount": 0.1,
+                    "operation": "add_multiplied_total",
+                    "slot": "body"
+                  }
+                ],
+                "minecraft:lore": [
+                  {
+                    "type": "translatable",
+                    "translate": "phenom.item.amulet.righteous_wrath.description",
+                    "fallback": "Increases attack strength",
+                    "color": "#bb3fe9",
+                    "italic": false
+                  }
+                ]
+        }
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "width": 300,
+      "contents": {
+        "type": "translatable",
+        "translate": "phenom.item.amulet.righteous_wrath.name",
+        "fallback": "Righteous Wrath Amulet",
+        "color": "#e60000",
+        "extra": [
+          {
+            "type": "translatable",
+            "translate": "phenom.dialog.help.amulets.location",
+            "fallback": " - can be found in the structure ",
+            "color": "white"
+          },
+          {
+            "type": "translatable",
+            "translate": "phenom.dialog.help.structure.nether_trial_dungeon",
+            "fallback": "Nether Trial Dungeon",
+            "color": "green",
+            "click_event": {
+              "action": "show_dialog",
+              "dialog": "phenom:structures/nether_trial_dungeon"
+            },
+            "hover_event": {
+              "action": "show_text",
+              "value": {
+                "type": "translatable",
+                "translate": "phenom.dialog.help.amulets.hover",
+                "fallback": "Click here to learn more",
+                "color": "#e9baff"
+              }
+            }
+          },
+          {
+            "type": "translatable",
+            "translate": "phenom.dialog.help.amulets.suffix",
+            "fallback": ".",
+            "color": "white"
+          }
+        ]
+      }
+    },
+    {
+      "type": "minecraft:item",
+      "item": {
+        "id": "minecraft:totem_of_undying",
+        "count": 1,
+        "components": {
+          "minecraft:item_model": "minecraft:end_crystal",
+          "minecraft:enchantment_glint_override": true,
+          "minecraft:custom_name": {
+            "type": "translatable",
+            "translate": "phenom.item.amulet.antigravity.name",
+            "fallback": "Boundless Matter Amulet",
+            "color": "#a865ec",
+            "italic": false
+          },
+          "minecraft:custom_data": {
+            "amulet": true,
+            "amulet_id": "antigravity"
+          },
+          "minecraft:equippable": {
+                    "slot": "body",
+                    "equip_sound": "block.respawn_anchor.charge"
+                },
+                "minecraft:attribute_modifiers": [
+                  {
+                    "type": "minecraft:safe_fall_distance",
+                    "id": "amulet",
+                    "amount": 1,
+                    "operation": "add_multiplied_total",
+                    "slot": "body"
+                  },
+                  {
+                    "type": "minecraft:fall_damage_multiplier",
+                    "id": "amulet",
+                    "amount": -0.5,
+                    "operation": "add_multiplied_total",
+                    "slot": "body"
+                  }
+                ],
+                "minecraft:lore": [
+                  {
+                    "type": "translatable",
+                    "translate": "phenom.item.amulet.antigravity.description_1",
+                    "fallback": "Increases the safe drop height",
+                    "color": "#bb3fe9",
+                    "italic": false
+                  },
+                  {
+                    "type": "translatable",
+                    "translate": "phenom.item.amulet.antigravity.description_2",
+                    "fallback": "and reduces fall damage",
+                    "color": "#bb3fe9",
+                    "italic": false
+                  }
+                ]
+        }
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "width": 300,
+      "contents": {
+        "type": "translatable",
+        "translate": "phenom.item.amulet.antigravity.name",
+        "fallback": "Boundless Matter Amulet",
+        "color": "#a865ec",
+        "extra": [
+          {
+            "type": "translatable",
+            "translate": "phenom.dialog.help.amulets.location",
+            "fallback": " - can be found in the structure ",
+            "color": "white"
+          },
+          {
+            "type": "translatable",
+            "translate": "phenom.dialog.help.structure.illusion_cube",
+            "fallback": "Illusion Cube",
+            "color": "green",
+            "click_event": {
+              "action": "show_dialog",
+              "dialog": "phenom:structures/illusion_cube"
+            },
+            "hover_event": {
+              "action": "show_text",
+              "value": {
+                "type": "translatable",
+                "translate": "phenom.dialog.help.amulets.hover",
+                "fallback": "Click here to learn more",
+                "color": "#e9baff"
+              }
+            }
+          },
+          {
+            "type": "translatable",
+            "translate": "phenom.dialog.help.amulets.suffix",
+            "fallback": ".",
+            "color": "white"
+          }
+        ]
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "width": 300,
+      "contents": {
+        "type": "translatable",
+        "translate": "phenom.dialog.help.amulets.end_1",
+        "fallback": "If you want to remove the amulet without putting on another one, you will need ",
+        "extra": [
+          {
+            "type": "translatable",
+            "translate": "phenom.dialog.help.amulets.end_2",
+            "fallback": "The Amulet Disabler",
+            "color": "#e9baff",
+            "click_event": {
+              "action": "show_dialog",
+              "dialog": "phenom:recipes/amulet_disabler"
+            },
+            "hover_event": {
+              "action": "show_text",
+              "value": {
+                "type": "translatable",
+                "translate": "phenom.dialog.help.amulets.hover",
+                "fallback": "Click here to learn more",
+                "color": "#e9baff"
+              }
+            }
+          },
+          {
+            "type": "translatable",
+            "translate": "phenom.dialog.help.amulets.suffix",
+            "fallback": ".",
+            "color": "white"
+          }
+        ]
+      }
+    }
+  ],
+  "action": {
+    "label": {
+      "translate": "gui.back"
+    },
+    "width": 150,
+    "action": {
+      "type": "minecraft:show_dialog",
+      "dialog": "phenom:phenom_help"
+    }
+  }
+}

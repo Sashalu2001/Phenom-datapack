@@ -1,0 +1,59 @@
+{
+  "type": "minecraft:dialog_list",
+  "body": [
+    {
+      "type": "minecraft:plain_message",
+      "width": 300,
+      "contents": {
+        "type": "translatable",
+        "translate": "phenom.dialog.help.authors",
+        "fallback": "Authors: Sashalu, Vielny. Version: ",
+        "color": "gray",
+        "bold": true,
+        "extra": [
+          {
+            "type": "text",
+            "text": "0.20.2 beta",
+            "color": "#15ff00",
+            "bold": true
+          }
+        ]
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "width": 300,
+      "contents": {
+        "type": "translatable",
+        "translate": "phenom.dialog.help.description",
+        "fallback": "This is a help guide for the \"Phenom\" datapack. Here you can find information about most of the unique features found in the datapack. Simply select the desired option from the list below.",
+        "color": "#e9baff",
+        "bold": true
+      }
+    }
+  ],
+  "button_width": 200,
+  "columns": 1,
+  "dialogs": [
+    "phenom:structures",
+    "phenom:amulets",
+    "phenom:enchantments",
+    "phenom:recipes"
+  ],
+  "exit_action": {
+    "label": {
+      "translate": "gui.back"
+    },
+    "width": 150
+  },
+  "external_title": {
+    "type": "translatable",
+    "translate": "phenom.dialog.help.title",
+    "fallback": "Phenom. Help"
+  },
+  "title": {
+    "type": "translatable",
+    "translate": "phenom.dialog.help.title",
+    "fallback": "Phenom. Help"
+  }
+}

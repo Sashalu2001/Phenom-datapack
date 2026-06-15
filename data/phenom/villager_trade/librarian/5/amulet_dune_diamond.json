@@ -1,0 +1,48 @@
+{
+  "gives": {
+    "id": "minecraft:diamond",
+    "count": 5
+  },
+  "max_uses": 1,
+  "reputation_discount": 0.05,
+  "wants": {
+    "id": "minecraft:totem_of_undying",
+    "components": {
+                "custom_data": {
+                    "amulet": true,
+                    "amulet_id": "dune"
+                },
+                "minecraft:item_model": "minecraft:end_crystal",
+                "minecraft:enchantment_glint_override": true,
+                "minecraft:item_name": {
+                  "type": "translatable",
+                  "translate": "phenom.item.amulet.dune.name",
+                  "fallback": "Forgotten Dunes Amulet",
+                  "color": "#ffef0d"
+                },
+                "minecraft:equippable": {
+                    "slot": "body",
+                    "equip_sound": "block.respawn_anchor.charge"
+                },
+                "minecraft:attribute_modifiers": [
+                  {
+                    "type": "minecraft:block_break_speed",
+                    "id": "amulet",
+                    "amount": 0.5,
+                    "operation": "add_multiplied_total",
+                    "slot": "body"
+                  }
+                ],
+                "minecraft:lore": [
+                  {
+                    "type": "translatable",
+                    "translate": "phenom.item.amulet.dune.description",
+                    "fallback": "Increases the mining speed of blocks",
+                    "color": "#bb3fe9",
+                    "italic": false
+                  }
+                ]
+              }
+  },
+  "xp": 60
+}

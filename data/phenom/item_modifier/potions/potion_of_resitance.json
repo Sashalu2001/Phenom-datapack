@@ -1,0 +1,27 @@
+[
+           {
+              "function": "minecraft:set_name",
+              "name": {
+                "type": "translatable",
+                "translate": "phenom.item.potion_of_resistance.name",
+                "fallback": "Potion of Resistance",
+                "italic": false
+              },
+              "target": "custom_name"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:potion_contents": {
+                  "custom_color": 7368816,
+                  "custom_effects": [
+                    {
+                      "id": "minecraft:resistance",
+                      "amplifier": 0,
+                      "duration": 6000
+                    }
+                  ]
+                }
+              }
+            }
+]

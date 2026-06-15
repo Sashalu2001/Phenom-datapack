@@ -1,0 +1,86 @@
+{
+  "processors": [
+    {
+      "processor_type": "rule",
+      "rules": [
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true",
+            "block": ""
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:sand",
+            "probability": 0.2
+          },
+          "output_state": {
+            "Name": "minecraft:suspicious_sand",
+            "Properties": {
+              "dusted": "0"
+            }
+          },
+          "block_entity_modifier": {
+            "type": "minecraft:append_loot",
+            "loot_table": "phenom:desert_pyramid/suspicious_sand"
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true",
+            "block": ""
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:block_match",
+            "block": "minecraft:decorated_pot"
+          },
+          "output_state": {
+            "Name": "minecraft:decorated_pot"
+          },
+          "block_entity_modifier": {
+            "type": "minecraft:append_loot",
+            "loot_table": "phenom:desert_pyramid/pot_common"
+          }
+        },
+        {
+          "input_predicate": {
+            "block": "minecraft:mud_bricks",
+            "predicate_type": "minecraft:random_block_match",
+            "probability": 0.4
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "output_state": {
+            "Name": "minecraft:packed_mud"
+          }
+        },
+        {
+          "input_predicate": {
+            "block": "minecraft:mud_bricks",
+            "predicate_type": "minecraft:random_block_match",
+            "probability": 0.2
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "output_state": {
+            "Name": "minecraft:terracotta"
+          }
+        },
+        {
+          "input_predicate": {
+            "block": "minecraft:mud_bricks",
+            "predicate_type": "minecraft:random_block_match",
+            "probability": 0.2
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "output_state": {
+            "Name": "minecraft:granite"
+          }
+        }
+      ]
+    }
+  ]
+}

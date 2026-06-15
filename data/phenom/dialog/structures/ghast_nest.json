@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:notice",
+  "external_title": {
+    "type": "translatable",
+    "translate": "phenom.dialog.structure.ghast_nest",
+    "fallback": "Ghast Nest"
+  },
+  "title": {
+    "type": "translatable",
+    "translate": "phenom.dialog.structure.ghast_nest",
+    "fallback": "Ghast Nest"
+  },
+  "body": [
+    {
+      "type": "minecraft:item",
+      "item": {
+        "id": "minecraft:ghast_spawn_egg",
+        "count": 1
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "width": 300,
+      "contents": {
+        "type": "translatable",
+        "translate": "phenom.dialog.structure.ghast_nest.description",
+        "fallback": "A Nether structure found in the soul sand valley. Once ghasts lived here, now you can only find their remains. You can find a few resources and a excellent harness that increases the flight speed of a happy ghast."
+      }
+    }
+  ],
+  "action": {
+    "label": {
+      "translate": "gui.back"
+    },
+    "width": 150,
+    "action": {
+      "type": "minecraft:show_dialog",
+      "dialog": "phenom:structures"
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "parent": "phenom:main_root/overworld/root_overworld",
+  "criteria": {
+    "entry_structure": {
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structures": "phenom:sea_palace"
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:location"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "phenom.advancement.main_root.overworld.entry_sea_palace.description",
+      "fallback": "Find the sea palace"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:sea_lantern"
+    },
+    "title": {
+      "translate": "phenom.advancement.main_root.overworld.entry_sea_palace.title",
+      "fallback": "Underwater Kingdom"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "requirements": [
+    [
+      "entry_structure"
+    ]
+  ],
+  "sends_telemetry_event": false
+}

@@ -1,0 +1,22 @@
+{
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 94251327,
+    "separation": 12,
+    "spacing": 28,
+    "exclusion_zone": {
+      "chunk_count": 10,
+      "other_set": "phenom:ancient_tomb"
+    }
+  },
+  "structures": [
+    {
+      "structure": "minecraft:trial_chambers",
+      "weight": 3
+    },
+    {
+      "structure": "phenom:pale_trial_dungeon",
+      "weight": 2
+    }
+  ]
+}

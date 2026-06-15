@@ -1,0 +1,16 @@
+{
+    "function": "minecraft:set_components",
+    "components": {
+        "minecraft:custom_data": {
+            "elite_pillager_weapon": true
+        },
+        "minecraft:unbreakable": {},
+        "minecraft:enchantments": {
+            "minecraft:power": 10,
+            "minecraft:quick_charge": 2,
+            "minecraft:multishot": 1,
+            "minecraft:punch": 2
+        },
+        "minecraft:enchantment_glint_override": false
+    }
+}

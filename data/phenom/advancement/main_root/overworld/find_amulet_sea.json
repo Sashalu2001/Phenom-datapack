@@ -1,0 +1,60 @@
+{
+  "parent": "phenom:main_root/overworld/entry_sea_palace",
+  "criteria": {
+    "generate_loot": {
+      "trigger": "minecraft:player_generates_container_loot",
+      "conditions": {
+        "loot_table": "phenom:sea_palace/chest_epic"
+      }
+    },
+    "find_amulet": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:totem_of_undying",
+            "predicates": {
+            "minecraft:custom_data": {
+              "amulet": true,
+              "amulet_id": "sea"
+            }
+          }
+          }
+        ]
+      }
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "phenom.advancement.main_root.overworld.find_amulet_sea.description",
+      "fallback": "Find the Lonely Depths Amulet"
+    },
+    "icon": {
+      "components": {
+        "minecraft:enchantment_glint_override": true,
+        "minecraft:custom_data":
+        {
+            "amulet": true,
+            "amulet_id": "sea"
+        }
+      },
+      "count": 1,
+      "id": "minecraft:end_crystal"
+    },
+    "title": {
+      "translate": "phenom.advancement.main_root.overworld.find_amulet_sea.title",
+      "fallback": "Relics of the Underwater World"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "requirements": [
+    [
+      "generate_loot"
+    ],
+    [
+      "find_amulet"
+    ]
+  ],
+  "sends_telemetry_event": false
+}

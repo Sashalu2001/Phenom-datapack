@@ -1,0 +1,52 @@
+{
+  "criteria": {
+    "none": {
+      "conditions": {
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "frame": "task",
+    "announce_to_chat": false,
+    "background": "minecraft:block/amethyst_block",
+    "description": {
+      "translate": "phenom.advancement.main_root.root.description",
+      "fallback": "Look at the Minecraft world in a new way!"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:amethyst_shard"
+    },
+    "show_toast": false,
+    "title": {
+      "translate": "phenom.advancement.main_root.root.title",
+      "fallback": "Phenom Structures"
+    },
+    "hidden": false
+  },
+  "requirements": [
+    [
+      "none"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "phenom:stone_shield",
+      "phenom:copper_shield",
+      "phenom:iron_shield",
+      "phenom:gold_shield",
+      "phenom:diamond_shield",
+      "phenom:netherite_shield",
+      "phenom:amulet_disabler",
+      "phenom:ether_from_blasting",
+      "phenom:super_material",
+      "phenom:super_elytra",
+      "phenom:reinforced_boots",
+      "phenom:reinforced_chestplate",
+      "phenom:reinforced_helmet",
+      "phenom:reinforced_leggings"
+    ]
+  },
+  "sends_telemetry_event": false
+}

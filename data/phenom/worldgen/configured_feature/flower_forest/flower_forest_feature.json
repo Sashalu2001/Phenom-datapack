@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:random_selector",
+  "config": {
+    "default": "phenom:flower_forest/oak_bees_002",
+    "features": [
+      {
+        "chance": 0.0025,
+        "feature": "phenom:forest/fallen_birch_tree"
+      },
+      {
+        "chance": 0.2,
+        "feature": "phenom:flower_forest/birch_bees_002"
+      },
+      {
+        "chance": 0.2,
+        "feature": "phenom:flower_forest/fancy_oak_bees_002"
+      },
+      {
+        "chance": 0.0125,
+        "feature": "phenom:forest/fallen_oak_tree"
+      },
+      {
+        "chance": 0.2,
+        "feature": "phenom:flower_forest/fancy_birch_bees_002"
+      },
+      {
+        "chance": 0.3,
+        "feature": "phenom:forest/forest_bush"
+      }
+    ]
+  }
+}

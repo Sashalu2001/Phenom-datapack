@@ -1,0 +1,37 @@
+[
+    {
+        "function": "set_components",
+        "components": {
+                "minecraft:item_name": {
+                  "translate": "phenom.item.cold_boots.name",
+                  "fallback": "The Boots of the Great Cold"
+                },
+                "minecraft:rarity": "uncommon",
+                "minecraft:trim": {
+                  "material": "minecraft:quartz",
+                  "pattern": "minecraft:raiser"
+                },
+                "minecraft:tooltip_display": {
+                  "hidden_components": [
+                    "minecraft:trim"
+                  ]
+                },
+                "minecraft:attribute_modifiers": [
+                  {
+                    "type": "minecraft:armor",
+                    "id": "b1",
+                    "amount": 2,
+                    "operation": "add_value",
+                    "slot": "feet"
+                  },
+                  {
+                    "type": "minecraft:burning_time",
+                    "id": "bt4",
+                    "amount": -0.2,
+                    "operation": "add_multiplied_total",
+                    "slot": "feet"
+                  }
+                ]
+        }
+    }
+]

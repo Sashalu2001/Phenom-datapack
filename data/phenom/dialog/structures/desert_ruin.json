@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:notice",
+  "external_title": {
+    "type": "translatable",
+    "translate": "phenom.dialog.structure.desert_ruin",
+    "fallback": "Desert Ruin"
+  },
+  "title": {
+    "type": "translatable",
+    "translate": "phenom.dialog.structure.desert_ruin",
+    "fallback": "Desert Ruin"
+  },
+  "body": [
+    {
+      "type": "minecraft:item",
+      "item": {
+        "id": "minecraft:mud_brick_wall",
+        "count": 1
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "width": 300,
+      "contents": {
+        "type": "translatable",
+        "translate": "phenom.dialog.structure.desert_ruin.description",
+        "fallback": "A ruined structure found in deserts. Cadavers wander the territory of the structure. You can find a few simple resources hidden in the sand, among which there is one curious substance..."
+      }
+    }
+  ],
+  "action": {
+    "label": {
+      "translate": "gui.back"
+    },
+    "width": 150,
+    "action": {
+      "type": "minecraft:show_dialog",
+      "dialog": "phenom:structures"
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "parent": "phenom:main_root/root",
+  "criteria": {
+    "dimension": {
+      "conditions": {
+        "to": "minecraft:the_nether"
+      },
+      "trigger": "minecraft:changed_dimension"
+    }
+  },
+  "display": {
+    "frame": "task",
+    "announce_to_chat": false,
+    "description": {
+      "translate": "phenom.advancement.main_root.nether.root_nether.description",
+      "fallback": "Dimension - The Nether"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:netherrack"
+    },
+    "show_toast": false,
+    "title": {
+      "translate": "phenom.advancement.main_root.nether.root_nether.title",
+      "fallback": "The Nether"
+    },
+    "hidden": false
+  },
+  "requirements": [
+    [
+      "dimension"
+    ]
+  ],
+  "sends_telemetry_event": false
+}

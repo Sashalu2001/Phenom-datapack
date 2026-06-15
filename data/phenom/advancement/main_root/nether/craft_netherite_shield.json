@@ -1,0 +1,87 @@
+{
+  "parent": "phenom:main_root/nether/root_nether",
+  "criteria": {
+    "craft_netherite_shield": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "phenom:netherite_shield"
+      }
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "phenom.advancement.main_root.nether.craft_netherite_shield.description",
+      "fallback": "Craft a netherite shield"
+    },
+    "icon": {
+      "components": {
+      "minecraft:custom_name": {
+        "text": "Незеритовый щит",
+        "italic": false
+      },
+      "minecraft:damage_resistant": {
+        "types": "#minecraft:is_fire"
+      },
+      "minecraft:blocks_attacks": {
+        "disable_cooldown_scale": 0.4,
+        "block_sound": "minecraft:block.netherite_block.hit",
+        "disabled_sound": "minecraft:block.netherite_block.break",
+        "bypassed_by": "#minecraft:bypasses_shield"
+      },
+      "minecraft:max_damage": 2000,
+      "minecraft:banner_patterns": [
+        {
+          "color": "purple",
+          "pattern": "minecraft:base"
+        },
+        {
+          "color": "gray",
+          "pattern": "minecraft:rhombus"
+        },
+        {
+          "color": "black",
+          "pattern": "minecraft:gradient_up"
+        },
+        {
+          "color": "gray",
+          "pattern": "minecraft:gradient"
+        },
+        {
+          "color": "black",
+          "pattern": "minecraft:gradient"
+        },
+        {
+          "color": "gray",
+          "pattern": "minecraft:border"
+        }
+      ],
+      "minecraft:repairable": {
+        "items": "minecraft:netherite_ingot"
+      },
+      "minecraft:tooltip_display": {
+        "hidden_components": [
+          "minecraft:banner_patterns"
+        ]
+      },
+      "minecraft:custom_data": {
+        "shield": true,
+        "shield_type": "netherite"
+      }
+    },
+      "count": 1,
+      "id": "minecraft:shield"
+    },
+    "title": {
+      "translate": "phenom.advancement.main_root.nether.craft_netherite_shield.title",
+      "fallback": "Shield from the Nether"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "requirements": [
+    [
+      "craft_netherite_shield"
+    ]
+  ],
+  "sends_telemetry_event": false
+}

@@ -1,0 +1,27 @@
+[
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "type": "translatable",
+                "translate": "phenom.item.splash_potion_of_sustained_slowness.name",
+                "fallback": "Splash Potion of Sustained Slowness",
+                "italic": false
+              },
+              "target": "custom_name"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:potion_contents": {
+                  "custom_color": 3574412,
+                  "custom_effects": [
+                    {
+                      "id": "minecraft:slowness",
+                      "amplifier": 2,
+                      "duration": 1200
+                    }
+                  ]
+                }
+              }
+            }
+]

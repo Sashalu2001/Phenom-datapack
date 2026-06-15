@@ -1,0 +1,35 @@
+{
+  "parent": "phenom:main_root/root",
+  "criteria": {
+    "dimension": {
+      "conditions": {
+        "to": "minecraft:the_end"
+      },
+      "trigger": "minecraft:changed_dimension"
+    }
+  },
+  "display": {
+    "frame": "task",
+    "announce_to_chat": false,
+    "description": {
+      "translate": "phenom.advancement.main_root.end.root_end.description",
+      "fallback": "Dimension - The End"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:end_stone"
+    },
+    "show_toast": false,
+    "title": {
+      "translate": "phenom.advancement.main_root.end.root_end.title",
+      "fallback": "The End"
+    },
+    "hidden": false
+  },
+  "requirements": [
+    [
+      "dimension"
+    ]
+  ],
+  "sends_telemetry_event": false
+}

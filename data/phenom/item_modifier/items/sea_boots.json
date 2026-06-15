@@ -1,0 +1,44 @@
+[
+    {
+        "function": "set_components",
+        "components": {
+                "minecraft:item_name": {
+                  "translate": "phenom.item.sea_boots.name",
+                  "fallback": "The Boots of the Guardian of the Sea"
+                },
+                "minecraft:rarity": "uncommon",
+                "minecraft:trim": {
+                  "material": "minecraft:diamond",
+                  "pattern": "minecraft:tide"
+                },
+                "minecraft:tooltip_display": {
+                  "hidden_components": [
+                    "minecraft:trim"
+                  ]
+                },
+                "minecraft:attribute_modifiers": [
+                  {
+                    "type": "minecraft:armor",
+                    "id": "b1",
+                    "amount": 2,
+                    "operation": "add_value",
+                    "slot": "feet"
+                  },
+                  {
+                    "type": "minecraft:oxygen_bonus",
+                    "id": "ob4",
+                    "amount": 0.25,
+                    "operation": "add_multiplied_total",
+                    "slot": "feet"
+                  },
+                  {
+                    "type": "minecraft:water_movement_efficiency",
+                    "id": "wme4",
+                    "amount": 0.1,
+                    "operation": "add_multiplied_total",
+                    "slot": "feet"
+                  }
+                ]
+        }
+    }
+]

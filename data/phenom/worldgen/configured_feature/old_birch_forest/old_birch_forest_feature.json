@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:random_selector",
+  "config": {
+    "default": "phenom:old_birch_forest/old_birch_bees_0002",
+    "features": [
+      {
+        "chance": 0.0125,
+        "feature": "phenom:forest/fallen_birch_tree"
+      },
+      {
+        "chance": 0.2,
+        "feature": "phenom:birch_forest/fancy_birch_bees_0002"
+      },
+      {
+        "chance": 0.2,
+        "feature": "phenom:birch_forest/birch_forest_bush"
+      },
+      {
+        "chance": 0.2,
+        "feature": "phenom:old_birch_forest/tall_birch_forest_bush"
+      },
+      {
+        "chance": 0.0125,
+        "feature": "phenom:old_birch_forest/fallen_super_birch_tree"
+      }
+    ]
+  }
+}

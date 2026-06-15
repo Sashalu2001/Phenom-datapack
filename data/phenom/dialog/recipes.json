@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:dialog_list",
+  "button_width": 200,
+  "columns": 1,
+  "dialogs": [
+    "phenom:recipes/amulet_disabler",
+    "phenom:recipes/shields",
+    "phenom:recipes/ether",
+    "phenom:recipes/super_material",
+    "phenom:recipes/super_elytra",
+    "phenom:recipes/reinforced_armor"
+  ],
+  "exit_action": {
+    "label": {
+      "translate": "gui.back"
+    },
+    "width": 150,
+    "action": {
+      "type": "minecraft:show_dialog",
+      "dialog": "phenom:phenom_help"
+    }
+  },
+  "external_title": {
+    "type": "translatable",
+    "translate": "phenom.dialog.help.recipes",
+    "fallback": "New Crafting Recipes"
+  },
+  "title": {
+    "type": "translatable",
+    "translate": "phenom.dialog.help.recipes",
+    "fallback": "New Crafting Recipes"
+  }
+}

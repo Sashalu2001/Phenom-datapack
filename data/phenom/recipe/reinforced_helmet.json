@@ -1,0 +1,64 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": "minecraft:structure_block",
+  "base": "minecraft:diamond_helmet",
+  "result": {
+    "components": {
+      "minecraft:custom_data": {
+        "reinforced_helmet": true
+      },
+      "minecraft:item_name": {
+          "translate": "phenom.item.reinforced_helmet.name",
+          "fallback": "Reinforced Helmet",
+          "color": "#d1b3ff"
+      },
+      "minecraft:max_damage": 1089,
+      "minecraft:damage_resistant": {
+          "types": "#phenom:is_fire_explosion"
+      },
+      "minecraft:repairable": {
+        "items": "minecraft:structure_block"
+      },
+      "minecraft:attribute_modifiers": [
+        {
+          "type": "minecraft:armor",
+          "id": "reinforced_helmet_armor",
+          "amount": 4,
+          "operation": "add_value",
+          "slot": "head"
+        },
+        {
+          "type": "minecraft:armor_toughness",
+          "id": "reinforced_helmet_armor_toughness",
+          "amount": 4,
+          "operation": "add_value",
+          "slot": "head"
+        },
+        {
+          "type": "minecraft:movement_speed",
+          "id": "reinforced_helmet_movement_speed",
+          "amount": -0.125,
+          "operation": "add_multiplied_total",
+          "slot": "head"
+        },
+        {
+          "type": "minecraft:knockback_resistance",
+          "id": "reinforced_helmet_knockback_resistance",
+          "amount": 0.2,
+          "operation": "add_value",
+          "slot": "head"
+        },
+        {
+          "type": "minecraft:explosion_knockback_resistance",
+          "id": "reinforced_helmet_explosion_knockback_resistance",
+          "amount": 0.1,
+          "operation": "add_value",
+          "slot": "head"
+        }
+      ]
+    },
+    "count": 1,
+    "id": "minecraft:netherite_helmet"
+  },
+  "template": "minecraft:debug_stick"
+}

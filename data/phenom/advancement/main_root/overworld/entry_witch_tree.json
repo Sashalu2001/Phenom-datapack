@@ -1,0 +1,43 @@
+{
+  "parent": "phenom:main_root/overworld/root_overworld",
+  "criteria": {
+    "entry_structure": {
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structures": "phenom:witch_tree"
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:location"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "phenom.advancement.main_root.overworld.entry_witch_tree.description",
+      "fallback": "Find the Old Witch's tree"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:dragon_breath"
+    },
+    "title": {
+      "translate": "phenom.advancement.main_root.overworld.entry_witch_tree.title",
+      "fallback": "Visiting Baba Yaga"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "requirements": [
+    [
+      "entry_structure"
+    ]
+  ],
+  "sends_telemetry_event": false
+}

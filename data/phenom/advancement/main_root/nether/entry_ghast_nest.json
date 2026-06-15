@@ -1,0 +1,43 @@
+{
+  "parent": "phenom:main_root/nether/root_nether",
+  "criteria": {
+    "entry_structure": {
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structures": "phenom:ghast_nest"
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:location"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "phenom.advancement.main_root.nether.entry_ghast_nest.description",
+      "fallback": "Find the ghast nest"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:ghast_spawn_egg"
+    },
+    "title": {
+      "translate": "phenom.advancement.main_root.nether.entry_ghast_nest.title",
+      "fallback": "Quiet Cry"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "requirements": [
+    [
+      "entry_structure"
+    ]
+  ],
+  "sends_telemetry_event": false
+}

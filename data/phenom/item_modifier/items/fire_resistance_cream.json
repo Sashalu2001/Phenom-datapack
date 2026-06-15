@@ -1,0 +1,53 @@
+[
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": {
+                "fire_resistance_cream": true
+              }
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:enchantment_glint_override": true,
+                "minecraft:item_name": {
+                  "type": "translatable",
+                  "translate": "phenom.item.fire_resistance_cream.name",
+                  "fallback": "Fire Resistance Cream",
+                  "color": "#ff7b00"
+                },
+                "minecraft:lore": [
+                  {
+                    "type": "translatable",
+                    "translate": "phenom.item.fire_resistance_cream.description_1",
+                    "fallback": "Provides long protection",
+                    "color": "#ffb570",
+                    "italic": false
+                  },
+                  {
+                    "type": "translatable",
+                    "translate": "phenom.item.fire_resistance_cream.description_2",
+                    "fallback": "from fire and lava",
+                    "color": "#ffb570",
+                    "italic": false
+                  }
+                ],
+                "minecraft:consumable": {
+                  "animation": "brush",
+                  "sound": "minecraft:block.slime_block.hit",
+                  "has_consume_particles": true,
+                  "on_consume_effects": [
+                    {
+                      "type": "minecraft:apply_effects",
+                      "effects": [
+                        {
+                          "id": "minecraft:fire_resistance",
+                          "duration": 48000,
+                          "show_particles": false
+                        }
+                      ]
+                    }
+                  ]
+                }
+              }
+            }
+]

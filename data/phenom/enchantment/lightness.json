@@ -1,0 +1,36 @@
+{
+  "anvil_cost": 6,
+  "description": {
+    "translate": "phenom.item.enchantment.lightness",
+    "fallback": "Lightness"
+  },
+  "effects": {
+    "minecraft:attributes": [
+      {
+        "amount": {
+          "type": "minecraft:linear",
+          "base": 0.1,
+          "per_level_above_first": 0.1
+        },
+        "attribute": "minecraft:attack_speed",
+        "id": "phenom:attack_speed",
+        "operation": "add_multiplied_base"
+      }
+    ]
+  },
+  "max_cost": {
+    "base": 75,
+    "per_level_above_first": 25
+  },
+  "max_level": 3,
+  "min_cost": {
+    "base": 25,
+    "per_level_above_first": 25
+  },
+  "slots": [
+    "mainhand"
+  ],
+  "supported_items": "#phenom:enchantable/has_lightness",
+  "exclusive_set": "#phenom:exclusive_set/comfort_attack",
+  "weight": 1
+}

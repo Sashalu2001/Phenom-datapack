@@ -1,0 +1,103 @@
+{
+  "type": "minecraft:notice",
+  "external_title": {
+    "type": "translatable",
+    "translate": "phenom.dialog.help.structure.ancient_tomb",
+    "fallback": "Ancient Tomb"
+  },
+  "title": {
+    "type": "translatable",
+    "translate": "phenom.dialog.help.structure.ancient_tomb",
+    "fallback": "Ancient Tomb"
+  },
+  "body": [
+    {
+      "type": "minecraft:item",
+      "item": {
+        "id": "minecraft:chiseled_deepslate",
+        "count": 1
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "width": 300,
+      "contents": {
+        "type": "translatable",
+        "translate": "phenom.dialog.structure.ancient_tomb.description.start",
+        "fallback": "An underground structure rarely found in open caves. The easiest way to find the structure - ",
+        "extra": [
+          {
+            "type": "translatable",
+            "translate": "phenom.dialog.structure.ancient_tomb.cartographic_link",
+            "fallback": "ancient tomb map",
+            "color": "#3bbbdb",
+            "click_event": {
+              "action": "show_dialog",
+              "dialog": "phenom:structures/renovated_villages"
+            },
+            "hover_event": {
+              "action": "show_text",
+              "value": {
+                "type": "translatable",
+                "translate": "phenom.dialog.help.amulets.hover",
+                "fallback": "Click here to learn more",
+                "color": "#e9baff"
+              }
+            }
+          },
+          {
+            "type": "translatable",
+            "translate": "phenom.dialog.structure.ancient_tomb.description.mid1",
+            "fallback": ".",
+            "color": "white"
+          }
+        ]
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "width": 300,
+      "contents": {
+        "type": "translatable",
+        "translate": "phenom.dialog.structure.ancient_tomb.description.mid2",
+        "fallback": "The structure contains rooms with valuable resources. In the central room you can find ",
+        "extra": [
+          {
+            "type": "translatable",
+            "translate": "phenom.item.amulet.restless_soul.name",
+            "fallback": "Restless Soul Amulet",
+            "color": "#bb3fe9",
+            "click_event": {
+              "action": "show_dialog",
+              "dialog": "phenom:amulets"
+            },
+            "hover_event": {
+              "action": "show_text",
+              "value": {
+                "type": "translatable",
+                "translate": "phenom.dialog.help.amulets.hover",
+                "fallback": "Click here to learn more",
+                "color": "#e9baff"
+              }
+            }
+          },
+          {
+            "type": "translatable",
+            "translate": "phenom.dialog.structure.ancient_tomb.description.end",
+            "fallback": ", as well as an ancient vault that accepts an enchanted golden apple as a gift and gives a random enchanted diamond equipment piece in return."
+          }
+        ]
+      }
+    }
+  ],
+  "action": {
+    "label": {
+      "translate": "gui.back"
+    },
+    "width": 150,
+    "action": {
+      "type": "minecraft:show_dialog",
+      "dialog": "phenom:structures"
+    }
+  }
+}

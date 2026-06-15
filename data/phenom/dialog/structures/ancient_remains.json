@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:notice",
+  "external_title": {
+    "type": "translatable",
+    "translate": "phenom.dialog.structure.ancient_remains",
+    "fallback": "Ancient Remains"
+  },
+  "title": {
+    "type": "translatable",
+    "translate": "phenom.dialog.structure.ancient_remains",
+    "fallback": "Ancient Remains"
+  },
+  "body": [
+    {
+      "type": "minecraft:item",
+      "item": {
+        "id": "minecraft:bone",
+        "count": 1
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "width": 300,
+      "contents": {
+        "type": "translatable",
+        "translate": "phenom.dialog.structure.ancient_remains.description",
+        "fallback": "An underground structure resembling the remains of ancient creatures. Often found in caves."
+      }
+    }
+  ],
+  "action": {
+    "label": {
+      "translate": "gui.back"
+    },
+    "width": 150,
+    "action": {
+      "type": "minecraft:show_dialog",
+      "dialog": "phenom:structures"
+    }
+  }
+}

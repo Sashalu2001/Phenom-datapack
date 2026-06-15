@@ -1,0 +1,27 @@
+[
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "type": "translatable",
+                "translate": "phenom.item.splash_potion_of_wither.name",
+                "fallback": "Splash Potion of Wither",
+                "italic": false
+              },
+              "target": "custom_name"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:potion_contents": {
+                  "custom_color": 1710618,
+                  "custom_effects": [
+                    {
+                      "id": "minecraft:wither",
+                      "amplifier": 1,
+                      "duration": 600
+                    }
+                  ]
+                }
+              }
+            }
+]

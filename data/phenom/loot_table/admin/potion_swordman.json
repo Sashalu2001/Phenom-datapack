@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "reference",
+              "name": "phenom:potions/potion_swordman"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

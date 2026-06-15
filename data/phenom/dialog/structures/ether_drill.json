@@ -1,0 +1,119 @@
+{
+  "type": "minecraft:notice",
+  "external_title": {
+    "type": "translatable",
+    "translate": "phenom.dialog.help.structure.ether_drill.title",
+    "fallback": "Ether Drill"
+  },
+  "title": {
+    "type": "translatable",
+    "translate": "phenom.dialog.help.structure.ether_drill.title",
+    "fallback": "Ether Drill"
+  },
+  "body": [
+    {
+      "type": "minecraft:item",
+      "item": {
+        "id": "minecraft:test_instance_block",
+        "count": 1,
+        "components": {
+          "minecraft:custom_data": {
+              "ether": true
+          },
+          "minecraft:item_name": {
+              "type": "translatable",
+              "translate": "phenom.item.primordial_ether.name",
+              "fallback": "Primordial Ether",
+              "color": "#cb95e4"
+          },
+          "minecraft:item_model": "minecraft:echo_shard",
+          "minecraft:damage_resistant": {
+            "types": "#phenom:is_fire_explosion"
+          }
+      }
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "width": 300,
+      "contents": {
+        "type": "translatable",
+        "translate": "phenom.dialog.help.structure.ether_drill.description_1",
+        "fallback": "The structure of the End, once used for the extraction of primordial ether. At the bottom of the mine, you can find a vault with remnants of the primordial ether, which can only be unlocked with a ",
+        "extra": [
+          {
+            "type": "translatable",
+            "translate": "phenom.dialog.help.structure.ether_drill.description_2",
+            "fallback": "Ether Vault Key",
+            "color": "#cb95e4",
+            "click_event": {
+              "action": "show_dialog",
+              "dialog": "phenom:structures/renovated_villages"
+            },
+            "hover_event": {
+              "action": "show_text",
+              "value": {
+                "type": "translatable",
+                "translate": "phenom.dialog.help.amulets.hover",
+                "fallback": "Click here to learn more",
+                "color": "#e9baff"
+              }
+            }
+          },
+          {
+            "type": "translatable",
+            "translate": "phenom.dialog.help.structure.ether_drill.description_3",
+            "fallback": ".",
+            "color": "white"
+          }
+        ]
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "width": 300,
+      "contents": {
+        "type": "translatable",
+        "translate": "phenom.dialog.help.structure.ether_drill.description_4",
+        "fallback": "The primordial ether is necessary for the production of ",
+        "extra": [
+          {
+            "type": "translatable",
+            "translate": "phenom.dialog.help.structure.ether_drill.description_5",
+            "fallback": "Ether",
+            "color": "#dc5ff5",
+            "click_event": {
+              "action": "show_dialog",
+              "dialog": "phenom:recipes/ether"
+            },
+            "hover_event": {
+              "action": "show_text",
+              "value": {
+                "type": "translatable",
+                "translate": "phenom.dialog.help.amulets.hover",
+                "fallback": "Click here to learn more",
+                "color": "#e9baff"
+              }
+            }
+          },
+          {
+            "type": "translatable",
+            "translate": "phenom.dialog.help.structure.ether_drill.description_6",
+            "fallback": ".",
+            "color": "white"
+          }
+        ]
+      }
+    }
+  ],
+  "action": {
+    "label": {
+      "translate": "gui.back"
+    },
+    "width": 150,
+    "action": {
+      "type": "minecraft:show_dialog",
+      "dialog": "phenom:structures"
+    }
+  }
+}

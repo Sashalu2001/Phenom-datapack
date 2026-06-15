@@ -1,0 +1,60 @@
+{
+  "parent": "phenom:main_root/overworld/entry_snowy_ruin",
+  "criteria": {
+    "generate_loot": {
+      "trigger": "minecraft:player_generates_container_loot",
+      "conditions": {
+        "loot_table": "phenom:snowy_ruin/chest"
+      }
+    },
+    "find_amulet": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:totem_of_undying",
+            "predicates": {
+            "minecraft:custom_data": {
+              "amulet": true,
+              "amulet_id": "cold"
+            }
+          }
+          }
+        ]
+      }
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "phenom.advancement.main_root.overworld.find_amulet_cold.description",
+      "fallback": "Find the Great Cold Amulet"
+    },
+    "icon": {
+      "components": {
+        "minecraft:enchantment_glint_override": true,
+        "minecraft:custom_data":
+        {
+            "amulet": true,
+            "amulet_id": "cold"
+        }
+      },
+      "count": 1,
+      "id": "minecraft:end_crystal"
+    },
+    "title": {
+      "translate": "phenom.advancement.main_root.overworld.find_amulet_cold.title",
+      "fallback": "A Simple Ice Cube or a Valuable Thing?"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "requirements": [
+    [
+      "generate_loot"
+    ],
+    [
+      "find_amulet"
+    ]
+  ],
+  "sends_telemetry_event": false
+}

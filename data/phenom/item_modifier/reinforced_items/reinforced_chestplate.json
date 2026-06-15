@@ -1,0 +1,59 @@
+[
+    {
+        "function": "set_components",
+        "components": {
+            "minecraft:custom_data": {
+                "reinforced_chestplate": true
+            },
+            "minecraft:item_name": {
+                "translate": "phenom.item.reinforced_chestplate.name",
+                "fallback": "Reinforced Chestplate",
+                "color": "#d1b3ff"
+            },
+            "minecraft:max_damage": 1200,
+            "minecraft:damage_resistant": {
+                "types": "#phenom:is_fire_explosion"
+            },
+            "minecraft:repairable": {
+                "items": "minecraft:structure_block"
+            },
+            "minecraft:attribute_modifiers": [
+                {
+                "type": "minecraft:armor",
+                "id": "reinforced_chestplate_armor",
+                "amount": 9,
+                "operation": "add_value",
+                "slot": "chest"
+                },
+                {
+                "type": "minecraft:armor_toughness",
+                "id": "reinforced_chestplate_armor_toughness",
+                "amount": 4,
+                "operation": "add_value",
+                "slot": "chest"
+                },
+                {
+                "type": "minecraft:movement_speed",
+                "id": "reinforced_chestplate_movement_speed",
+                "amount": -0.125,
+                "operation": "add_multiplied_total",
+                "slot": "chest"
+                },
+                {
+                "type": "minecraft:knockback_resistance",
+                "id": "reinforced_chestplate_knockback_resistance",
+                "amount": 0.2,
+                "operation": "add_value",
+                "slot": "chest"
+                },
+                {
+                "type": "minecraft:explosion_knockback_resistance",
+                "id": "reinforced_chestplate_explosion_knockback_resistance",
+                "amount": 0.1,
+                "operation": "add_value",
+                "slot": "chest"
+                }
+            ]
+        }
+    }
+]

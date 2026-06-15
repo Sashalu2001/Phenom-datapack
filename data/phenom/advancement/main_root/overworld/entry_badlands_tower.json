@@ -1,0 +1,43 @@
+{
+  "parent": "phenom:main_root/overworld/root_overworld",
+  "criteria": {
+    "entry_structure": {
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structures": "phenom:badlands_tower"
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:location"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "phenom.advancement.main_root.overworld.entry_badlands_tower.description",
+      "fallback": "Find the badlands tower"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:red_sandstone"
+    },
+    "title": {
+      "translate": "phenom.advancement.main_root.overworld.entry_badlands_tower.title",
+      "fallback": "Forgotten Place II"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "requirements": [
+    [
+      "entry_structure"
+    ]
+  ],
+  "sends_telemetry_event": false
+}

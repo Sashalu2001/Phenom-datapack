@@ -1,0 +1,25 @@
+{
+  "pack": {
+    "description": {
+      "type": "translatable",
+      "translate": "phenom.datapack.description_1",
+      "fallback": "Datapack adds phenomenal structures, items, enchantments, craft recipes\n",
+      "color": "#f3b7ff",
+      "extra": [
+        {
+          "type": "translatable",
+          "translate": "phenom.datapack.description_2",
+          "fallback": "Version: ",
+          "color": "#75faff"
+        },
+        {
+          "type": "text",
+          "text": "0.20.0 beta",
+          "color": "#00ff0d"
+        }
+      ]
+    },
+    "min_format": 101,
+    "max_format": 101
+  }
+}

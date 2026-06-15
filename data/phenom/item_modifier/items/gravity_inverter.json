@@ -1,0 +1,58 @@
+[
+    {
+        "function": "minecraft:set_custom_data",
+        "tag": {
+          "gravity_inverter": true
+        }
+    },
+    {
+        "function": "set_components",
+        "components": {
+                "minecraft:enchantment_glint_override": true,
+                "minecraft:item_name": {
+                  "type": "translatable",
+                  "translate": "phenom.item.gravity_inverter.name",
+                  "fallback": "Gravity Inverter",
+                  "color": "#50fbf9"
+                },
+                "minecraft:lore": [
+                  {
+                    "type": "translatable",
+                    "translate": "phenom.item.gravity_inverter.description_1",
+                    "fallback": "Reverses the force of gravity",
+                    "color": "#bb3fe9",
+                    "italic": false
+                  },
+                  {
+                    "type": "translatable",
+                    "translate": "phenom.item.gravity_inverter.description_2",
+                    "fallback": "of the carrier for a short time",
+                    "color": "#bb3fe9",
+                    "italic": false
+                  }
+                ],
+                "minecraft:consumable": {
+                  "animation": "none",
+                  "consume_seconds": 0,
+                  "sound": "block.respawn_anchor.deplete",
+                  "on_consume_effects": [
+                    {
+                      "type": "minecraft:play_sound",
+                      "sound": "minecraft:block.beacon.power_select"
+                    },
+                    {
+                      "type": "minecraft:apply_effects",
+                      "effects": [
+                        {
+                          "id": "minecraft:levitation",
+                          "amplifier": 19,
+                          "duration": 80,
+                          "show_particles": false
+                        }
+                      ]
+                    }
+                  ]
+                }
+        }
+    }
+]

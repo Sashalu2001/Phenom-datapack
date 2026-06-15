@@ -1,0 +1,69 @@
+{
+  "gives": {
+    "id": "minecraft:shield"
+  },
+  "max_uses": 12,
+  "reputation_discount": 0.2,
+  "wants": {
+    "count": 12,
+    "id": "minecraft:emerald"
+  },
+  "given_item_modifiers": [
+    {
+        "function": "set_components",
+        "components": {
+            "minecraft:item_name": {
+        "translate": "phenom.item.iron_shield.name",
+        "fallback": "Iron shield"
+      },
+      "minecraft:blocks_attacks": {
+        "disable_cooldown_scale": 0.7,
+        "item_damage": {
+          "threshold": 0,
+          "base": 0,
+          "factor": 0.5
+        },
+        "block_sound": "minecraft:block.iron.hit",
+        "disabled_sound": "minecraft:block.iron.break",
+        "bypassed_by": "#minecraft:bypasses_shield"
+      },
+      "minecraft:max_damage": 768,
+      "minecraft:banner_patterns": [
+        {
+          "color": "light_gray",
+          "pattern": "minecraft:base"
+        },
+        {
+          "color": "white",
+          "pattern": "minecraft:diagonal_left"
+        },
+        {
+          "color": "white",
+          "pattern": "minecraft:gradient_up"
+        },
+        {
+          "color": "white",
+          "pattern": "minecraft:gradient"
+        },
+        {
+          "color": "white",
+          "pattern": "minecraft:border"
+        }
+      ],
+      "minecraft:repairable": {
+        "items": "minecraft:iron_ingot"
+      },
+      "minecraft:tooltip_display": {
+        "hidden_components": [
+          "minecraft:banner_patterns"
+        ]
+      },
+      "minecraft:custom_data": {
+        "shield": true,
+        "shield_type": "iron"
+      }
+        }
+    }
+  ],
+  "xp": 10
+}

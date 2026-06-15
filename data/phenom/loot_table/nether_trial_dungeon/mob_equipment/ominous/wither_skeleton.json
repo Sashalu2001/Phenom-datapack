@@ -1,0 +1,430 @@
+{
+  "type": "minecraft:equipment",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+            "type": "minecraft:loot_table",
+            "weight": 5,
+            "value": {
+                "pools": [
+                    {
+                        "rolls": 1,
+                        "entries": [
+                            {
+                                "type": "minecraft:item",
+                                "name": "minecraft:chainmail_helmet",
+                                "functions": [
+                                    {
+                                        "function": "minecraft:set_components",
+                                        "components": {
+                                            "minecraft:trim": {
+                                                "material": "minecraft:redstone",
+                                                "pattern": "minecraft:rib"
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "function": "minecraft:set_enchantments",
+                                        "enchantments": {
+                                            "protection": 2,
+                                            "projectile_protection": 1,
+                                            "fire_protection": 1
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "rolls": 1,
+                        "entries": [
+                            {
+                                "type": "minecraft:item",
+                                "name": "minecraft:chainmail_chestplate",
+                                "functions": [
+                                    {
+                                        "function": "minecraft:set_components",
+                                        "components": {
+                                            "minecraft:trim": {
+                                                "material": "minecraft:redstone",
+                                                "pattern": "minecraft:rib"
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "function": "minecraft:set_enchantments",
+                                        "enchantments": {
+                                            "protection": 2,
+                                            "projectile_protection": 1,
+                                            "fire_protection": 1
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "rolls": 1,
+                        "entries": [
+                            {
+                                "type": "minecraft:item",
+                                "name": "minecraft:chainmail_leggings",
+                                "functions": [
+                                    {
+                                        "function": "minecraft:set_components",
+                                        "components": {
+                                            "minecraft:trim": {
+                                                "material": "minecraft:redstone",
+                                                "pattern": "minecraft:rib"
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "function": "minecraft:set_enchantments",
+                                        "enchantments": {
+                                            "protection": 2,
+                                            "projectile_protection": 1,
+                                            "fire_protection": 1
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "rolls": 1,
+                        "entries": [
+                            {
+                                "type": "minecraft:item",
+                                "name": "minecraft:chainmail_boots",
+                                "functions": [
+                                    {
+                                        "function": "minecraft:set_components",
+                                        "components": {
+                                            "minecraft:trim": {
+                                                "material": "minecraft:redstone",
+                                                "pattern": "minecraft:rib"
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "function": "minecraft:set_enchantments",
+                                        "enchantments": {
+                                            "protection": 2,
+                                            "projectile_protection": 1,
+                                            "fire_protection": 1,
+                                            "phenom:fire_step": 1
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "rolls": 1,
+                        "entries": [
+                            {
+                                "type": "minecraft:item",
+                                "name": "minecraft:iron_sword",
+                                "functions": [
+                                    {
+                                        "function": "minecraft:set_enchantments",
+                                        "enchantments": {
+                                            "sharpness": 4,
+                                            "knockback": 1,
+                                            "fire_aspect": 1
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+          }
+        },
+        {
+            "type": "minecraft:loot_table",
+            "weight": 4,
+            "value": {
+                "pools": [
+                    {
+                        "rolls": 1,
+                        "entries": [
+                            {
+                                "type": "minecraft:item",
+                                "name": "minecraft:iron_helmet",
+                                "functions": [
+                                    {
+                                        "function": "minecraft:set_components",
+                                        "components": {
+                                            "minecraft:trim": {
+                                                "material": "minecraft:redstone",
+                                                "pattern": "minecraft:rib"
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "function": "minecraft:set_enchantments",
+                                        "enchantments": {
+                                            "protection": 2,
+                                            "projectile_protection": 1,
+                                            "fire_protection": 1
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "rolls": 1,
+                        "entries": [
+                            {
+                                "type": "minecraft:item",
+                                "name": "minecraft:iron_chestplate",
+                                "functions": [
+                                    {
+                                        "function": "minecraft:set_components",
+                                        "components": {
+                                            "minecraft:trim": {
+                                                "material": "minecraft:redstone",
+                                                "pattern": "minecraft:rib"
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "function": "minecraft:set_enchantments",
+                                        "enchantments": {
+                                            "protection": 2,
+                                            "projectile_protection": 1,
+                                            "fire_protection": 1
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "rolls": 1,
+                        "entries": [
+                            {
+                                "type": "minecraft:item",
+                                "name": "minecraft:iron_leggings",
+                                "functions": [
+                                    {
+                                        "function": "minecraft:set_components",
+                                        "components": {
+                                            "minecraft:trim": {
+                                                "material": "minecraft:redstone",
+                                                "pattern": "minecraft:rib"
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "function": "minecraft:set_enchantments",
+                                        "enchantments": {
+                                            "protection": 2,
+                                            "projectile_protection": 1,
+                                            "fire_protection": 1
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "rolls": 1,
+                        "entries": [
+                            {
+                                "type": "minecraft:item",
+                                "name": "minecraft:iron_boots",
+                                "functions": [
+                                    {
+                                        "function": "minecraft:set_components",
+                                        "components": {
+                                            "minecraft:trim": {
+                                                "material": "minecraft:redstone",
+                                                "pattern": "minecraft:rib"
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "function": "minecraft:set_enchantments",
+                                        "enchantments": {
+                                            "protection": 2,
+                                            "projectile_protection": 1,
+                                            "fire_protection": 1,
+                                            "phenom:fire_step": 1
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "rolls": 1,
+                        "entries": [
+                            {
+                                "type": "minecraft:item",
+                                "name": "minecraft:iron_sword",
+                                "functions": [
+                                    {
+                                        "function": "minecraft:set_enchantments",
+                                        "enchantments": {
+                                            "sharpness": 4,
+                                            "knockback": 1,
+                                            "fire_aspect": 1
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+          }
+        },
+        {
+            "type": "minecraft:loot_table",
+            "weight": 1,
+            "value": {
+                "pools": [
+                    {
+                        "rolls": 1,
+                        "entries": [
+                            {
+                                "type": "minecraft:item",
+                                "name": "minecraft:netherite_helmet",
+                                "functions": [
+                                    {
+                                        "function": "minecraft:set_components",
+                                        "components": {
+                                            "minecraft:trim": {
+                                                "material": "minecraft:redstone",
+                                                "pattern": "minecraft:rib"
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "function": "minecraft:set_enchantments",
+                                        "enchantments": {
+                                            "protection": 2,
+                                            "projectile_protection": 1,
+                                            "fire_protection": 1
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "rolls": 1,
+                        "entries": [
+                            {
+                                "type": "minecraft:item",
+                                "name": "minecraft:netherite_chestplate",
+                                "functions": [
+                                    {
+                                        "function": "minecraft:set_components",
+                                        "components": {
+                                            "minecraft:trim": {
+                                                "material": "minecraft:redstone",
+                                                "pattern": "minecraft:rib"
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "function": "minecraft:set_enchantments",
+                                        "enchantments": {
+                                            "protection": 2,
+                                            "projectile_protection": 1,
+                                            "fire_protection": 1
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "rolls": 1,
+                        "entries": [
+                            {
+                                "type": "minecraft:item",
+                                "name": "minecraft:netherite_leggings",
+                                "functions": [
+                                    {
+                                        "function": "minecraft:set_components",
+                                        "components": {
+                                            "minecraft:trim": {
+                                                "material": "minecraft:redstone",
+                                                "pattern": "minecraft:rib"
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "function": "minecraft:set_enchantments",
+                                        "enchantments": {
+                                            "protection": 2,
+                                            "projectile_protection": 1,
+                                            "fire_protection": 1
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "rolls": 1,
+                        "entries": [
+                            {
+                                "type": "minecraft:item",
+                                "name": "minecraft:netherite_boots",
+                                "functions": [
+                                    {
+                                        "function": "minecraft:set_components",
+                                        "components": {
+                                            "minecraft:trim": {
+                                                "material": "minecraft:redstone",
+                                                "pattern": "minecraft:rib"
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "function": "minecraft:set_enchantments",
+                                        "enchantments": {
+                                            "protection": 2,
+                                            "projectile_protection": 1,
+                                            "fire_protection": 1,
+                                            "phenom:fire_step": 1
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "rolls": 1,
+                        "entries": [
+                            {
+                                "type": "minecraft:item",
+                                "name": "minecraft:netherite_sword",
+                                "functions": [
+                                    {
+                                        "function": "minecraft:set_enchantments",
+                                        "enchantments": {
+                                            "sharpness": 4,
+                                            "knockback": 1,
+                                            "fire_aspect": 1
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+          }
+        }
+      ]
+    }
+  ]
+}

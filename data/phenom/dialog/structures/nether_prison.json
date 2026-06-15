@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:notice",
+  "external_title": {
+    "type": "translatable",
+    "translate": "phenom.dialog.structure.nether_prison",
+    "fallback": "Nether Prison"
+  },
+  "title": {
+    "type": "translatable",
+    "translate": "phenom.dialog.structure.nether_prison",
+    "fallback": "Nether Prison"
+  },
+  "body": [
+    {
+      "type": "minecraft:item",
+      "item": {
+        "id": "minecraft:iron_bars",
+        "count": 1
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "width": 300,
+      "contents": {
+        "type": "translatable",
+        "translate": "phenom.dialog.structure.nether_prison.description",
+        "fallback": "A large Nether structure. Here wither skeletons keep imprisoned piglins and hoglins in cages. In the Warden's chest you can find many useful resources and Fire Resistance Cream, which gives a long-lasting fire resistance effect"
+      }
+    }
+  ],
+  "action": {
+    "label": {
+      "translate": "gui.back"
+    },
+    "width": 150,
+    "action": {
+      "type": "minecraft:show_dialog",
+      "dialog": "phenom:structures"
+    }
+  }
+}

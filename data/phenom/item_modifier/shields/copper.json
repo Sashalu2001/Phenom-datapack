@@ -1,0 +1,57 @@
+[
+    {
+        "function": "set_components",
+        "components": {
+            "minecraft:item_name": {
+        "translate": "phenom.item.copper_shield.name",
+        "fallback": "Copper shield"
+      },
+      "minecraft:blocks_attacks": {
+        "disable_cooldown_scale": 0.8,
+        "item_damage": {
+          "threshold": 0,
+          "base": 0,
+          "factor": 0.8
+        },
+        "block_sound": "minecraft:block.iron.hit",
+        "disabled_sound": "minecraft:block.iron.break",
+        "bypassed_by": "#minecraft:bypasses_shield"
+      },
+      "minecraft:max_damage": 420,
+      "minecraft:banner_patterns": [
+        {
+          "color": "brown",
+          "pattern": "minecraft:base"
+        },
+        {
+          "color": "orange",
+          "pattern": "minecraft:diagonal_left"
+        },
+        {
+          "color": "orange",
+          "pattern": "minecraft:gradient_up"
+        },
+        {
+          "color": "orange",
+          "pattern": "minecraft:gradient"
+        },
+        {
+          "color": "orange",
+          "pattern": "minecraft:border"
+        }
+      ],
+      "minecraft:repairable": {
+        "items": "minecraft:copper_ingot"
+      },
+      "minecraft:tooltip_display": {
+        "hidden_components": [
+          "minecraft:banner_patterns"
+        ]
+      },
+      "minecraft:custom_data": {
+        "shield": true,
+        "shield_type": "copper"
+      }
+        }
+    }
+]

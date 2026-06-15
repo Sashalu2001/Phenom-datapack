@@ -1,0 +1,211 @@
+{
+  "parent": "phenom:main_root/overworld/entry_pale_trial_dungeon",
+  "criteria": {
+    "open_pale_vault": {
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:vault",
+                "state": {
+                  "ominous": "false"
+                },
+                "nbt": {
+                  "config": {
+                    "loot_table": "phenom:pale_trial_dungeon/vaults/normal/normal_vault"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": "minecraft:trial_key",
+              "components": {
+                "custom_data":{
+                  "pale_key": true
+                },
+                "item_name": {
+                  "type": "translatable",
+                  "translate": "phenom.item.pale_trial_key.name",
+                  "fallback": "Pale trial key"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:item_used_on_block"
+    },
+    "open_pale_ominous_vault": {
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:vault",
+                "state": {
+                  "ominous": "true"
+                },
+                "nbt": {
+                  "config": {
+                    "loot_table": "phenom:pale_trial_dungeon/vaults/ominous/ominous_vault"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": "minecraft:ominous_trial_key",
+              "components": {
+                "custom_data":{
+                  "pale_key": true
+                },
+                "item_name": {
+                  "type": "translatable",
+                  "translate": "phenom.item.pale_ominous_trial_key.name",
+                  "fallback": "Pale ominous trial key"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:item_used_on_block"
+    },
+    "open_nether_vault": {
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:vault",
+                "state": {
+                  "ominous": "false"
+                },
+                "nbt": {
+                  "config": {
+                    "loot_table": "phenom:nether_trial_dungeon/vaults/normal/normal_vault"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": "minecraft:trial_key",
+              "components": {
+                "custom_data":{
+                  "nether_key": true
+                },
+                "item_name": {
+                  "type": "translatable",
+                  "translate": "phenom.item.nether_trial_key.name",
+                  "fallback": "Nether trial key"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:item_used_on_block"
+    },
+    "open_nether_ominous_vault": {
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:vault",
+                "state": {
+                  "ominous": "true"
+                },
+                "nbt": {
+                  "config": {
+                    "loot_table": "phenom:nether_trial_dungeon/vaults/ominous/ominous_vault"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": "minecraft:ominous_trial_key",
+              "components": {
+                "custom_data":{
+                  "nether_key": true
+                },
+                "item_name": {
+                  "type": "translatable",
+                  "translate": "phenom.item.nether_ominous_trial_key.name",
+                  "fallback": "Nether ominous trial key"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:item_used_on_block"
+    },
+    "find_enchantment": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:enchanted_book",
+            "predicates": {
+            "minecraft:stored_enchantments": [
+              {
+                "enchantments": "phenom:rift"
+              }
+            ]
+          }
+          }
+        ]
+      }
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "phenom.advancement.main_root.overworld.find_enchantment_rift.description",
+      "fallback": "Obtain the \"Rift\" enchantment"
+    },
+    "icon": {
+      "components": {
+        "minecraft:stored_enchantments": {
+          "phenom:rift": 5
+        }
+      },
+      "count": 1,
+      "id": "minecraft:enchanted_book"
+    },
+    "title": {
+      "translate": "phenom.advancement.main_root.overworld.find_enchantment_rift.title",
+      "fallback": "Mighty Magic"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "requirements": [
+    [
+      "open_pale_vault",
+      "open_pale_ominous_vault",
+      "open_nether_vault",
+      "open_nether_ominous_vault"
+    ],
+    [
+      "find_enchantment"
+    ]
+  ],
+  "sends_telemetry_event": false
+}

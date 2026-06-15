@@ -1,0 +1,57 @@
+{
+  "wants": {
+    "id": "minecraft:map",
+    "count": 1
+  },
+  "additional_wants": {
+    "id": "minecraft:diamond",
+    "count": 1
+  },
+  "gives": {
+    "id": "minecraft:map",
+    "count": 1
+  },
+  "given_item_modifiers": [
+    {
+        "function": "minecraft:exploration_map",
+        "destination": "phenom:is_ancient_tomb",
+        "decoration": "minecraft:target_x",
+        "zoom": 2,
+        "skip_existing_chunks": false
+    },
+    {
+        "function": "minecraft:set_components",
+        "components": {
+            "minecraft:map_color": 359807,
+            "minecraft:item_name": {
+                "type": "translatable",
+                "translate": "phenom.item.ancient_tomb_map.name",
+                "fallback": "Ancient Tomb Map"
+            }
+        }
+    },
+    {
+      "function": "minecraft:filtered",
+      "item_filter": {
+        "items": "minecraft:filled_map",
+        "predicates": {
+          "minecraft:map_id": {}
+        }
+      },
+      "on_fail": {
+        "function": "minecraft:discard"
+      }
+    }
+  ],
+  "max_uses": 1,
+  "xp": 1,
+  "reputation_discount": 0.05,
+  "merchant_predicate": {
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+        "type": "minecraft:villager",
+        "nbt": "{Tags:[\"wealthy_cartographer\"]}"
+    }
+  }
+}

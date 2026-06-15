@@ -1,0 +1,43 @@
+{
+  "parent": "phenom:main_root/overworld/root_overworld",
+  "criteria": {
+    "entry_structure": {
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structures": "phenom:courtyard_tower"
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:location"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "phenom.advancement.main_root.overworld.entry_courtyard_tower.description",
+      "fallback": "Find the courtyard tower"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:cherry_leaves"
+    },
+    "title": {
+      "translate": "phenom.advancement.main_root.overworld.entry_courtyard_tower.title",
+      "fallback": "Warmth and Coziness"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "requirements": [
+    [
+      "entry_structure"
+    ]
+  ],
+  "sends_telemetry_event": false
+}

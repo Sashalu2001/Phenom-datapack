@@ -1,0 +1,48 @@
+[
+    {
+        "function": "set_components",
+        "components": {
+            "minecraft:custom_data": {
+                "reinforced_elytra": true
+            },
+            "minecraft:item_name": {
+                "translate": "phenom.item.reinforced_elytra.name",
+                "fallback": "Reinforced Elytra",
+                "color": "#d1b3ff"
+            },
+            "minecraft:item_model": "minecraft:elytra",
+            "minecraft:glider": {},
+            "minecraft:enchantable": {"value": 15},
+            "minecraft:equippable": {
+                "slot": "chest",
+                "equip_sound": "item.armor.equip_netherite",
+                "asset_id": "minecraft:elytra"
+            },
+            "minecraft:max_stack_size": 1,
+            "minecraft:max_damage": 648,
+            "minecraft:damage": 0,
+            "minecraft:damage_resistant": {
+                "types": "#phenom:is_fire_explosion"
+            },
+            "minecraft:repairable": {
+                "items": "minecraft:structure_block"
+            },
+            "minecraft:attribute_modifiers": [
+                {
+                "type": "minecraft:armor",
+                "id": "1",
+                "amount": 4,
+                "operation": "add_value",
+                "slot": "chest"
+                },
+                {
+                "type": "minecraft:armor_toughness",
+                "id": "1",
+                "amount": 2,
+                "operation": "add_value",
+                "slot": "chest"
+                }
+            ]
+        }
+    }
+]

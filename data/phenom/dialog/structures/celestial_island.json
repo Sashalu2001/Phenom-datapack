@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:notice",
+  "external_title": {
+    "type": "translatable",
+    "translate": "phenom.dialog.structure.celestial_island",
+    "fallback": "Celestial Island"
+  },
+  "title": {
+    "type": "translatable",
+    "translate": "phenom.dialog.structure.celestial_island",
+    "fallback": "Celestial Island"
+  },
+  "body": [
+    {
+      "type": "minecraft:item",
+      "item": {
+        "id": "minecraft:quartz_stairs",
+        "count": 1
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "width": 300,
+      "contents": {
+        "type": "translatable",
+        "translate": "phenom.dialog.structure.celestial_island.description",
+        "fallback": "A floating structure found everywhere high in the sky. Hostile mobs do not spawn on the territory of the structure. Here you can find divine food - a special food that gives more saturation and food points, as well as applying several beneficial effects."
+      }
+    }
+  ],
+  "action": {
+    "label": {
+      "translate": "gui.back"
+    },
+    "width": 150,
+    "action": {
+      "type": "minecraft:show_dialog",
+      "dialog": "phenom:structures"
+    }
+  }
+}

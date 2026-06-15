@@ -1,0 +1,48 @@
+{
+  "processors": [
+    {
+      "processor_type": "minecraft:rule",
+      "rules": [
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:block_match",
+            "block": "minecraft:water"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:block_match",
+            "block": "minecraft:cobbled_deepslate"
+          },
+          "output_state": {
+            "Name": "minecraft:deepslate_bricks"
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:block_match",
+            "block": "minecraft:water"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:block_match",
+            "block": "minecraft:deepslate_tiles"
+          },
+          "output_state": {
+            "Name": "minecraft:deepslate_bricks"
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:block_match",
+            "block": "minecraft:water"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:block_match",
+            "block": "minecraft:podzol"
+          },
+          "output_state": {
+            "Name": "minecraft:deepslate_bricks"
+          }
+        }
+      ]
+    }
+  ]
+}

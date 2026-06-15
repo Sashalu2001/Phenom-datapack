@@ -1,0 +1,174 @@
+{
+  "type": "minecraft:notice",
+  "external_title": {
+    "type": "translatable",
+    "translate": "phenom.dialog.help.structure.nether_trial_dungeon",
+    "fallback": "Nether Trial Dungeon"
+  },
+  "title": {
+    "type": "translatable",
+    "translate": "phenom.dialog.help.structure.nether_trial_dungeon",
+    "fallback": "Nether Trial Dungeon"
+  },
+  "body": [
+    {
+      "type": "minecraft:item",
+      "item": {
+        "id": "minecraft:red_nether_bricks",
+        "count": 1
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "width": 300,
+      "contents": {
+        "type": "translatable",
+        "translate": "phenom.dialog.structure.nether_trial_dungeon.description",
+        "fallback": "A large Nether structure, the walls of which are decorated with runic symbols."
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "width": 300,
+      "contents": {
+        "type": "translatable",
+        "translate": "phenom.dialog.structure.nether_trial_dungeon.description.mid1",
+        "fallback": "The structure is a large entrance divided into several floors, each of which has entrances to several rooms with trial spawners and vaults. The spawners summon several stronger versions of mobs and after victory award Nether Trial Key, or its ominous version (if the spawner was ominous)."
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "width": 300,
+      "contents": {
+        "type": "translatable",
+        "translate": "phenom.dialog.structure.nether_trial_dungeon.description.mid2",
+        "fallback": "Vaults can only be opened with nether versions of keys. They contain many useful resources, as well as several unique ones:"
+      }
+    },
+    {
+      "type": "minecraft:item",
+      "item": {
+        "id": "minecraft:enchanted_book",
+        "count": 1,
+        "components": {
+        "minecraft:stored_enchantments": {
+          "phenom:rift": 5
+        }
+      }
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "width": 300,
+      "contents": {
+        "type": "translatable",
+        "translate": "phenom.dialog.structure.nether_trial_dungeon.rift_name",
+        "fallback": "New Enchantment: Rift",
+        "color": "yellow",
+        "click_event": {
+          "action": "show_dialog",
+          "dialog": "phenom:enchantments/rift"
+        },
+            "hover_event": {
+              "action": "show_text",
+              "value": {
+                "type": "translatable",
+                "translate": "phenom.dialog.help.amulets.hover",
+                "fallback": "Click here to learn more",
+                "color": "#e9baff"
+              }
+            }
+      }
+    },
+    {
+      "type": "minecraft:item",
+      "item": {
+        "id": "minecraft:enchanted_book",
+        "count": 1,
+        "components": {
+        "minecraft:stored_enchantments": {
+          "phenom:long_handle": 3
+        }
+      }
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "width": 300,
+      "contents": {
+        "type": "translatable",
+        "translate": "phenom.dialog.structure.nether_trial_dungeon.long_handle_name",
+        "fallback": "New Enchantment: Long Handle",
+        "color": "yellow",
+        "click_event": {
+          "action": "show_dialog",
+          "dialog": "phenom:enchantments/long_handle"
+        },
+            "hover_event": {
+              "action": "show_text",
+              "value": {
+                "type": "translatable",
+                "translate": "phenom.dialog.help.amulets.hover",
+                "fallback": "Click here to learn more",
+                "color": "#e9baff"
+              }
+            }
+      }
+    },
+    {
+      "type": "minecraft:item",
+      "item": {
+        "id": "minecraft:totem_of_undying",
+        "count": 1,
+        "components": {
+          "minecraft:item_model": "minecraft:end_crystal",
+          "minecraft:enchantment_glint_override": true,
+          "minecraft:custom_name": {
+            "type": "translatable",
+            "translate": "phenom.item.amulet.righteous_wrath.name",
+            "fallback": "Righteous Wrath Amulet",
+            "color": "#e60000",
+            "italic": false
+          },
+          "minecraft:custom_data": {
+            "amulet": true,
+            "amulet_id": "righteous_wrath"
+          }
+        }
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "width": 300,
+      "contents": {
+          "type": "translatable",
+          "translate": "phenom.item.amulet.righteous_wrath.name",
+          "fallback": "Righteous Wrath Amulet",
+          "color": "#bb3fe9",
+          "click_event": {
+            "action": "show_dialog",
+            "dialog": "phenom:amulets"
+          },
+            "hover_event": {
+              "action": "show_text",
+              "value": {
+                "type": "translatable",
+                "translate": "phenom.dialog.help.amulets.hover",
+                "fallback": "Click here to learn more",
+                "color": "#e9baff"
+              }
+            }
+        }
+    }
+  ],
+  "action": {
+    "label": {
+      "translate": "gui.back"
+    },
+    "width": 150,
+    "action": {
+      "type": "minecraft:show_dialog",
+      "dialog": "phenom:structures"
+    }
+  }
+}

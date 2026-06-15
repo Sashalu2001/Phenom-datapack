@@ -1,0 +1,8 @@
+{
+  "amount": 2,
+  "trades": [
+    "minecraft:cleric/2/gold_ingot_emerald",
+    "minecraft:cleric/4/glass_bottle_emerald",
+    "phenom:cleric/2/blaze_rod_emerald"
+  ]
+}

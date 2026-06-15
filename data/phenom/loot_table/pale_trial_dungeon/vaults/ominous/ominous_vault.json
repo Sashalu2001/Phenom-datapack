@@ -1,0 +1,68 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": {
+        "type": "minecraft:uniform",
+        "min": 2,
+        "max": 3
+      },
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "phenom:pale_trial_dungeon/vaults/ominous/ominous_common"
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "type": "minecraft:uniform",
+        "min": 1,
+        "max": 2
+      },
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "phenom:pale_trial_dungeon/vaults/ominous/ominous_rare"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "phenom:pale_trial_dungeon/vaults/ominous/ominous_epic"
+        }
+      ],
+      "conditions": [
+        {
+          "chance": 0.6,
+          "condition": "minecraft:random_chance"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:totem_of_undying",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "reference",
+              "name": "phenom:amulets/resistance"
+            }
+          ]
+        }
+      ],
+      "conditions": [
+        {
+          "chance": 0.08,
+          "condition": "minecraft:random_chance"
+        }
+      ]
+    }
+  ]
+}

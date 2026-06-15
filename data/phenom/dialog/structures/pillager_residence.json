@@ -1,0 +1,114 @@
+{
+  "type": "minecraft:notice",
+  "external_title": {
+    "type": "translatable",
+    "translate": "phenom.dialog.help.structure.pillager_residence",
+    "fallback": "Pillager Residence"
+  },
+  "title": {
+    "type": "translatable",
+    "translate": "phenom.dialog.help.structure.pillager_residence",
+    "fallback": "Pillager Residence"
+  },
+  "body": [
+    {
+      "type": "minecraft:item",
+      "item": {
+        "id": "minecraft:white_banner",
+        "count": 1,
+        "components": {
+          "rarity": "uncommon",
+          "custom_name": {
+            "type": "translatable",
+            "translate": "phenom.item.elite_ominous_banner",
+            "fallback": "Elite Ominous Banner",
+            "italic": false
+          },
+          "banner_patterns": [
+            {"color": "red", "pattern": "minecraft:rhombus"},
+            {"color": "gray", "pattern": "minecraft:stripe_bottom"},
+            {"color": "black", "pattern": "minecraft:stripe_center"},
+            {"color": "black", "pattern": "minecraft:stripe_middle"},
+            {"color": "gray", "pattern": "minecraft:half_horizontal"},
+            {"color": "red", "pattern": "minecraft:border"},
+            {"color": "gray", "pattern": "minecraft:circle"},
+            {"color": "black", "pattern": "minecraft:border"}
+          ],
+          "tooltip_display": {"hidden_components": ["minecraft:banner_patterns"]}
+        }
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "width": 300,
+      "contents": {
+        "type": "translatable",
+        "translate": "phenom.dialog.structure.pillager_residence.description",
+        "fallback": "A structure found in plains and savanna. Many elite pillagers and vindicators live here. Their equipment is slightly better than that of regular mobs. Their houses contain many useful resources. Three Rulers are located in the central tower:"
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "width": 300,
+      "contents": {
+        "type": "translatable",
+        "translate": "phenom.dialog.structure.pillager_residence.king",
+        "fallback": "Evoker King - a more powerful version of evoker, from which you can obtain ",
+        "extra": [
+          {
+            "type": "translatable",
+            "translate": "phenom.item.amulet.immortal.name",
+            "fallback": "Immortality Amulet",
+            "color": "#bb3fe9",
+            "click_event": {
+              "action": "show_dialog",
+              "dialog": "phenom:amulets"
+            },
+            "hover_event": {
+              "action": "show_text",
+              "value": {
+                "type": "translatable",
+                "translate": "phenom.dialog.help.amulets.hover",
+                "fallback": "Click here to learn more",
+                "color": "#e9baff"
+              }
+            }
+          },
+          {
+            "type": "translatable",
+            "translate": "phenom.dialog.help.amulets.suffix",
+            "fallback": "."
+          }
+        ]
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "width": 300,
+      "contents": {
+        "type": "translatable",
+        "translate": "phenom.dialog.structure.pillager_residence.champion_ruler",
+        "fallback": "Champion Ruler - a more powerful version of vindicator, who uses Berserker Dust to significantly boost combat stats for a short time."
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "width": 300,
+      "contents": {
+        "type": "translatable",
+        "translate": "phenom.dialog.structure.pillager_residence.pillager_ruler",
+        "fallback": "Pillager Ruler - a more powerful version of pillager, using special powerful ranged weapons. You can obtain Fan Bow, which can shoot 5 arrows at once, or Lethal Crossbow, which shoots more powerful projectiles, from him."
+      }
+    }
+  ],
+  "action": {
+    "label": {
+      "translate": "gui.back"
+    },
+    "width": 150,
+    "action": {
+      "type": "minecraft:show_dialog",
+      "dialog": "phenom:structures"
+    }
+  }
+}

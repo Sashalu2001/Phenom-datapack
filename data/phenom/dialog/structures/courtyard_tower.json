@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:notice",
+  "external_title": {
+    "type": "translatable",
+    "translate": "phenom.dialog.structure.courtyard_tower",
+    "fallback": "Courtyard Tower"
+  },
+  "title": {
+    "type": "translatable",
+    "translate": "phenom.dialog.structure.courtyard_tower",
+    "fallback": "Courtyard Tower"
+  },
+  "body": [
+    {
+      "type": "minecraft:item",
+      "item": {
+        "id": "minecraft:cherry_leaves",
+        "count": 1
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "width": 300,
+      "contents": {
+        "type": "translatable",
+        "translate": "phenom.dialog.structure.courtyard_tower.description",
+        "fallback": "A structure found in meadows and cherry groves. A pair of villagers with a cat live inside. A garden adjoins the tower where pink sheep graze. You can find a few useful resources."
+      }
+    }
+  ],
+  "action": {
+    "label": {
+      "translate": "gui.back"
+    },
+    "width": 150,
+    "action": {
+      "type": "minecraft:show_dialog",
+      "dialog": "phenom:structures"
+    }
+  }
+}

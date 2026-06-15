@@ -1,0 +1,28 @@
+[
+    {
+        "function": "minecraft:set_custom_data",
+        "tag": {
+            "master_harness": true
+        }
+    },
+    {
+        "function": "minecraft:set_components",
+        "components": {
+            "minecraft:item_name": {
+                "type": "translatable",
+                "translate": "phenom.item.master_harness.name",
+                "fallback": "Excellent Harness",
+                "color": "#c7c7c7"
+            },
+            "minecraft:attribute_modifiers": [
+            {
+                "type": "minecraft:flying_speed",
+                "id": "mob_flying_speed",
+                "amount": 0.5,
+                "operation": "add_multiplied_total",
+                "slot": "body"
+            }
+            ]
+        }
+    }
+]

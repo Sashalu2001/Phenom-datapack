@@ -1,0 +1,19 @@
+{
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spread_type": "triangular",
+    "salt": 297224,
+    "spacing": 25,
+    "separation": 15,
+    "exclusion_zone": {
+      "chunk_count": 4,
+      "other_set": "minecraft:ocean_monuments"
+    }
+  },
+  "structures": [
+    {
+      "structure": "phenom:sea_palace",
+      "weight": 1
+    }
+  ]
+}

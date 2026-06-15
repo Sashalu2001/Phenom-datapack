@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:notice",
+  "external_title": {
+    "type": "translatable",
+    "translate": "phenom.dialog.structure.witch_tree",
+    "fallback": "Witch Tree"
+  },
+  "title": {
+    "type": "translatable",
+    "translate": "phenom.dialog.structure.witch_tree",
+    "fallback": "Witch Tree"
+  },
+  "body": [
+    {
+      "type": "minecraft:item",
+      "item": {
+        "id": "minecraft:dragon_breath",
+        "count": 1
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "width": 300,
+      "contents": {
+        "type": "translatable",
+        "translate": "phenom.dialog.structure.witch_tree.description",
+        "fallback": "A structure found in swamp territories (including mangroves). An Old Witch lives here, in whose supplies you can find several useful resources, as well as potions brewed according to special recipes known only to the witch herself."
+      }
+    }
+  ],
+  "action": {
+    "label": {
+      "translate": "gui.back"
+    },
+    "width": 150,
+    "action": {
+      "type": "minecraft:show_dialog",
+      "dialog": "phenom:structures"
+    }
+  }
+}

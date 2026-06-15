@@ -1,0 +1,104 @@
+{
+  "parent": "phenom:main_root/overworld/entry_celestial_island",
+  "criteria": {
+    "celestial_island": {
+      "trigger": "minecraft:player_generates_container_loot",
+      "conditions": {
+        "loot_table": "phenom:celestial_island/celestial_island_chest"
+      }
+    },
+    "eat_god_porkchop": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:cooked_porkchop",
+          "predicates": {
+            "minecraft:custom_data": {
+              "god_food": true
+            }
+          }
+        }
+      }
+    },
+    "eat_god_beef": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:cooked_beef",
+          "predicates": {
+            "minecraft:custom_data": {
+              "god_food": true
+            }
+          }
+        }
+      }
+    },
+    "eat_god_chicken": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:cooked_chicken",
+          "predicates": {
+            "minecraft:custom_data": {
+              "god_food": true
+            }
+          }
+        }
+      }
+    },
+    "eat_god_mutton": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:cooked_mutton",
+          "predicates": {
+            "minecraft:custom_data": {
+              "god_food": true
+            }
+          }
+        }
+      }
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "phenom.advancement.main_root.overworld.god_food.description",
+      "fallback": "Taste all the Divine food"
+    },
+    "icon": {
+      "components": {
+        "minecraft:enchantment_glint_override": true,
+        "minecraft:custom_data":
+        {
+            "god_food": true
+        }
+      },
+      "count": 1,
+      "id": "minecraft:cooked_porkchop"
+    },
+    "title": {
+      "translate": "phenom.advancement.main_root.overworld.god_food.title",
+      "fallback": "Heaven's Blessing"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "requirements": [
+    [
+      "celestial_island"
+    ],
+    [
+      "eat_god_porkchop"
+    ],
+    [
+      "eat_god_beef"
+    ],
+    [
+      "eat_god_chicken"
+    ],
+    [
+      "eat_god_mutton"
+    ]
+  ],
+  "sends_telemetry_event": false
+}

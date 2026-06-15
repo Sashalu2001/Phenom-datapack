@@ -1,0 +1,43 @@
+{
+  "spawn_range": 4,
+  "total_mobs": 8,
+  "total_mobs_added_per_player": 4,
+  "simultaneous_mobs": 2,
+  "simultaneous_mobs_added_per_player": 1,
+  "ticks_between_spawn": 20,
+  "loot_tables_to_eject": [
+    {
+      "data": "phenom:pale_trial_dungeon/trial_spawners/normal_standart",
+      "weight": 1
+    }
+  ],
+  "spawn_potentials": [
+    {
+        "weight": 1,
+        "data": {
+            "entity": {
+                "id": "minecraft:zombie",
+                "Tags":["pale_trial_dungeon_mob", "can_destroy_vehicle"],
+                "Team":"pale_trial_dungeon",
+                "PersistenceRequired": true,
+                "CanBreakDoors": true,
+                "CanPickUpLoot": false,
+                "Health": 30,
+                "IsBaby": false,
+                "attributes":[
+                    {"id":"max_health","base":30},
+                    {"id":"movement_speed","base":0.27},
+                    {"id":"attack_damage","base":4},
+                    {"id":"follow_range","base":32},
+                    {"id":"safe_fall_distance","base":32},
+                    {"id":"step_height","base":3}
+                ]
+            },
+            "equipment": {
+                "loot_table": "phenom:pale_trial_dungeon/mob_equipment/normal/zombie",
+                "slot_drop_chances": 0
+            }
+        }
+    }
+  ]
+}

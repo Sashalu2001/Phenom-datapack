@@ -1,0 +1,15 @@
+{
+    "function": "minecraft:set_components",
+    "components": {
+        "minecraft:custom_data": {
+            "leader_vindicator_weapon": true
+        },
+        "minecraft:unbreakable": {},
+        "minecraft:enchantments": {
+            "minecraft:sharpness": 5,
+            "minecraft:knockback": 2,
+            "minecraft:fire_aspect": 1
+        },
+        "minecraft:enchantment_glint_override": true
+    }
+}

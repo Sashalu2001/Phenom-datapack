@@ -1,0 +1,163 @@
+{
+  "type": "minecraft:notice",
+  "external_title": {
+    "type": "translatable",
+    "translate": "phenom.dialog.help.recipes.reinforced_ingot.title",
+    "fallback": "Reinforced Ingot"
+  },
+  "title": {
+    "type": "translatable",
+    "translate": "phenom.dialog.help.recipes.reinforced_ingot.title",
+    "fallback": "Reinforced Ingot"
+  },
+  "body": [
+    {
+      "type": "minecraft:item",
+      "item": {
+        "id": "minecraft:structure_block",
+        "count": 1,
+        "components": {
+          "minecraft:custom_data": {
+            "reinforced_ingot": true
+          },
+          "minecraft:custom_name": {
+            "type": "translatable",
+            "translate": "phenom.item.reinforced_ingot.name",
+            "fallback": "Reinforced Ingot",
+            "color": "#a870c2",
+            "italic": false
+          },
+          "minecraft:item_model": "minecraft:netherite_ingot",
+          "minecraft:enchantment_glint_override": true,
+          "minecraft:damage_resistant": {
+            "types": "#minecraft:is_fire"
+          }
+        }
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "width": 300,
+      "contents": {
+        "type": "translatable",
+        "translate": "phenom.dialog.help.recipes.reinforced_ingot.description.start",
+        "fallback": "Reinforced Ingot",
+        "color": "#a870c2",
+        "extra": [
+          {
+            "type": "translatable",
+            "translate": "phenom.dialog.help.recipes.reinforced_ingot.description.end",
+            "fallback": " - an extra durable alloy that grants equipment incredible protective properties.",
+            "color": "white"
+          }
+        ]
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "width": 300,
+      "contents": {
+        "type": "translatable",
+        "translate": "phenom.dialog.help.recipes.reinforced_ingot.crafting.start",
+        "fallback": "To craft it, you will need: Netherite Ingot (x2), ",
+        "extra": [
+          {
+            "type": "translatable",
+            "translate": "phenom.dialog.help.recipes.reinforced_ingot.crafting.mid",
+            "fallback": "Ether",
+            "color": "#dc5ff5",
+            "click_event": {
+              "action": "show_dialog",
+              "dialog": "phenom:recipes/ether"
+            },
+            "hover_event": {
+              "action": "show_text",
+              "value": {
+                "type": "translatable",
+                "translate": "phenom.dialog.help.amulets.hover",
+                "fallback": "Click here to learn more",
+                "color": "#e9baff"
+              }
+            }
+          },
+          {
+            "type": "translatable",
+            "translate": "phenom.dialog.help.recipes.reinforced_ingot.crafting.end",
+            "fallback": ". Crafting is done at a smithing table."
+          }
+        ]
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "width": 300,
+      "contents": {
+        "type": "translatable",
+        "translate": "phenom.dialog.help.recipes.reinforced_ingot.usage.start",
+        "fallback": "Reinforced ingot is used to craft ",
+        "color": "white",
+        "extra": [
+          {
+            "type": "translatable",
+            "translate": "phenom.item.reinforced_elytra.name",
+            "fallback": "Reinforced Elytra",
+            "color": "#d1b3ff",
+            "click_event": {
+              "action": "show_dialog",
+              "dialog": "phenom:recipes/super_elytra"
+            },
+            "hover_event": {
+              "action": "show_text",
+              "value": {
+                "type": "translatable",
+                "translate": "phenom.dialog.help.amulets.hover",
+                "fallback": "Click here to learn more",
+                "color": "#e9baff"
+              }
+            }
+          },
+          {
+            "type": "translatable",
+            "translate": "phenom.dialog.help.recipes.reinforced_ingot.usage.end",
+            "fallback": " and ",
+            "color": "white"
+          },
+          {
+            "type": "translatable",
+            "translate": "phenom.dialog.help.recipes.reinforced_armor.title",
+            "fallback": "Reinforced Armor",
+            "color": "#d1b3ff",
+            "click_event": {
+              "action": "show_dialog",
+              "dialog": "phenom:recipes/reinforced_armor"
+            },
+            "hover_event": {
+              "action": "show_text",
+              "value": {
+                "type": "translatable",
+                "translate": "phenom.dialog.help.amulets.hover",
+                "fallback": "Click here to learn more",
+                "color": "#e9baff"
+              }
+            }
+          },
+          {
+            "type": "translatable",
+            "translate": "phenom.dialog.help.recipes.reinforced_ingot.usage.final",
+            "fallback": "."
+          }
+        ]
+      }
+    }
+  ],
+  "action": {
+    "label": {
+      "translate": "gui.back"
+    },
+    "width": 150,
+    "action": {
+      "type": "minecraft:show_dialog",
+      "dialog": "phenom:recipes"
+    }
+  }
+}

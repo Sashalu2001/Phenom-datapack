@@ -1,0 +1,50 @@
+{
+  "type": "minecraft:notice",
+  "external_title": {
+    "type": "translatable",
+    "translate": "phenom.dialog.structure.renovated_villages.title",
+    "fallback": "Renovated Villages"
+  },
+  "title": {
+    "type": "translatable",
+    "translate": "phenom.dialog.structure.renovated_villages.title",
+    "fallback": "Renovated Villages"
+  },
+  "body": [
+    {
+      "type": "minecraft:item",
+      "item": {
+        "id": "minecraft:villager_spawn_egg",
+        "count": 1
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "width": 300,
+      "contents": {
+        "type": "translatable",
+        "translate": "phenom.dialog.structure.renovated_villages.description_1",
+        "fallback": "The villages have become bigger and more beautiful. Villagers have also slightly updated their product range."
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "width": 300,
+      "contents": {
+        "type": "translatable",
+        "translate": "phenom.dialog.structure.renovated_villages.description_2",
+        "fallback": "Often you can also find the house of a wealthy cartographer here, who can help you find some rare structures, and something else..."
+      }
+    }
+  ],
+  "action": {
+    "label": {
+      "translate": "gui.back"
+    },
+    "width": 150,
+    "action": {
+      "type": "minecraft:show_dialog",
+      "dialog": "phenom:structures"
+    }
+  }
+}

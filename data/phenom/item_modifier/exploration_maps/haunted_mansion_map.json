@@ -1,0 +1,33 @@
+[
+    {
+        "function": "minecraft:exploration_map",
+        "destination": "phenom:is_haunted_mansion",
+        "decoration": "minecraft:mansion",
+        "search_radius": 100,
+        "zoom": 2,
+        "skip_existing_chunks": false
+    },
+    {
+        "function": "minecraft:set_components",
+        "components": {
+            "minecraft:map_color": 9400918,
+            "minecraft:item_name": {
+                "type": "translatable",
+                "translate": "phenom.item.haunted_mansion_map.name",
+                "fallback": "Haunted Mansion Map"
+            }
+        }
+    },
+    {
+      "function": "minecraft:filtered",
+      "item_filter": {
+        "items": "minecraft:filled_map",
+        "predicates": {
+          "minecraft:map_id": {}
+        }
+      },
+      "on_fail": {
+        "function": "minecraft:discard"
+      }
+    }
+]

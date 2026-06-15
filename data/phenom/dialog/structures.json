@@ -1,0 +1,52 @@
+{
+  "type": "minecraft:dialog_list",
+  "button_width": 200,
+  "columns": 2,
+  "dialogs": [
+    "phenom:structures/renovated_villages",
+    "phenom:structures/beach_house",
+    "phenom:structures/precious_tree",
+    "phenom:structures/abandoned_nest",
+    "phenom:structures/ancient_remains",
+    "phenom:structures/forgotten_tower",
+    "phenom:structures/badlands_tower",
+    "phenom:structures/courtyard_tower",
+    "phenom:structures/ancient_tomb",
+    "phenom:structures/celestial_island",
+    "phenom:structures/sand_oasis",
+    "phenom:structures/desert_ruin",
+    "phenom:structures/desert_pyramid",
+    "phenom:structures/snowy_ruin",
+    "phenom:structures/jungle_forgotten_temple",
+    "phenom:structures/sea_palace",
+    "phenom:structures/witch_tree",
+    "phenom:structures/haunted_mansion",
+    "phenom:structures/pillager_residence",
+    "phenom:structures/pale_trial_dungeon",
+    "phenom:structures/nether_trial_dungeon",
+    "phenom:structures/nether_prison",
+    "phenom:structures/ghast_nest",
+    "phenom:structures/illusion_cube",
+    "phenom:structures/ether_drill"
+  ],
+  "exit_action": {
+    "label": {
+      "translate": "gui.back"
+    },
+    "width": 150,
+    "action": {
+      "type": "minecraft:show_dialog",
+      "dialog": "phenom:phenom_help"
+    }
+  },
+  "external_title": {
+    "type": "translatable",
+    "translate": "phenom.dialog.help.structures",
+    "fallback": "Structures"
+  },
+  "title": {
+    "type": "translatable",
+    "translate": "phenom.dialog.help.structures",
+    "fallback": "Structures"
+  }
+}

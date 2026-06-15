@@ -1,0 +1,51 @@
+[
+{
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "type": "translatable",
+                  "translate": "phenom.item.deadly_crossbow.description_1",
+                  "fallback": "A weapon that once belonged",
+                  "color": "#998f4d",
+                  "italic": false
+                },
+                {
+                  "type": "translatable",
+                  "translate": "phenom.item.deadly_crossbow.description_2",
+                  "fallback": "to one of the Rulers",
+                  "color": "#998f4d",
+                  "italic": false
+                },
+                {
+                  "type": "translatable",
+                  "translate": "phenom.item.deadly_crossbow.description_3",
+                  "fallback": "Releases more powerful projectiles",
+                  "color": "#fd8a58",
+                  "italic": false
+                }
+              ],
+              "mode": "append"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "type": "translatable",
+                "translate": "phenom.item.deadly_crossbow.name",
+                "fallback": "Deadly Crossbow",
+                "color": "#eab72a"
+              },
+              "target": "item_name"
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": {
+                "pillager_leader_weapon": true
+              }
+            },
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:power": 4
+              }
+            }
+]

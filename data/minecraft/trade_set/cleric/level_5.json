@@ -1,0 +1,8 @@
+{
+  "amount": 3,
+  "allow_duplicates": true,
+  "trades": [
+    "phenom:cleric/5/emerald_potion",
+    "phenom:cleric/5/emerald_splash_potion"
+  ]
+}

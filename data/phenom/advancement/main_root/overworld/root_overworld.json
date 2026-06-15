@@ -1,0 +1,34 @@
+{
+  "parent": "phenom:main_root/root",
+  "criteria": {
+    "dimension": {
+      "conditions": {
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "frame": "task",
+    "announce_to_chat": false,
+    "description": {
+      "translate": "phenom.advancement.main_root.overworld.root_overworld.description",
+      "fallback": "Dimension - Overworld"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:grass_block"
+    },
+    "show_toast": false,
+    "title": {
+      "translate": "phenom.advancement.main_root.overworld.root_overworld.title",
+      "fallback": "Overworld"
+    },
+    "hidden": false
+  },
+  "requirements": [
+    [
+      "dimension"
+    ]
+  ],
+  "sends_telemetry_event": false
+}

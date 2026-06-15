@@ -1,0 +1,38 @@
+{
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 198712,
+    "spacing": 8,
+    "separation": 4,
+    "exclusion_zone": {
+      "chunk_count": 8,
+      "other_set": "minecraft:villages"
+    }
+  },
+  "structures": [
+    {
+      "structure": "phenom:biome_decoration/forest_decoraion",
+      "weight": 1
+    },
+    {
+      "structure": "phenom:biome_decoration/desert_decoraion",
+      "weight": 1
+    },
+    {
+      "structure": "phenom:biome_decoration/badlands_decoraion",
+      "weight": 1
+    },
+    {
+      "structure": "phenom:biome_decoration/taiga_decoraion",
+      "weight": 1
+    },
+    {
+      "structure": "phenom:biome_decoration/jungle_decoraion",
+      "weight": 1
+    },
+    {
+      "structure": "phenom:biome_decoration/dark_forest_decoraion",
+      "weight": 1
+    }
+  ]
+}

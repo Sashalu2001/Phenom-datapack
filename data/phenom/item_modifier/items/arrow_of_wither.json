@@ -1,0 +1,27 @@
+[
+    {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:potion_contents": {
+                  "custom_color": 197379,
+                  "custom_effects": [
+                    {
+                      "id": "minecraft:wither",
+                      "amplifier": 0,
+                      "duration": 2400
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "type": "translatable",
+                "translate": "phenom.item.arrow_of_wither.name",
+                "fallback": "Arrow of Wither",
+                "italic": false
+              },
+              "target": "custom_name"
+            }
+]

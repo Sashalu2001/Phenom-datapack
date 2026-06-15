@@ -1,0 +1,43 @@
+{
+  "parent": "phenom:main_root/end/root_end",
+  "criteria": {
+    "entry_structure": {
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structures": "phenom:ether_drill"
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:location"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "phenom.advancement.main_root.end.entry_ether_drill.description",
+      "fallback": "Find the Ether Drill"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:netherite_pickaxe"
+    },
+    "title": {
+      "translate": "phenom.advancement.main_root.end.entry_ether_drill.title",
+      "fallback": "Is there a mine in the End?"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "requirements": [
+    [
+      "entry_structure"
+    ]
+  ],
+  "sends_telemetry_event": false
+}

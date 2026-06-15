@@ -1,0 +1,51 @@
+[
+    {
+        "function": "set_components",
+        "components": {
+            "minecraft:item_name": {
+            "translate": "phenom.item.elite_ominous_banner",
+            "fallback": "Elite Ominous Banner"
+          },
+          "rarity": "uncommon",
+          "minecraft:banner_patterns": [
+            {
+              "color": "red",
+              "pattern": "minecraft:rhombus"
+            },
+            {
+              "color": "gray",
+              "pattern": "minecraft:stripe_bottom"
+            },
+            {
+              "color": "black",
+              "pattern": "minecraft:stripe_center"
+            },
+            {
+              "color": "black",
+              "pattern": "minecraft:stripe_middle"
+            },
+            {
+              "color": "gray",
+              "pattern": "minecraft:half_horizontal"
+            },
+            {
+              "color": "red",
+              "pattern": "minecraft:border"
+            },
+            {
+              "color": "gray",
+              "pattern": "minecraft:circle"
+            },
+            {
+              "color": "black",
+              "pattern": "minecraft:border"
+            }
+          ],
+          "minecraft:tooltip_display": {
+            "hidden_components": [
+              "minecraft:banner_patterns"
+            ]
+          }
+        }
+    }
+]

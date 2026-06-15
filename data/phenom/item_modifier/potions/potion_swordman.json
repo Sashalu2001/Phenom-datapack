@@ -1,0 +1,32 @@
+[
+           {
+              "function": "minecraft:set_name",
+              "name": {
+                "type": "translatable",
+                "translate": "phenom.item.potion_of_swordsman.name",
+                "fallback": "Swordsman's Potion",
+                "italic": false
+              },
+              "target": "custom_name"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:potion_contents": {
+                  "custom_color": 15096832,
+                  "custom_effects": [
+                    {
+                      "id": "minecraft:strength",
+                      "amplifier": 0,
+                      "duration": 4800
+                    },
+                    {
+                      "id": "minecraft:haste",
+                      "amplifier": 2,
+                      "duration": 4800
+                    }
+                  ]
+                }
+              }
+            }
+]

@@ -1,0 +1,30 @@
+{
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 14357617,
+    "separation": 10,
+    "spacing": 16,
+    "exclusion_zone": {
+      "chunk_count": 10,
+      "other_set": "minecraft:villages"
+    }
+  },
+  "structures": [
+    {
+      "structure": "minecraft:desert_pyramid",
+      "weight": 1
+    },
+    {
+      "structure": "phenom:desert_pyramid",
+      "weight": 1
+    },
+    {
+      "structure": "phenom:desert_ruin",
+      "weight": 1
+    },
+    {
+      "structure": "phenom:sand_oasis",
+      "weight": 1
+    }
+  ]
+}

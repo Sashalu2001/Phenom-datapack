@@ -1,0 +1,27 @@
+[
+           {
+              "function": "minecraft:set_name",
+              "name": {
+                "type": "translatable",
+                "translate": "phenom.item.potion_of_health_boost.name",
+                "fallback": "Health Boost Potion",
+                "italic": false
+              },
+              "target": "custom_name"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:potion_contents": {
+                  "custom_color": 13830429,
+                  "custom_effects": [
+                    {
+                      "id": "minecraft:health_boost",
+                      "amplifier": 0,
+                      "duration": 6000
+                    }
+                  ]
+                }
+              }
+            }
+]

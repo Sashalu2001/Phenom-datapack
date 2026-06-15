@@ -1,0 +1,58 @@
+{
+  "wants": {
+    "id": "minecraft:map",
+    "count": 1
+  },
+  "additional_wants": {
+    "id": "minecraft:diamond",
+    "count": 10
+  },
+  "gives": {
+    "id": "minecraft:map",
+    "count": 1
+  },
+  "given_item_modifiers": [
+    {
+        "function": "minecraft:exploration_map",
+        "destination": "phenom:is_desert_pyramid",
+        "decoration": "minecraft:village_desert",
+        "search_radius": 100,
+        "zoom": 2,
+        "skip_existing_chunks": false
+    },
+    {
+        "function": "minecraft:set_components",
+        "components": {
+            "minecraft:map_color": 13740800,
+            "minecraft:item_name": {
+                "type": "translatable",
+                "translate": "phenom.item.desert_pyramid_map.name",
+                "fallback": "Desert Pyramid Map"
+            }
+        }
+    },
+    {
+      "function": "minecraft:filtered",
+      "item_filter": {
+        "items": "minecraft:filled_map",
+        "predicates": {
+          "minecraft:map_id": {}
+        }
+      },
+      "on_fail": {
+        "function": "minecraft:discard"
+      }
+    }
+  ],
+  "max_uses": 1,
+  "xp": 1,
+  "reputation_discount": 0.05,
+  "merchant_predicate": {
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+        "type": "minecraft:villager",
+        "nbt": "{Tags:[\"wealthy_cartographer\"]}"
+    }
+  }
+}

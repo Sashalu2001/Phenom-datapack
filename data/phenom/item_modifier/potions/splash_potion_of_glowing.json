@@ -1,0 +1,27 @@
+[
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "type": "translatable",
+                "translate": "phenom.item.splash_potion_of_glowing.name",
+                "fallback": "Splash Potion of Glowing",
+                "italic": false
+              },
+              "target": "custom_name"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:potion_contents": {
+                  "custom_color": 16775224,
+                  "custom_effects": [
+                    {
+                      "id": "minecraft:glowing",
+                      "amplifier": 0,
+                      "duration": 1200
+                    }
+                  ]
+                }
+              }
+            }
+]

@@ -1,0 +1,51 @@
+{
+    "name": "minecraft:village/desert/terminators",
+    "elements": [
+      {
+        "weight": 1,
+        "element": {
+          "location": "minecraft:village/desert/terminators/terminator_01",
+          "processors": "minecraft:street_desert",
+          "projection": "terrain_matching",
+          "element_type": "minecraft:legacy_single_pool_element"
+        }
+      },
+      {
+        "weight": 1,
+        "element": {
+          "location": "minecraft:village/desert/terminators/terminator_02",
+          "processors": "minecraft:street_desert",
+          "projection": "terrain_matching",
+          "element_type": "minecraft:legacy_single_pool_element"
+        }
+      },
+      {
+        "weight": 1,
+        "element": {
+          "location": "minecraft:village/desert/terminators/terminator_03",
+          "processors": "minecraft:street_desert",
+          "projection": "terrain_matching",
+          "element_type": "minecraft:legacy_single_pool_element"
+        }
+      },
+      {
+        "weight": 1,
+        "element": {
+          "location": "minecraft:village/desert/terminators/terminator_04",
+          "processors": "minecraft:street_desert",
+          "projection": "terrain_matching",
+          "element_type": "minecraft:legacy_single_pool_element"
+        }
+      },
+      {
+        "weight": 1,
+        "element": {
+          "location": "minecraft:village/desert/terminators/terminator_05",
+          "processors": "minecraft:street_desert",
+          "projection": "terrain_matching",
+          "element_type": "minecraft:legacy_single_pool_element"
+        }
+      }
+    ],
+    "fallback": "minecraft:village/desert/terminators"
+  }

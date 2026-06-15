@@ -1,0 +1,35 @@
+[
+    {
+        "function": "minecraft:set_custom_data",
+        "tag": {
+        "master_saddle": true
+        }
+    },
+    {
+        "function": "minecraft:set_components",
+        "components": {
+        "minecraft:item_name": {
+            "type": "translatable",
+            "translate": "phenom.item.master_saddle.name",
+            "fallback": "Excellent Saddle",
+            "color": "#1db818"
+        },
+        "minecraft:attribute_modifiers": [
+            {
+                "type": "minecraft:movement_speed",
+                "id": "mob_movement_speed",
+                "amount": 0.5,
+                "operation": "add_multiplied_total",
+                "slot": "saddle"
+            },
+            {
+                "type": "minecraft:jump_strength",
+                "id": "mob_jump_strength",
+                "amount": 0.25,
+                "operation": "add_multiplied_total",
+                "slot": "saddle"
+            }
+        ]
+        }
+    }
+]

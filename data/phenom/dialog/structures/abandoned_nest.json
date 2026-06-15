@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:notice",
+  "external_title": {
+    "type": "translatable",
+    "translate": "phenom.dialog.structure.abandoned_nest",
+    "fallback": "Abandoned Nest"
+  },
+  "title": {
+    "type": "translatable",
+    "translate": "phenom.dialog.structure.abandoned_nest",
+    "fallback": "Abandoned Nest"
+  },
+  "body": [
+    {
+      "type": "minecraft:item",
+      "item": {
+        "id": "minecraft:ender_dragon_spawn_egg",
+        "count": 1
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "width": 300,
+      "contents": {
+        "type": "translatable",
+        "translate": "phenom.dialog.structure.abandoned_nest.description",
+        "fallback": "A structure that can sometimes be found on the surface. The nest often contains remains of an ancient creature."
+      }
+    }
+  ],
+  "action": {
+    "label": {
+      "translate": "gui.back"
+    },
+    "width": 150,
+    "action": {
+      "type": "minecraft:show_dialog",
+      "dialog": "phenom:structures"
+    }
+  }
+}

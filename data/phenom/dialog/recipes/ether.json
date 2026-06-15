@@ -1,0 +1,126 @@
+{
+  "type": "minecraft:notice",
+  "external_title": {
+    "type": "translatable",
+    "translate": "phenom.dialog.help.recipes.ether.title",
+    "fallback": "Ether"
+  },
+  "title": {
+    "type": "translatable",
+    "translate": "phenom.dialog.help.recipes.ether.title",
+    "fallback": "Ether"
+  },
+  "body": [
+    {
+      "type": "minecraft:item",
+      "item": {
+        "id": "minecraft:test_block",
+        "count": 1,
+        "components": {
+          "minecraft:custom_data": {
+              "ether": true
+          },
+          "minecraft:item_name": {
+              "type": "translatable",
+              "translate": "phenom.item.ether.name",
+              "fallback": "Ether",
+              "color": "#dc5ff5"
+          },
+          "minecraft:item_model": "minecraft:amethyst_shard",
+          "minecraft:enchantment_glint_override": true,
+          "minecraft:damage_resistant": {
+            "types": "#phenom:is_fire_explosion"
+          }
+      }
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "width": 300,
+      "contents": {
+        "type": "translatable",
+        "translate": "phenom.dialog.help.recipes.ether.description_1",
+        "fallback": "Ether",
+        "color": "#dc5ff5",
+        "extra": [
+          {
+            "type": "translatable",
+            "translate": "phenom.dialog.help.recipes.ether.description_2",
+            "fallback": " - a very rare mineral of unique origin with unusual properties. It is necessary to create a ",
+            "color": "white"
+          },
+          {
+            "type": "translatable",
+            "translate": "phenom.dialog.help.recipes.ether.description_3",
+            "fallback": "Reinforced Ingot",
+            "color": "#a870c2",
+            "click_event": {
+              "action": "show_dialog",
+              "dialog": "phenom:recipes/super_material"
+            },
+            "hover_event": {
+              "action": "show_text",
+              "value": {
+                "type": "translatable",
+                "translate": "phenom.dialog.help.amulets.hover",
+                "fallback": "Click here to learn more",
+                "color": "#e9baff"
+              }
+            }
+          },
+          {
+            "type": "translatable",
+            "translate": "phenom.dialog.help.recipes.ether.description_4",
+            "fallback": ".",
+            "color": "white"
+          }
+        ]
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "width": 300,
+      "contents": {
+        "type": "translatable",
+        "translate": "phenom.dialog.help.recipes.ether.description_5",
+        "fallback": "Ether can be obtained by processing the ",
+        "extra": [
+          {
+            "type": "translatable",
+            "translate": "phenom.dialog.help.recipes.ether.description_6",
+            "fallback": "Primordial Ether",
+            "color": "#cb95e4",
+            "click_event": {
+              "action": "show_dialog",
+              "dialog": "phenom:structures/ether_drill"
+            },
+            "hover_event": {
+              "action": "show_text",
+              "value": {
+                "type": "translatable",
+                "translate": "phenom.dialog.help.amulets.hover",
+                "fallback": "Click here to learn more",
+                "color": "#e9baff"
+              }
+            }
+          },
+          {
+            "type": "translatable",
+            "translate": "phenom.dialog.help.recipes.ether.description_7",
+            "fallback": " in a blast furnace."
+          }
+        ]
+      }
+    }
+  ],
+  "action": {
+    "label": {
+      "translate": "gui.back"
+    },
+    "width": 150,
+    "action": {
+      "type": "minecraft:show_dialog",
+      "dialog": "phenom:recipes"
+    }
+  }
+}

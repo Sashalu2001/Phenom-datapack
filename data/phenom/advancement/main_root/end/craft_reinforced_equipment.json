@@ -1,0 +1,68 @@
+{
+  "parent": "phenom:main_root/end/kill_boss_shulker",
+  "criteria": {
+    "craft_reinforced_elytra": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "phenom:super_elytra"
+      }
+    },
+    "craft_reinforced_helmet": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "phenom:reinforced_helmet"
+      }
+    },
+    "craft_reinforced_chestplate": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "phenom:reinforced_chestplate"
+      }
+    },
+    "craft_reinforced_leggings": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "phenom:reinforced_leggings"
+      }
+    },
+    "craft_reinforced_boots": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "phenom:reinforced_boots"
+      }
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "phenom.advancement.main_root.end.craft_reinforced_equipment.description",
+      "fallback": "Craft reinforced elytra or reinforced armor"
+    },
+    "icon": {
+      "components": {
+        "minecraft:enchantment_glint_override": true,
+        "minecraft:custom_data":
+        {
+            "reinforced_elytra": true
+        }
+      },
+      "count": 1,
+      "id": "minecraft:elytra"
+    },
+    "title": {
+      "translate": "phenom.advancement.main_root.end.craft_reinforced_equipment.title",
+      "fallback": "From a Different Alloy"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true
+  },
+  "requirements": [
+    [
+      "craft_reinforced_elytra",
+      "craft_reinforced_helmet",
+      "craft_reinforced_chestplate",
+      "craft_reinforced_leggings",
+      "craft_reinforced_boots"
+    ]
+  ],
+  "sends_telemetry_event": false
+}

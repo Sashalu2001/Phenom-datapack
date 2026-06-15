@@ -1,0 +1,43 @@
+{
+  "parent": "phenom:main_root/overworld/root_overworld",
+  "criteria": {
+    "entry_structure": {
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structures": "phenom:ancient_tomb"
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:location"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "phenom.advancement.main_root.overworld.entry_ancient_tomb.description",
+      "fallback": "Enter the Ancient Tomb"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:chiseled_deepslate"
+    },
+    "title": {
+      "translate": "phenom.advancement.main_root.overworld.entry_ancient_tomb.title",
+      "fallback": "Restless Souls"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "requirements": [
+    [
+      "entry_structure"
+    ]
+  ],
+  "sends_telemetry_event": false
+}

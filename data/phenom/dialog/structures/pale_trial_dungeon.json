@@ -1,0 +1,198 @@
+{
+  "type": "minecraft:notice",
+  "external_title": {
+    "type": "translatable",
+    "translate": "phenom.dialog.help.structure.pale_trial_dungeon",
+    "fallback": "Pale Trial Dungeon"
+  },
+  "title": {
+    "type": "translatable",
+    "translate": "phenom.dialog.help.structure.pale_trial_dungeon",
+    "fallback": "Pale Trial Dungeon"
+  },
+  "body": [
+    {
+      "type": "minecraft:item",
+      "item": {
+        "id": "minecraft:stripped_pale_oak_log",
+        "count": 1
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "width": 300,
+      "contents": {
+        "type": "translatable",
+        "translate": "phenom.dialog.structure.pale_trial_dungeon.description.start",
+        "fallback": "A large underground structure, the entrance to which is located on the surface. You can also find the entrance by ",
+        "extra": [
+          {
+            "type": "translatable",
+            "translate": "phenom.dialog.structure.pale_trial_dungeon.map_link",
+            "fallback": "pale trial dungeon map",
+            "color": "#c2c2c2",
+            "click_event": {
+              "action": "show_dialog",
+              "dialog": "phenom:structures/renovated_villages"
+            },
+            "hover_event": {
+              "action": "show_text",
+              "value": {
+                "type": "translatable",
+                "translate": "phenom.dialog.help.amulets.hover",
+                "fallback": "Click here to learn more",
+                "color": "#e9baff"
+              }
+            }
+          },
+          {
+            "text": "."
+          }
+        ]
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "width": 300,
+      "contents": {
+        "type": "translatable",
+        "translate": "phenom.dialog.structure.pale_trial_dungeon.description.mid1",
+        "fallback": "The structure is a corridor leading to several rooms with trial spawners and vaults. The spawners summon several stronger versions of mobs and after victory award Pale Trial Key, or its ominous version (if the spawner was ominous)."
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "width": 300,
+      "contents": {
+        "type": "translatable",
+        "translate": "phenom.dialog.structure.pale_trial_dungeon.description.mid2",
+        "fallback": "Vaults can only be opened with pale versions of keys. They contain many useful resources, as well as several unique ones:"
+      }
+    },
+    {
+      "type": "minecraft:item",
+      "item": {
+        "id": "minecraft:enchanted_book",
+        "count": 1,
+        "components": {
+        "minecraft:stored_enchantments": {
+          "phenom:rift": 5
+        }
+      }
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "width": 300,
+      "contents": {
+        "type": "translatable",
+        "translate": "phenom.dialog.structure.pale_trial_dungeon.rift_name",
+        "fallback": "New Enchantment: Rift",
+        "color": "yellow",
+        "click_event": {
+          "action": "show_dialog",
+          "dialog": "phenom:enchantments/rift"
+        },
+            "hover_event": {
+              "action": "show_text",
+              "value": {
+                "type": "translatable",
+                "translate": "phenom.dialog.help.amulets.hover",
+                "fallback": "Click here to learn more",
+                "color": "#e9baff"
+              }
+            }
+      }
+    },
+    {
+      "type": "minecraft:item",
+      "item": {
+        "id": "minecraft:enchanted_book",
+        "count": 1,
+        "components": {
+        "minecraft:stored_enchantments": {
+          "phenom:lightness": 3
+        }
+      }
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "width": 300,
+      "contents": {
+        "type": "translatable",
+        "translate": "phenom.dialog.structure.pale_trial_dungeon.lightness_name",
+        "fallback": "New Enchantment: Lightness",
+        "color": "yellow",
+        "click_event": {
+          "action": "show_dialog",
+          "dialog": "phenom:enchantments/lightness"
+        },
+            "hover_event": {
+              "action": "show_text",
+              "value": {
+                "type": "translatable",
+                "translate": "phenom.dialog.help.amulets.hover",
+                "fallback": "Click here to learn more",
+                "color": "#e9baff"
+              }
+            }
+      }
+    },
+    {
+      "type": "minecraft:item",
+      "item": {
+        "id": "minecraft:totem_of_undying",
+        "count": 1,
+        "components": {
+          "minecraft:item_model": "minecraft:end_crystal",
+          "minecraft:enchantment_glint_override": true,
+          "minecraft:custom_name": {
+            "type": "translatable",
+            "translate": "phenom.item.amulet.resistance.name",
+            "fallback": "Pristine Resistance Amulet",
+            "color": "#d6bfdd",
+            "italic": false
+          },
+          "minecraft:custom_data": {
+            "amulet": true,
+            "amulet_id": "resistance"
+          }
+        }
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "width": 300,
+      "contents": {
+          "type": "translatable",
+          "translate": "phenom.item.amulet.resistance.name",
+          "fallback": "Pristine Resistance Amulet",
+          "color": "#bb3fe9",
+          "click_event": {
+            "action": "show_dialog",
+            "dialog": "phenom:amulets"
+          },
+            "hover_event": {
+              "action": "show_text",
+              "value": {
+                "type": "translatable",
+                "translate": "phenom.dialog.help.amulets.hover",
+                "fallback": "Click here to learn more",
+                "color": "#e9baff"
+              }
+            }
+      }
+    }
+  ],
+  "action": {
+    "label": {
+      "translate": "gui.back"
+    },
+    "width": 150,
+    "action": {
+      "type": "minecraft:show_dialog",
+      "dialog": "phenom:structures"
+    }
+  }
+}

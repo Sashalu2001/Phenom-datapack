@@ -1,0 +1,103 @@
+{
+  "type": "minecraft:notice",
+  "external_title": {
+    "type": "translatable",
+    "translate": "phenom.dialog.help.enchantments.rift.title",
+    "fallback": "Rift"
+  },
+  "title": {
+    "type": "translatable",
+    "translate": "phenom.dialog.help.enchantments.rift.title",
+    "fallback": "Rift"
+  },
+  "body": [
+    {
+      "type": "minecraft:item",
+      "item": {
+        "id": "minecraft:enchanted_book",
+        "count": 1,
+        "components": {
+          "minecraft:stored_enchantments": {
+            "phenom:rift": 5
+          }
+        }
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "width": 300,
+      "contents": {
+        "type": "translatable",
+        "translate": "phenom.dialog.help.enchantments.rift.name",
+        "fallback": "Rift",
+        "color": "yellow",
+        "extra": [
+          {
+            "type": "translatable",
+            "translate": "phenom.dialog.help.enchantments.rift.description",
+            "fallback": " - an enchantment that significantly increases melee weapon damage. Increases direct damage by 1.25 points per level (similar to Sharpness) and ignores enemy armor (similar to Breach). Can be applied to most melee weapons, but conflicts with other combat enchantments. Can be found in regular and ominous vaults ",
+            "color": "white"
+          },
+          {
+            "type": "translatable",
+            "translate": "phenom.dialog.help.structure.pale_trial_dungeon",
+            "fallback": "Pale Trial Dungeon",
+            "color": "#c2c2c2",
+            "click_event": {
+              "action": "show_dialog",
+              "dialog": "phenom:structures/pale_trial_dungeon"
+            },
+            "hover_event": {
+              "action": "show_text",
+              "value": {
+                "type": "translatable",
+                "translate": "phenom.dialog.help.amulets.hover",
+                "fallback": "Click here to learn more",
+                "color": "#e9baff"
+              }
+            }
+          },
+          {
+            "text": " or ",
+            "color": "white"
+          },
+          {
+            "type": "translatable",
+            "translate": "phenom.dialog.help.structure.nether_trial_dungeon",
+            "fallback": "Nether Trial Dungeon",
+            "color": "#ff7d7d",
+            "click_event": {
+              "action": "show_dialog",
+              "dialog": "phenom:structures/nether_trial_dungeon"
+            },
+            "hover_event": {
+              "action": "show_text",
+              "value": {
+                "type": "translatable",
+                "translate": "phenom.dialog.help.amulets.hover",
+                "fallback": "Click here to learn more",
+                "color": "#e9baff"
+              }
+            }
+          },
+          {
+            "type": "translatable",
+            "translate": "phenom.dialog.help.enchantments.rift.desc_end",
+            "fallback": ". Max level - V",
+            "color": "white"
+          }
+        ]
+      }
+    }
+  ],
+  "action": {
+    "label": {
+      "translate": "gui.back"
+    },
+    "width": 150,
+    "action": {
+      "type": "minecraft:show_dialog",
+      "dialog": "phenom:enchantments"
+    }
+  }
+}

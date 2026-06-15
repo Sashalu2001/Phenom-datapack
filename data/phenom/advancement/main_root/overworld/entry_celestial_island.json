@@ -1,0 +1,43 @@
+{
+  "parent": "phenom:main_root/overworld/root_overworld",
+  "criteria": {
+    "entry_structure": {
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structures": "phenom:celestial_island"
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:location"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "phenom.advancement.main_root.overworld.entry_celestial_island.description",
+      "fallback": "Reach the Celestial Island"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:quartz_stairs"
+    },
+    "title": {
+      "translate": "phenom.advancement.main_root.overworld.entry_celestial_island.title",
+      "fallback": "Is This Heaven?"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "requirements": [
+    [
+      "entry_structure"
+    ]
+  ],
+  "sends_telemetry_event": false
+}

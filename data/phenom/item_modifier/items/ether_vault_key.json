@@ -1,0 +1,15 @@
+[
+    {
+        "function": "set_components",
+        "components": {
+           "custom_data":{
+                "ether_vault_key": true
+            },
+            "item_name": {
+                "type": "translatable",
+                "translate": "phenom.item.ether_vault_key.name",
+                "fallback": "Ether Vault Key"
+            }
+        }
+    }
+]

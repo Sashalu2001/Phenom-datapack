@@ -1,0 +1,69 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "i": "minecraft:diamond",
+    "b": "minecraft:diamond_block"
+  },
+  "pattern": [
+    "ibi",
+    "iii",
+    " i "
+  ],
+  "result": {
+    "components": {
+      "minecraft:item_name": {
+        "translate": "phenom.item.diamond_shield.name",
+        "fallback": "Diamond shield"
+      },
+      "minecraft:blocks_attacks": {
+        "disable_cooldown_scale": 0.5,
+        "item_damage": {
+          "threshold": 0,
+          "base": 0,
+          "factor": 0.4
+        },
+        "block_sound": "minecraft:block.iron.hit",
+        "disabled_sound": "minecraft:block.iron.break",
+        "bypassed_by": "#minecraft:bypasses_shield"
+      },
+      "minecraft:max_damage": 1536,
+      "minecraft:banner_patterns": [
+        {
+          "color": "white",
+          "pattern": "minecraft:base"
+        },
+        {
+          "color": "cyan",
+          "pattern": "minecraft:diagonal_up_right"
+        },
+        {
+          "color": "light_blue",
+          "pattern": "minecraft:gradient_up"
+        },
+        {
+          "color": "light_blue",
+          "pattern": "minecraft:gradient"
+        },
+        {
+          "color": "light_blue",
+          "pattern": "minecraft:border"
+        }
+      ],
+      "minecraft:repairable": {
+        "items": "minecraft:diamond"
+      },
+      "minecraft:tooltip_display": {
+        "hidden_components": [
+          "minecraft:banner_patterns"
+        ]
+      },
+      "minecraft:custom_data": {
+        "shield": true,
+        "shield_type": "diamond"
+      }
+    },
+    "count": 1,
+    "id": "minecraft:shield"
+  }
+}

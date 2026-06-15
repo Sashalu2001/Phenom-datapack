@@ -1,0 +1,14 @@
+{
+    "function": "minecraft:set_components",
+    "components": {
+        "minecraft:custom_data": {
+            "stray_archer_weapon": true
+        },
+        "minecraft:unbreakable": {},
+        "minecraft:enchantments": {
+            "minecraft:power": 2,
+            "minecraft:punch": 1
+        },
+        "minecraft:enchantment_glint_override": false
+    }
+}

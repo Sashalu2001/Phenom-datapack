@@ -1,0 +1,107 @@
+{
+  "type": "minecraft:notice",
+  "external_title": {
+    "type": "translatable",
+    "translate": "phenom.dialog.help.recipes.shields.title",
+    "fallback": "Shields from Different Materials"
+  },
+  "title": {
+    "type": "translatable",
+    "translate": "phenom.dialog.help.recipes.shields.title",
+    "fallback": "Shields from Different Materials"
+  },
+  "body": [
+    {
+      "type": "minecraft:item",
+      "item": {
+        "id": "minecraft:shield",
+        "count": 1,
+        "components": {
+      "minecraft:item_name": {
+        "type": "translatable",
+        "translate": "phenom.item.diamond_shield.name",
+        "fallback": "Diamond shield"
+      },
+      "minecraft:max_damage": 1536,
+      "minecraft:banner_patterns": [
+        {
+          "color": "white",
+          "pattern": "minecraft:base"
+        },
+        {
+          "color": "cyan",
+          "pattern": "minecraft:diagonal_up_right"
+        },
+        {
+          "color": "light_blue",
+          "pattern": "minecraft:gradient_up"
+        },
+        {
+          "color": "light_blue",
+          "pattern": "minecraft:gradient"
+        },
+        {
+          "color": "light_blue",
+          "pattern": "minecraft:border"
+        }
+      ],
+      "minecraft:tooltip_display": {
+        "hidden_components": [
+          "minecraft:banner_patterns"
+        ]
+      },
+      "minecraft:custom_data": {
+        "shield": true,
+        "shield_type": "diamond"
+      }
+    }
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "width": 300,
+      "contents": {
+        "type": "translatable",
+        "translate": "phenom.dialog.help.recipes.shields.description",
+        "fallback": "Besides wooden ones, you can now craft stone, copper, iron, golden, diamond, and netherite shields. Each shield differs in durability and cooldown time after heavy hits (mob with axe, warden)."
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "width": 300,
+      "contents": {
+        "type": "translatable",
+        "translate": "phenom.dialog.help.recipes.shields.stone.crafting",
+        "fallback": "To craft a stone shield, replace all planks in the wooden shield recipe with cobblestone (cobbled deepslate and blackstone also work)."
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "width": 300,
+      "contents": {
+        "type": "translatable",
+        "translate": "phenom.dialog.help.recipes.shields.metal.crafting",
+        "fallback": "To craft a copper/iron/golden/diamond shield, replace all planks in the wooden shield recipe with copper/iron/gold ingots or diamond respectively, and the iron ingot with a copper/iron/gold/diamond block respectively."
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "width": 300,
+      "contents": {
+        "type": "translatable",
+        "translate": "phenom.dialog.help.recipes.shields.netherite.crafting",
+        "fallback": "To craft a netherite shield, replace the central diamond in the diamond shield recipe with a netherite ingot."
+      }
+    }
+  ],
+  "action": {
+    "label": {
+      "translate": "gui.back"
+    },
+    "width": 150,
+    "action": {
+      "type": "minecraft:show_dialog",
+      "dialog": "phenom:recipes"
+    }
+  }
+}

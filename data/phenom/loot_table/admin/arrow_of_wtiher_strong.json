@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:tipped_arrow",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "reference",
+              "name": "phenom:items/arrow_of_wither_strong"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

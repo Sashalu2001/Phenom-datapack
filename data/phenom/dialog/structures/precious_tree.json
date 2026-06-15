@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:notice",
+  "external_title": {
+    "type": "translatable",
+    "translate": "phenom.dialog.structure.precious_tree",
+    "fallback": "Precious Tree"
+  },
+  "title": {
+    "type": "translatable",
+    "translate": "phenom.dialog.structure.precious_tree",
+    "fallback": "Precious Tree"
+  },
+  "body": [
+    {
+      "type": "minecraft:item",
+      "item": {
+        "id": "minecraft:cherry_sapling",
+        "count": 1
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "width": 300,
+      "contents": {
+        "type": "translatable",
+        "translate": "phenom.dialog.structure.precious_tree.description",
+        "fallback": "A structure found in caves. It is a large tree that can have useful ores on it. The following types of trees exist: amethyst, diamond, emerald, gold, lapis lazuli, magma, opal, redstone"
+      }
+    }
+  ],
+  "action": {
+    "label": {
+      "translate": "gui.back"
+    },
+    "width": 150,
+    "action": {
+      "type": "minecraft:show_dialog",
+      "dialog": "phenom:structures"
+    }
+  }
+}

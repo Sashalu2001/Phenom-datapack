@@ -1,0 +1,67 @@
+{
+  "type": "minecraft:notice",
+  "external_title": {
+    "type": "translatable",
+    "translate": "phenom.dialog.help.structure.sea_palace",
+    "fallback": "Sea Palace"
+  },
+  "title": {
+    "type": "translatable",
+    "translate": "phenom.dialog.help.structure.sea_palace",
+    "fallback": "Sea Palace"
+  },
+  "body": [
+    {
+      "type": "minecraft:item",
+      "item": {
+        "id": "minecraft:sea_lantern",
+        "count": 1
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "width": 300,
+      "contents": {
+        "type": "translatable",
+        "translate": "phenom.dialog.structure.sea_palace.description.start",
+        "fallback": "An underwater structure found at the bottom of deep oceans. Keepers of the Sea wander the territory of the structure. Here you can find ",
+        "extra": [
+          {
+            "type": "translatable",
+            "translate": "phenom.item.amulet.sea.name",
+            "fallback": "Lonely Depths Amulet",
+            "color": "#bb3fe9",
+            "click_event": {
+              "action": "show_dialog",
+              "dialog": "phenom:amulets"
+            },
+            "hover_event": {
+              "action": "show_text",
+              "value": {
+                "type": "translatable",
+                "translate": "phenom.dialog.help.amulets.hover",
+                "fallback": "Click here to learn more",
+                "color": "#e9baff"
+              }
+            }
+          },
+          {
+            "type": "translatable",
+            "translate": "phenom.dialog.structure.sea_palace.description.end",
+            "fallback": " and a few useful resources."
+          }
+        ]
+      }
+    }
+  ],
+  "action": {
+    "label": {
+      "translate": "gui.back"
+    },
+    "width": 150,
+    "action": {
+      "type": "minecraft:show_dialog",
+      "dialog": "phenom:structures"
+    }
+  }
+}

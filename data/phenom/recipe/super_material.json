@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": "minecraft:test_block",
+  "base": "minecraft:netherite_ingot",
+  "result": {
+    "components": {
+        "minecraft:custom_data": {
+          "reinforced_ingot": true
+        },
+        "minecraft:item_name": {
+          "translate": "phenom.item.reinforced_ingot.name",
+          "fallback": "Reinforced Ingot",
+          "color": "#a870c2"
+        },
+        "minecraft:item_model": "minecraft:netherite_ingot",
+        "minecraft:enchantment_glint_override": true,
+        "minecraft:damage_resistant": {
+          "types": "#phenom:is_fire_explosion"
+        }
+    },
+    "count": 1,
+    "id": "minecraft:structure_block"
+  },
+  "template": "minecraft:netherite_ingot"
+}

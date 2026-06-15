@@ -1,0 +1,135 @@
+{
+  "type": "minecraft:equipment",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+            "type": "minecraft:loot_table",
+            "weight": 4,
+            "value": {
+                "pools": [
+                    {
+                        "rolls": 1,
+                        "entries": [
+                            {
+                                "type": "minecraft:item",
+                                "name": "minecraft:leather_helmet"
+                            }
+                        ]
+                    },
+                    {
+                        "rolls": 1,
+                        "entries": [
+                            {
+                                "type": "minecraft:item",
+                                "name": "minecraft:leather_chestplate"
+                            }
+                        ]
+                    },
+                    {
+                        "rolls": 1,
+                        "entries": [
+                            {
+                                "type": "minecraft:item",
+                                "name": "minecraft:leather_leggings"
+                            }
+                        ]
+                    },
+                    {
+                        "rolls": 1,
+                        "entries": [
+                            {
+                                "type": "minecraft:item",
+                                "name": "minecraft:leather_boots"
+                            }
+                        ]
+                    }
+                ]
+          }
+        },
+        {
+            "type": "minecraft:loot_table",
+            "weight": 1,
+            "value": {
+                "pools": [
+                    {
+                        "rolls": 1,
+                        "entries": [
+                            {
+                                "type": "minecraft:item",
+                                "name": "minecraft:diamond_helmet"
+                            }
+                        ]
+                    },
+                    {
+                        "rolls": 1,
+                        "entries": [
+                            {
+                                "type": "minecraft:item",
+                                "name": "minecraft:diamond_chestplate"
+                            }
+                        ]
+                    },
+                    {
+                        "rolls": 1,
+                        "entries": [
+                            {
+                                "type": "minecraft:item",
+                                "name": "minecraft:diamond_leggings"
+                            }
+                        ]
+                    },
+                    {
+                        "rolls": 1,
+                        "entries": [
+                            {
+                                "type": "minecraft:item",
+                                "name": "minecraft:diamond_boots"
+                            }
+                        ]
+                    },
+                    {
+                        "rolls": 1,
+                        "entries": [
+                            {
+                                "type": "minecraft:item",
+                                "name": "minecraft:golden_axe",
+                                "functions": [
+                                    {
+                                        "function": "minecraft:set_attributes",
+                                        "modifiers": [
+                                            {
+                                                "attribute": "scale",
+                                                "id": "mob_scale",
+                                                "amount": 0.2,
+                                                "operation": "add_value",
+                                                "slot": "any"
+                                            },
+                                            {
+                                                "attribute": "movement_speed",
+                                                "id": "mob_speed",
+                                                "amount": -0.1,
+                                                "operation": "add_multiplied_total",
+                                                "slot": "any"
+                                            },
+                                            {
+                                                "attribute": "attack_damage",
+                                                "id": "mob_attack",
+                                                "amount": 7,
+                                                "operation": "add_value",
+                                                "slot": "any"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "parent": "phenom:main_root/overworld/root_overworld",
+  "criteria": {
+    "entry_structure": {
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structures": "phenom:pillager_residence"
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:location"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "phenom.advancement.main_root.overworld.entry_pillager_residence.description",
+      "fallback": "Enter the lair of elite pillagers"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:white_banner",
+      "components": {
+          "rarity": "uncommon",
+          "custom_name": {"text":"Элитный зловещий флаг","italic":false},
+          "banner_patterns":[{"color": "red", "pattern": "minecraft:rhombus"}, {"color": "gray", "pattern": "minecraft:stripe_bottom"}, {"color": "black", "pattern": "minecraft:stripe_center"}, {"color": "black", "pattern": "minecraft:stripe_middle"}, {"color": "gray", "pattern": "minecraft:half_horizontal"}, {"color": "red", "pattern": "minecraft:border"}, {"color": "gray", "pattern": "minecraft:circle"}, {"color": "black", "pattern": "minecraft:border"}],
+          "tooltip_display":{"hidden_components": ["minecraft:banner_patterns"]}
+      }
+    },
+    "title": {
+      "translate": "phenom.advancement.main_root.overworld.entry_pillager_residence.title",
+      "fallback": "Criminal District"
+    },
+    "frame": "task",
+    "announce_to_chat": true
+  },
+  "requirements": [
+    [
+      "entry_structure"
+    ]
+  ],
+  "sends_telemetry_event": false
+}

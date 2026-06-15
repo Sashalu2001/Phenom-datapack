@@ -1,0 +1,9 @@
+{
+  "values": [
+    "minecraft:cartographer/1/paper_emerald",
+    "minecraft:cartographer/1/emerald_map",
+    "phenom:wealthy_cartographer/1/paper_to_emerald",
+    "phenom:wealthy_cartographer/1/compass_to_emerald",
+    "phenom:wealthy_cartographer/1/map_to_emerald"
+  ]
+}

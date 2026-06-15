@@ -1,0 +1,57 @@
+{
+  "parent": "phenom:main_root/overworld/entry_jungle_forgotten_temple",
+  "criteria": {
+    "generate_loot": {
+      "trigger": "minecraft:player_generates_container_loot",
+      "conditions": {
+        "loot_table": "phenom:jungle_forgotten_temple/chest_common"
+      }
+    },
+    "find_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:saddle",
+            "predicates": {
+            "minecraft:custom_data": {
+              "master_saddle": true
+            }
+          }
+          }
+        ]
+      }
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "phenom.advancement.main_root.overworld.find_master_saddle.description",
+      "fallback": "Obtain the master saddle"
+    },
+    "icon": {
+      "components": {
+        "minecraft:custom_data":
+        {
+            "master_saddle": true
+        }
+      },
+      "count": 1,
+      "id": "minecraft:saddle"
+    },
+    "title": {
+      "translate": "phenom.advancement.main_root.overworld.find_master_saddle.title",
+      "fallback": "Faithful Steed Awaits"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "requirements": [
+    [
+      "generate_loot"
+    ],
+    [
+      "find_item"
+    ]
+  ],
+  "sends_telemetry_event": false
+}

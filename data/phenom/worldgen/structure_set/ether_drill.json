@@ -1,0 +1,20 @@
+{
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 157392,
+    "spacing": 32,
+    "separation": 16,
+    "frequency": 0.25,
+    "frequency_reduction_method": "legacy_type_1",
+    "exclusion_zone": {
+      "chunk_count": 4,
+      "other_set": "minecraft:end_cities"
+    }
+  },
+  "structures": [
+    {
+      "structure": "phenom:ether_drill",
+      "weight": 1
+    }
+  ]
+}

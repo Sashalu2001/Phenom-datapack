@@ -1,0 +1,156 @@
+{
+  "type": "minecraft:notice",
+  "external_title": {
+    "type": "translatable",
+    "translate": "phenom.dialog.help.structure.illusion_cube",
+    "fallback": "Illusion Cube"
+  },
+  "title": {
+    "type": "translatable",
+    "translate": "phenom.dialog.help.structure.illusion_cube",
+    "fallback": "Illusion Cube"
+  },
+  "body": [
+    {
+      "type": "minecraft:item",
+      "item": {
+        "id": "minecraft:structure_block",
+        "count": 1
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "width": 300,
+      "contents": {
+        "type": "translatable",
+        "translate": "phenom.dialog.structure.illusion_cube.description",
+        "fallback": "A structure found in the End dimension. It is a huge cube with 6 curved tubes extending from it."
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "width": 300,
+      "contents": {
+        "type": "translatable",
+        "translate": "phenom.dialog.structure.illusion_cube.description.mid",
+        "fallback": "It is unknown what created this structure, but you cannot simply enter it. Because of the Main Illusion, the only way to get into the cube is through the tubes. On your way to the center you will encounter Illusion Guards, who can skillfully manipulate the gravitational force of their victim."
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "width": 300,
+      "contents": {
+        "type": "translatable",
+        "translate": "phenom.dialog.structure.illusion_cube.description.end.start",
+        "fallback": "The Main Illusion will be waiting in the center of the cube - a very serious opponent who manipulates gravity even better, deals a lot of damage and can create destructive flashes in melee combat. Without good equipment the fight will be very difficult. However, upon victory you receive ",
+        "extra": [
+          {
+            "type": "translatable",
+            "translate": "phenom.item.micropolymer_element.name",
+            "fallback": "Micropolymer Element",
+            "color": "#c46dfd"
+          },
+          {
+            "type": "translatable",
+            "translate": "phenom.dialog.structure.illusion_cube.description.end.mid1",
+            "fallback": " - a special material for crafting "
+          },
+          {
+            "type": "translatable",
+            "translate": "phenom.dialog.structure.illusion_cube.description.end.mid2",
+            "fallback": "Reinforced Elytra",
+            "color": "#d1b3ff",
+            "click_event": {
+              "action": "show_dialog",
+              "dialog": "phenom:recipes/super_elytra"
+            },
+            "hover_event": {
+              "action": "show_text",
+              "value": {
+                "type": "translatable",
+                "translate": "phenom.dialog.help.amulets.hover",
+                "fallback": "Click here to learn more",
+                "color": "#e9baff"
+              }
+            }
+          },
+          {
+            "type": "translatable",
+            "translate": "phenom.dialog.structure.illusion_cube.description.end.mid3",
+            "fallback": " and ",
+            "color": "white"
+          },
+          {
+            "type": "translatable",
+            "translate": "phenom.dialog.structure.illusion_cube.description.end.mid4",
+            "fallback": "Reinforced Armor",
+            "color": "#d1b3ff",
+            "click_event": {
+              "action": "show_dialog",
+              "dialog": "phenom:recipes/reinforced_armor"
+            },
+            "hover_event": {
+              "action": "show_text",
+              "value": {
+                "type": "translatable",
+                "translate": "phenom.dialog.help.amulets.hover",
+                "fallback": "Click here to learn more",
+                "color": "#e9baff"
+              }
+            }
+          },
+          {
+            "type": "translatable",
+            "translate": "phenom.dialog.structure.illusion_cube.description.end.mid5",
+            "fallback": "."
+          }
+        ]
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "width": 300,
+      "contents": {
+        "type": "translatable",
+        "translate": "phenom.dialog.structure.illusion_cube.description.end.final.start",
+        "fallback": "In addition, you can find many valuable items in the structure's chests, including ",
+        "extra": [
+          {
+            "type": "translatable",
+            "translate": "phenom.item.amulet.antigravity.name",
+            "fallback": "Boundless Matter Amulet",
+            "color": "#bb3fe9",
+            "click_event": {
+              "action": "show_dialog",
+              "dialog": "phenom:amulets"
+            },
+            "hover_event": {
+              "action": "show_text",
+              "value": {
+                "type": "translatable",
+                "translate": "phenom.dialog.help.amulets.hover",
+                "fallback": "Click here to learn more",
+                "color": "#e9baff"
+              }
+            }
+          },
+          {
+            "type": "translatable",
+            "translate": "phenom.dialog.structure.illusion_cube.description.end.final.end",
+            "fallback": "."
+          }
+        ]
+      }
+    }
+  ],
+  "action": {
+    "label": {
+      "translate": "gui.back"
+    },
+    "width": 150,
+    "action": {
+      "type": "minecraft:show_dialog",
+      "dialog": "phenom:structures"
+    }
+  }
+}

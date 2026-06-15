@@ -1,0 +1,30 @@
+[
+    {
+        "function": "set_components",
+        "components": {
+            "minecraft:item_name": {
+            "translate": "phenom.item.wooden_shield.name",
+            "fallback": "Wooden shield"
+        },
+        "minecraft:blocks_attacks": {
+            "disable_cooldown_scale": 1,
+            "item_damage": {
+            "threshold": 0,
+            "base": 0,
+            "factor": 2
+            },
+            "block_sound": "minecraft:item.shield.block",
+            "disabled_sound": "minecraft:item.shield.break",
+            "bypassed_by": "#minecraft:bypasses_shield"
+        },
+        "minecraft:max_damage": 132,
+            "minecraft:repairable": {
+            "items": "#minecraft:wooden_tool_materials"
+        },
+        "minecraft:custom_data": {
+            "shield": true,
+            "shield_type": "wooden"
+        }
+        }
+    }
+]

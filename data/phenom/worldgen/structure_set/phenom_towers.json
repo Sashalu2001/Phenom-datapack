@@ -1,0 +1,26 @@
+{
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 578378,
+    "spacing": 30,
+    "separation": 14,
+    "exclusion_zone": {
+      "chunk_count": 10,
+      "other_set": "minecraft:villages"
+    }
+  },
+  "structures": [
+    {
+      "structure": "phenom:forgotten_tower",
+      "weight": 1
+    },
+    {
+      "structure": "phenom:badlands_tower",
+      "weight": 1
+    },
+    {
+      "structure": "phenom:courtyard_tower",
+      "weight": 1
+    }
+  ]
+}

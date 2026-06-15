@@ -1,0 +1,81 @@
+{
+  "type": "minecraft:equipment",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+            "type": "minecraft:loot_table",
+            "weight": 2,
+            "value": {
+                "pools": [
+                    {
+                        "rolls": 1,
+                        "entries": [
+                            {
+                                "type": "minecraft:item",
+                                "name": "minecraft:leather_helmet",
+                                "functions": [
+                                    {
+                                        "function": "minecraft:set_components",
+                                        "components": {
+                                            "minecraft:trim": {
+                                                "material": "minecraft:emerald",
+                                                "pattern": "minecraft:wild"
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "function": "minecraft:set_components",
+                                        "components": {
+                                            "minecraft:dyed_color": 6192150
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+          }
+        },
+        {
+            "type": "minecraft:loot_table",
+            "weight": 1,
+            "value": {
+                "pools": [
+                    {
+                        "rolls": 1,
+                        "entries": [
+                            {
+                                "type": "minecraft:item",
+                                "name": "minecraft:iron_helmet",
+                                "functions": [
+                                    {
+                                        "function": "minecraft:set_components",
+                                        "components": {
+                                            "minecraft:trim": {
+                                                "material": "minecraft:emerald",
+                                                "pattern": "minecraft:wild"
+                                            }
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "rolls": 1,
+                        "entries": [
+                            {
+                                "type": "minecraft:item",
+                                "name": "minecraft:stone_sword"
+                            }
+                        ]
+                    }
+                ]
+          }
+        }
+      ]
+    }
+  ]
+}

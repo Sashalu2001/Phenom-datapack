@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:notice",
+  "external_title": {
+    "type": "translatable",
+    "translate": "phenom.dialog.structure.jungle_forgotten_temple",
+    "fallback": "Jungle Forgotten Temple"
+  },
+  "title": {
+    "type": "translatable",
+    "translate": "phenom.dialog.structure.jungle_forgotten_temple",
+    "fallback": "Jungle Forgotten Temple"
+  },
+  "body": [
+    {
+      "type": "minecraft:item",
+      "item": {
+        "id": "minecraft:mossy_cobblestone",
+        "count": 1
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "width": 300,
+      "contents": {
+        "type": "translatable",
+        "translate": "phenom.dialog.structure.jungle_forgotten_temple.description",
+        "fallback": "A structure found in jungle biomes. Inside the structure you can find several valuable resources, including a excellent saddle that increases the movement stats of riding animals. The structure is guarded by zombie spawners."
+      }
+    }
+  ],
+  "action": {
+    "label": {
+      "translate": "gui.back"
+    },
+    "width": 150,
+    "action": {
+      "type": "minecraft:show_dialog",
+      "dialog": "phenom:structures"
+    }
+  }
+}

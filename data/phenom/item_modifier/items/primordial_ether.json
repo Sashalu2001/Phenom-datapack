@@ -1,0 +1,20 @@
+[
+    {
+        "function": "set_components",
+        "components": {
+           "minecraft:custom_data": {
+                "ether": true
+            },
+            "minecraft:item_name": {
+                "type": "translatable",
+                "translate": "phenom.item.primordial_ether.name",
+                "fallback": "Primordial Ether",
+                "color": "#cb95e4"
+            },
+            "minecraft:item_model": "minecraft:echo_shard",
+            "minecraft:damage_resistant": {
+                "types": "#phenom:is_fire_explosion"
+            }
+        }
+    }
+]

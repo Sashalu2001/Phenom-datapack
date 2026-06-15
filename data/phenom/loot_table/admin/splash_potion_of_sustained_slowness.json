@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:splash_potion",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "reference",
+              "name": "phenom:potions/splash_potion_of_sustained_slowness"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

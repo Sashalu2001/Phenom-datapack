@@ -1,0 +1,46 @@
+{
+  "anvil_cost": 6,
+  "description": {
+    "translate": "phenom.item.enchantment.long_handle",
+    "fallback": "Long Handle"
+  },
+  "effects": {
+    "minecraft:attributes": [
+      {
+        "attribute": "minecraft:entity_interaction_range",
+        "id": "eir1",
+        "amount": {
+          "type": "minecraft:linear",
+          "base": 0.5,
+          "per_level_above_first": 0.5
+        },
+        "operation": "add_value"
+      },
+      {
+        "attribute": "minecraft:block_interaction_range",
+        "id": "bir1",
+        "amount": {
+          "type": "minecraft:linear",
+          "base": 0.5,
+          "per_level_above_first": 0.5
+        },
+        "operation": "add_value"
+      }
+    ]
+  },
+  "max_cost": {
+    "base": 75,
+    "per_level_above_first": 25
+  },
+  "max_level": 3,
+  "min_cost": {
+    "base": 25,
+    "per_level_above_first": 25
+  },
+  "slots": [
+    "mainhand"
+  ],
+  "supported_items": "#phenom:enchantable/has_long_handle",
+  "exclusive_set": "#phenom:exclusive_set/comfort_attack",
+  "weight": 1
+}

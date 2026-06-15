@@ -1,0 +1,169 @@
+{
+  "type": "minecraft:notice",
+  "external_title": {
+    "type": "translatable",
+    "translate": "phenom.dialog.help.recipes.reinforced_armor.title",
+    "fallback": "Reinforced Armor"
+  },
+  "title": {
+    "type": "translatable",
+    "translate": "phenom.dialog.help.recipes.reinforced_armor.title",
+    "fallback": "Reinforced Armor"
+  },
+  "body": [
+    {
+      "type": "minecraft:item",
+      "item": {
+        "id": "minecraft:netherite_chestplate",
+        "count": 1,
+        "components": {
+          "minecraft:custom_data": {
+            "reinforced_chestplate": true
+          },
+          "minecraft:custom_name": {
+            "type": "translatable",
+            "translate": "phenom.item.reinforced_chestplate.name",
+            "fallback": "Reinforced Chestplate",
+            "color": "#d1b3ff",
+            "italic": false
+          },
+          "minecraft:max_damage": 1200,
+          "minecraft:damage": 0,
+          "minecraft:damage_resistant": {
+            "types": "#phenom:is_fire_explosion"
+          },
+          "minecraft:repairable": {
+            "items": "minecraft:netherite_ingot"
+          },
+          "minecraft:attribute_modifiers": [
+            {
+              "type": "minecraft:armor",
+              "id": "reinforced_chestplate_armor",
+              "amount": 9,
+              "operation": "add_value",
+              "slot": "chest"
+            },
+            {
+              "type": "minecraft:armor_toughness",
+              "id": "reinforced_chestplate_armor_toughness",
+              "amount": 4,
+              "operation": "add_value",
+              "slot": "chest"
+            },
+            {
+              "type": "minecraft:movement_speed",
+              "id": "reinforced_chestplate_movement_speed",
+              "amount": -0.125,
+              "operation": "add_multiplied_total",
+              "slot": "chest"
+            },
+            {
+              "type": "minecraft:knockback_resistance",
+              "id": "reinforced_chestplate_knockback_resistance",
+              "amount": 0.2,
+              "operation": "add_value",
+              "slot": "chest"
+            },
+            {
+              "type": "minecraft:explosion_knockback_resistance",
+              "id": "reinforced_chestplate_explosion_knockback_resistance",
+              "amount": 0.1,
+              "operation": "add_value",
+              "slot": "chest"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "width": 300,
+      "contents": {
+        "type": "translatable",
+        "translate": "phenom.dialog.help.recipes.reinforced_armor.description.start",
+        "fallback": "Reinforced Armor",
+        "color": "#d1b3ff",
+        "extra": [
+          {
+            "type": "translatable",
+            "translate": "phenom.dialog.help.recipes.reinforced_armor.description.end",
+            "fallback": " - extra durable armor that provides significant protection from direct damage. However, for its protective properties, the wearer will have to pay with reduced movement speed. As an item, they cannot be destroyed by fire or explosions.",
+            "color": "white"
+          }
+        ]
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "width": 300,
+      "contents": {
+        "type": "translatable",
+        "translate": "phenom.dialog.help.recipes.reinforced_armor.crafting_1",
+        "fallback": "Crafting reinforced armor pieces is similar to crafting netherite armor, however, instead of a Netherite Ingot, the ",
+        "extra": [
+          {
+            "type": "translatable",
+            "translate": "phenom.dialog.help.recipes.reinforced_armor.crafting_2",
+            "fallback": "Reinforced Ingot",
+            "color": "#a870c2",
+            "click_event": {
+              "action": "show_dialog",
+              "dialog": "phenom:recipes/super_material"
+            },
+            "hover_event": {
+              "action": "show_text",
+              "value": {
+                "type": "translatable",
+                "translate": "phenom.dialog.help.amulets.hover",
+                "fallback": "Click here to learn more",
+                "color": "#e9baff"
+              }
+            }
+          },
+          {
+            "type": "translatable",
+            "translate": "phenom.dialog.help.recipes.reinforced_armor.crafting_3",
+            "fallback": " is used and instead of the Netherite Upgrade Template, the ",
+            "color": "white"
+          },
+
+          {
+            "type": "translatable",
+            "translate": "phenom.dialog.help.recipes.reinforced_armor.crafting_4",
+            "fallback": "Micropolymer Element",
+            "color": "#c46dfd",
+            "click_event": {
+              "action": "show_dialog",
+              "dialog": "phenom:structures/illusion_cube"
+            },
+            "hover_event": {
+              "action": "show_text",
+              "value": {
+                "type": "translatable",
+                "translate": "phenom.dialog.help.amulets.hover",
+                "fallback": "Click here to learn more",
+                "color": "#e9baff"
+              }
+            }
+          },
+          {
+            "type": "translatable",
+            "translate": "phenom.dialog.help.recipes.reinforced_armor.crafting_5",
+            "fallback": " is used. Crafting is also done at a smithing table.",
+            "color": "white"
+          }
+        ]
+      }
+    }
+  ],
+  "action": {
+    "label": {
+      "translate": "gui.back"
+    },
+    "width": 150,
+    "action": {
+      "type": "minecraft:show_dialog",
+      "dialog": "phenom:recipes"
+    }
+  }
+}

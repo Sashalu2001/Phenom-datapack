@@ -1,0 +1,17 @@
+[
+    {
+              "function": "set_custom_data",
+              "tag": {
+                "nether_key": true
+              }
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "type": "translatable",
+                "translate": "phenom.item.nether_trial_key.name",
+                "fallback": "Nether trial key"
+              },
+              "target": "item_name"
+            }
+]

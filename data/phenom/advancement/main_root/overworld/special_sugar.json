@@ -1,0 +1,52 @@
+{
+  "parent": "phenom:main_root/overworld/entry_desert_ruin",
+  "criteria": {
+    "desert_ruin": {
+      "trigger": "minecraft:player_generates_container_loot",
+      "conditions": {
+        "loot_table": "phenom:desert_ruin/desert_ruin_sand"
+      }
+    },
+    "eat_special_sugar": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:sugar",
+          "predicates": {
+            "minecraft:custom_data": {
+              "special_sugar": true
+            }
+          }
+        }
+      }
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "phenom.advancement.main_root.overworld.special_sugar.description",
+      "fallback": "Taste your find"
+    },
+    "icon": {
+      "components": {
+        "minecraft:enchantment_glint_override": true
+      },
+      "count": 1,
+      "id": "minecraft:sugar"
+    },
+    "title": {
+      "translate": "phenom.advancement.main_root.overworld.special_sugar.title",
+      "fallback": "Forbidden Substances"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "requirements": [
+    [
+      "desert_ruin"
+    ],
+    [
+      "eat_special_sugar"
+    ]
+  ],
+  "sends_telemetry_event": false
+}

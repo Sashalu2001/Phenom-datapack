@@ -1,0 +1,48 @@
+{
+  "parent": "phenom:main_root/overworld/entry_pillager_residence",
+  "criteria": {
+    "kill_leader_pillager": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:pillager",
+              "nbt": "{Tags:[\"leader_pillager\"]}"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "phenom.advancement.main_root.overworld.kill_leader_pillager.description",
+      "fallback": "Kill the Pillager Ruler and take his weapon"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:bow",
+      "components": {
+          "enchantment_glint_override": true,
+          "custom_data": {
+            "pillager_leader_weapon": true
+          }
+      }
+    },
+    "title": {
+      "translate": "phenom.advancement.main_root.overworld.kill_leader_pillager.title",
+      "fallback": "Brilliant Triumph"
+    },
+    "frame": "goal",
+    "announce_to_chat": true
+  },
+  "requirements": [
+    [
+      "kill_leader_pillager"
+    ]
+  ],
+  "sends_telemetry_event": false
+}

@@ -1,0 +1,66 @@
+[
+    {
+              "function": "minecraft:set_custom_data",
+              "tag": {
+                "amulet": true,
+                "amulet_id": "resistance"
+              }
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "!minecraft:death_protection": {},
+                "minecraft:item_model": "minecraft:end_crystal",
+                "minecraft:enchantment_glint_override": true,
+                "minecraft:item_name": {
+                  "type": "translatable",
+                  "translate": "phenom.item.amulet.resistance.name",
+                  "fallback": "Pristine Resistance Amulet",
+                  "color": "#d6bfdd"
+                },
+                "minecraft:equippable": {
+                    "slot": "body",
+                    "equip_sound": "block.respawn_anchor.charge"
+                },
+                "minecraft:attribute_modifiers": [
+                  {
+                    "type": "minecraft:knockback_resistance",
+                    "id": "amulet",
+                    "amount": 0.5,
+                    "operation": "add_value",
+                    "slot": "body"
+                  },
+                  {
+                    "type": "minecraft:explosion_knockback_resistance",
+                    "id": "amulet",
+                    "amount": 0.5,
+                    "operation": "add_value",
+                    "slot": "body"
+                  },
+                  {
+                    "type": "minecraft:armor",
+                    "id": "amulet",
+                    "amount": 1,
+                    "operation": "add_value",
+                    "slot": "body"
+                  }
+                ],
+                "minecraft:lore": [
+                  {
+                    "type": "translatable",
+                    "translate": "phenom.item.amulet.resistance.description_1",
+                    "fallback": "Increases the common knockback",
+                    "color": "#bb3fe9",
+                    "italic": false
+                  },
+                  {
+                    "type": "translatable",
+                    "translate": "phenom.item.amulet.resistance.description_2",
+                    "fallback": "resistance and armor",
+                    "color": "#bb3fe9",
+                    "italic": false
+                  }
+                ]
+              }
+            }
+]

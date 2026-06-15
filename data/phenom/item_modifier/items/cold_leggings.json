@@ -1,0 +1,37 @@
+[
+    {
+        "function": "set_components",
+        "components": {
+                "minecraft:item_name": {
+                  "translate": "phenom.item.cold_leggings.name",
+                  "fallback": "The Leggings of the Great Cold"
+                },
+                "minecraft:rarity": "uncommon",
+                "minecraft:trim": {
+                  "material": "minecraft:quartz",
+                  "pattern": "minecraft:raiser"
+                },
+                "minecraft:tooltip_display": {
+                  "hidden_components": [
+                    "minecraft:trim"
+                  ]
+                },
+                "minecraft:attribute_modifiers": [
+                  {
+                    "type": "minecraft:armor",
+                    "id": "l1",
+                    "amount": 5,
+                    "operation": "add_value",
+                    "slot": "legs"
+                  },
+                  {
+                    "type": "minecraft:burning_time",
+                    "id": "bt3",
+                    "amount": -0.2,
+                    "operation": "add_multiplied_total",
+                    "slot": "legs"
+                  }
+                ]
+        }
+    }
+]

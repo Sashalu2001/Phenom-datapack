@@ -1,0 +1,11 @@
+{
+    "function": "minecraft:set_components",
+    "components": {
+        "minecraft:custom_data": {
+            "no_weapon": true
+        },
+        "minecraft:item_model": "minecraft:air",
+        "minecraft:unbreakable": {},
+        "minecraft:enchantment_glint_override": false
+    }
+}

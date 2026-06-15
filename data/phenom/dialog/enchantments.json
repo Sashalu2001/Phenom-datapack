@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:dialog_list",
+  "button_width": 200,
+  "columns": 1,
+  "dialogs": [
+    "phenom:enchantments/rift",
+    "phenom:enchantments/lightness",
+    "phenom:enchantments/long_handle"
+  ],
+  "exit_action": {
+    "label": {
+      "translate": "gui.back"
+    },
+    "width": 150,
+    "action": {
+      "type": "minecraft:show_dialog",
+      "dialog": "phenom:phenom_help"
+    }
+  },
+  "external_title": {
+    "translate": "phenom.dialog.help.enchantments.title",
+    "fallback": "New Enchantments"
+  },
+  "title": {
+    "translate": "phenom.dialog.help.enchantments.title",
+    "fallback": "New Enchantments"
+  }
+}

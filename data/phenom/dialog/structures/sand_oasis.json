@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:notice",
+  "external_title": {
+    "type": "translatable",
+    "translate": "phenom.dialog.structure.sand_oasis",
+    "fallback": "Sand Oasis"
+  },
+  "title": {
+    "type": "translatable",
+    "translate": "phenom.dialog.structure.sand_oasis",
+    "fallback": "Sand Oasis"
+  },
+  "body": [
+    {
+      "type": "minecraft:item",
+      "item": {
+        "id": "minecraft:tropical_fish",
+        "count": 1
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "width": 300,
+      "contents": {
+        "type": "translatable",
+        "translate": "phenom.dialog.structure.sand_oasis.description",
+        "fallback": "A small lake found in deserts. Various types of fish live in the lake. You can fish up some more valuable items from the bottom than in other bodies of water, including Healing Seaweed, which cures all negative effects while leaving positive ones."
+      }
+    }
+  ],
+  "action": {
+    "label": {
+      "translate": "gui.back"
+    },
+    "width": 150,
+    "action": {
+      "type": "minecraft:show_dialog",
+      "dialog": "phenom:structures"
+    }
+  }
+}

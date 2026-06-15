@@ -1,0 +1,11 @@
+{
+  "comparator_output": 13,
+  "description": {
+    "text": "C418 - Credits"
+  },
+  "length_in_seconds": 602,
+  "sound_event": {
+    "sound_id": "minecraft:music.credits",
+    "range": 64
+  }
+}

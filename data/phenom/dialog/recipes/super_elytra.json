@@ -1,0 +1,156 @@
+{
+  "type": "minecraft:notice",
+  "external_title": {
+    "type": "translatable",
+    "translate": "phenom.dialog.help.recipes.reinforced_elytra.title",
+    "fallback": "Reinforced Elytra"
+  },
+  "title": {
+    "type": "translatable",
+    "translate": "phenom.dialog.help.recipes.reinforced_elytra.title",
+    "fallback": "Reinforced Elytra"
+  },
+  "body": [
+    {
+      "type": "minecraft:item",
+      "item": {
+        "id": "minecraft:jigsaw",
+        "count": 1,
+        "components": {
+          "minecraft:custom_data": {
+            "reinforced_elytra": true
+          },
+          "minecraft:custom_name": {
+            "type": "translatable",
+            "translate": "phenom.item.reinforced_elytra.name",
+            "fallback": "Reinforced Elytra",
+            "color": "#d1b3ff",
+            "italic": false
+          },
+          "minecraft:item_model": "minecraft:elytra",
+          "minecraft:glider": {},
+          "minecraft:enchantable": {
+            "value": 15
+          },
+          "minecraft:equippable": {
+            "slot": "chest",
+            "equip_sound": "item.armor.equip_netherite",
+            "asset_id": "minecraft:elytra"
+          },
+          "minecraft:max_stack_size": 1,
+          "minecraft:max_damage": 648,
+          "minecraft:damage": 0,
+          "minecraft:damage_resistant": {
+            "types": "#minecraft:is_fire"
+          },
+          "minecraft:repairable": {
+            "items": "minecraft:netherite_ingot"
+          },
+          "minecraft:attribute_modifiers": [
+            {
+              "type": "minecraft:armor",
+              "id": "1",
+              "amount": 4,
+              "operation": "add_value",
+              "slot": "chest"
+            },
+            {
+              "type": "minecraft:armor_toughness",
+              "id": "1",
+              "amount": 2,
+              "operation": "add_value",
+              "slot": "chest"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "width": 300,
+      "contents": {
+        "type": "translatable",
+        "translate": "phenom.dialog.help.recipes.reinforced_elytra.description.start",
+        "fallback": "Reinforced Elytra",
+        "color": "#d1b3ff",
+        "extra": [
+          {
+            "type": "translatable",
+            "translate": "phenom.dialog.help.recipes.reinforced_elytra.description.end",
+            "fallback": " - a modified version of elytra with increased durability, added armor points, and support for protective enchantments. They can also be enchanted directly at an enchanting table. As an item, they cannot be destroyed by fire or explosions.",
+            "color": "white"
+          }
+        ]
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "width": 300,
+      "contents": {
+        "type": "translatable",
+        "translate": "phenom.dialog.help.recipes.reinforced_elytra.crafting_1",
+        "fallback": "To craft them, you will need: ",
+        "extra": [
+          {
+            "type": "translatable",
+            "translate": "phenom.dialog.help.recipes.reinforced_elytra.crafting_2",
+            "fallback": "Micropolymer Element",
+            "color": "#c46dfd",
+            "click_event": {
+              "action": "show_dialog",
+              "dialog": "phenom:structures/illusion_cube"
+            },
+            "hover_event": {
+              "action": "show_text",
+              "value": {
+                "type": "translatable",
+                "translate": "phenom.dialog.help.amulets.hover",
+                "fallback": "Click here to learn more",
+                "color": "#e9baff"
+              }
+            }
+          },
+          {
+            "type": "translatable",
+            "translate": "phenom.dialog.help.recipes.reinforced_elytra.crafting_3",
+            "fallback": ", Elytra, "
+          },
+          {
+            "type": "translatable",
+            "translate": "phenom.dialog.help.recipes.reinforced_elytra.crafting_4",
+            "fallback": "Reinforced Ingot",
+            "color": "#a870c2",
+            "click_event": {
+              "action": "show_dialog",
+              "dialog": "phenom:recipes/super_material"
+            },
+            "hover_event": {
+              "action": "show_text",
+              "value": {
+                "type": "translatable",
+                "translate": "phenom.dialog.help.amulets.hover",
+                "fallback": "Click here to learn more",
+                "color": "#e9baff"
+              }
+            }
+          },
+          {
+            "type": "translatable",
+            "translate": "phenom.dialog.help.recipes.reinforced_elytra.crafting_5",
+            "fallback": ". Crafting is done at a smithing table."
+          }
+        ]
+      }
+    }
+  ],
+  "action": {
+    "label": {
+      "translate": "gui.back"
+    },
+    "width": 150,
+    "action": {
+      "type": "minecraft:show_dialog",
+      "dialog": "phenom:recipes"
+    }
+  }
+}

@@ -1,0 +1,59 @@
+[
+    {
+              "function": "minecraft:set_custom_data",
+              "tag": {
+                "healing_kelp": true
+              }
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "type": "translatable",
+                "translate": "phenom.item.healing_kelp.name",
+                "fallback": "Healing Kelp",
+                "color": "#78f2d4"
+              },
+              "target": "item_name"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:enchantment_glint_override": true,
+                "minecraft:item_model": "minecraft:kelp",
+                "minecraft:food": {
+                  "nutrition": 1,
+                  "saturation": 0.6,
+                  "can_always_eat": true
+                },
+                "minecraft:consumable": {
+                  "consume_seconds": 0.8,
+                  "animation": "eat",
+                  "has_consume_particles": true,
+                  "on_consume_effects": [
+                    {
+                      "type": "minecraft:play_sound",
+                      "sound": "minecraft:entity.fish.swim"
+                    },
+                    {
+                      "type": "minecraft:remove_effects",
+                      "effects": [
+                        "minecraft:slowness",
+                        "minecraft:mining_fatigue",
+                        "minecraft:nausea",
+                        "minecraft:blindness",
+                        "minecraft:hunger",
+                        "minecraft:weakness",
+                        "minecraft:poison",
+                        "minecraft:wither",
+                        "minecraft:darkness",
+                        "minecraft:wind_charged",
+                        "minecraft:weaving",
+                        "minecraft:oozing",
+                        "minecraft:infested"
+                      ]
+                    }
+                  ]
+                }
+              }
+            }
+]

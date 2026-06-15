@@ -1,0 +1,8 @@
+{
+  "amount": 2,
+  "random_sequence": "minecraft:trade_set/fletcher/level_3",
+  "trades": [
+    "minecraft:fletcher/3/emerald_crossbow",
+    "minecraft:fletcher/5/tripwire_hook_emerald"
+  ]
+}

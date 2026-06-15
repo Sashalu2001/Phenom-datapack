@@ -1,0 +1,68 @@
+{
+  "type": "minecraft:notice",
+  "external_title": {
+    "type": "translatable",
+    "translate": "phenom.dialog.structure.forgotten_tower",
+    "fallback": "Forgotten Tower"
+  },
+  "title": {
+    "type": "translatable",
+    "translate": "phenom.dialog.structure.forgotten_tower",
+    "fallback": "Forgotten Tower"
+  },
+  "body": [
+    {
+      "type": "minecraft:item",
+      "item": {
+        "id": "minecraft:mossy_stone_bricks",
+        "count": 1
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "width": 300,
+      "contents": {
+        "type": "translatable",
+        "translate": "phenom.dialog.structure.forgotten_tower.description_1",
+        "fallback": "A structure found in forests and plains. It consists of one or two towers. You can find a few useful resources and the ",
+        "extra": [
+          {
+            "type": "translatable",
+            "translate": "phenom.item.amulet.highstep.name",
+            "fallback": "Ascension Amulet",
+            "color": "#bb3fe9",
+            "click_event": {
+              "action": "show_dialog",
+              "dialog": "phenom:amulets"
+            },
+            "hover_event": {
+              "action": "show_text",
+              "value": {
+                "type": "translatable",
+                "translate": "phenom.dialog.help.amulets.hover",
+                "fallback": "Click here to learn more",
+                "color": "#e9baff"
+              }
+            }
+          },
+          {
+            "type": "translatable",
+            "translate": "phenom.dialog.structure.forgotten_tower.description_2",
+            "fallback": " in the towers.",
+            "color": "white"
+          }
+        ]
+      }
+    }
+  ],
+  "action": {
+    "label": {
+      "translate": "gui.back"
+    },
+    "width": 150,
+    "action": {
+      "type": "minecraft:show_dialog",
+      "dialog": "phenom:structures"
+    }
+  }
+}

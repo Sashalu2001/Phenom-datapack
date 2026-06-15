@@ -1,0 +1,102 @@
+{
+  "type": "minecraft:notice",
+  "external_title": {
+    "type": "translatable",
+    "translate": "phenom.dialog.structure.desert_pyramid",
+    "fallback": "Desert Pyramid"
+  },
+  "title": {
+    "type": "translatable",
+    "translate": "phenom.dialog.structure.desert_pyramid",
+    "fallback": "Desert Pyramid"
+  },
+  "body": [
+    {
+      "type": "minecraft:item",
+      "item": {
+        "id": "minecraft:chiseled_sandstone",
+        "count": 1
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "width": 300,
+      "contents": {
+        "type": "translatable",
+        "translate": "phenom.dialog.structure.desert_pyramid.description_1",
+        "fallback": "This huge pyramid is found in deserts. It is a tomb inhabited by the undead. There are several chests here, in one of which you can find the ",
+        "extra": [
+          {
+            "type": "translatable",
+            "translate": "phenom.item.amulet.dune.name",
+            "fallback": "Forgotten Dunes Amulet",
+            "color": "#bb3fe9",
+            "click_event": {
+              "action": "show_dialog",
+              "dialog": "phenom:amulets"
+            },
+            "hover_event": {
+              "action": "show_text",
+              "value": {
+                "type": "translatable",
+                "translate": "phenom.dialog.help.amulets.hover",
+                "fallback": "Click here to learn more",
+                "color": "#e9baff"
+              }
+            }
+          },
+          {
+            "type": "translatable",
+            "translate": "phenom.dialog.structure.desert_pyramid.description_2",
+            "fallback": "."
+          }
+        ]
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "width": 300,
+      "contents": {
+        "type": "translatable",
+        "translate": "phenom.dialog.structure.desert_pyramid.description_3",
+        "fallback": "This structure can also be found using the ",
+        "extra": [
+          {
+            "type": "translatable",
+            "translate": "phenom.dialog.structure.desert_pyramid.description_4",
+            "fallback": "desert pyramid map",
+            "color": "#bb3fe9",
+            "click_event": {
+              "action": "show_dialog",
+              "dialog": "phenom:structures/renovated_villages"
+            },
+            "hover_event": {
+              "action": "show_text",
+              "value": {
+                "type": "translatable",
+                "translate": "phenom.dialog.help.amulets.hover",
+                "fallback": "Click here to learn more",
+                "color": "#e9baff"
+              }
+            }
+          },
+          {
+            "type": "translatable",
+            "translate": "phenom.dialog.structure.desert_pyramid.description_5",
+            "fallback": "."
+          }
+        ]
+      }
+    }
+  ],
+  "action": {
+    "label": {
+      "translate": "gui.back"
+    },
+    "width": 150,
+    "action": {
+      "type": "minecraft:show_dialog",
+      "dialog": "phenom:structures"
+    }
+  }
+}

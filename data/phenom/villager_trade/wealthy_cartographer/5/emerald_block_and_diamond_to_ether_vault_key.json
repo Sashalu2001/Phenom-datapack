@@ -1,0 +1,40 @@
+{
+  "wants": {
+    "id": "minecraft:emerald_block",
+    "count": 32
+  },
+  "additional_wants": {
+    "id": "minecraft:diamond",
+    "count": 32
+  },
+  "gives": {
+    "id": "minecraft:trial_key",
+    "count": 1
+  },
+  "given_item_modifiers": [
+    {
+        "function": "set_components",
+        "components": {
+           "custom_data":{
+                "ether_vault_key": true
+            },
+            "item_name": {
+                "type": "translatable",
+                "translate": "phenom.item.ether_vault_key.name",
+                "fallback": "Ether Vault Key"
+            }
+        }
+    }
+  ],
+  "max_uses": 1,
+  "xp": 10,
+  "reputation_discount": 0.05,
+  "merchant_predicate": {
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+        "type": "minecraft:villager",
+        "nbt": "{Tags:[\"wealthy_cartographer\"]}"
+    }
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "type": "minecraft:notice",
+  "external_title": {
+    "type": "translatable",
+    "translate": "phenom.dialog.help.structure.snowy_ruin",
+    "fallback": "Snowy Ruins"
+  },
+  "title": {
+    "type": "translatable",
+    "translate": "phenom.dialog.help.structure.snowy_ruin",
+    "fallback": "Snowy Ruins"
+  },
+  "body": [
+    {
+      "type": "minecraft:item",
+      "item": {
+        "id": "minecraft:polished_basalt",
+        "count": 1
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "width": 300,
+      "contents": {
+        "type": "translatable",
+        "translate": "phenom.dialog.structure.snowy_ruin.description.start",
+        "fallback": "A structure found in snowy plains. It can be an altar, church or stonehenge. Keepers of Cold wander the territory of the structure. Here you can find ",
+        "extra": [
+          {
+            "type": "translatable",
+            "translate": "phenom.item.amulet.cold.name",
+            "fallback": "Great Cold Amulet",
+            "color": "#bb3fe9",
+            "click_event": {
+              "action": "show_dialog",
+              "dialog": "phenom:amulets"
+            },
+            "hover_event": {
+              "action": "show_text",
+              "value": {
+                "type": "translatable",
+                "translate": "phenom.dialog.help.amulets.hover",
+                "fallback": "Click here to learn more",
+                "color": "#e9baff"
+              }
+            }
+          },
+          {
+            "type": "translatable",
+            "translate": "phenom.dialog.structure.snowy_ruin.description.end",
+            "fallback": " and a few resources."
+          }
+        ]
+      }
+    }
+  ],
+  "action": {
+    "label": {
+      "translate": "gui.back"
+    },
+    "width": 150,
+    "action": {
+      "type": "minecraft:show_dialog",
+      "dialog": "phenom:structures"
+    }
+  }
+}

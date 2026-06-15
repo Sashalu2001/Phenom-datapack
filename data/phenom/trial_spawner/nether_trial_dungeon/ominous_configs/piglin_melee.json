@@ -1,0 +1,55 @@
+{
+  "spawn_range": 4,
+  "total_mobs": 8,
+  "total_mobs_added_per_player": 4,
+  "simultaneous_mobs": 2,
+  "simultaneous_mobs_added_per_player": 1,
+  "ticks_between_spawn": 20,
+  "items_to_drop_when_ominous": "phenom:nether_trial_dungeon/ominous_projectiles/common",
+  "loot_tables_to_eject": [
+    {
+      "data": "phenom:nether_trial_dungeon/trial_spawners/ominous_standart",
+      "weight": 1
+    }
+  ],
+  "spawn_potentials": [
+    {
+        "weight": 1,
+        "data": {
+            "entity": {
+                "id": "minecraft:piglin",
+                "Tags":["nether_trial_dungeon_mob", "can_destroy_vehicle"],
+                "Team":"nether_trial_dungeon",
+                "PersistenceRequired": true,
+                "CanPickUpLoot": false,
+                "IsBaby": false,
+                "IsImmuneToZombification": true,
+                "CannotHunt": true,
+                "Brain": {
+                  "memories" : {
+                      "admiring_disabled":{"value":true},
+                      "universal_anger":{"value":true}
+                  }
+                },
+                "Health": 30,
+                "attributes":[
+                    {"id":"max_health","base":30},
+                    {"id":"attack_damage","base":4},
+                    {"id":"movement_speed","base":0.31},
+                    {"id":"follow_range","base":32},
+                    {"id":"safe_fall_distance","base":32},
+                    {"id":"step_height","base":3},
+                    {"id":"burning_time","base":0}
+                ],
+                "active_effects": [
+                  {"id":"fire_resistance","amplifier":0,"duration":-1,"show_particles":false}
+                ]
+            },
+            "equipment": {
+                "loot_table": "phenom:nether_trial_dungeon/mob_equipment/ominous/piglin_melee",
+                "slot_drop_chances": 0
+            }
+        }
+    }
+  ]
+}
