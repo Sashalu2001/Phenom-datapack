@@ -1,0 +1,99 @@
+===============
+ENGLISH VERSION
+===============
+
+"WalkZen Labs" License
+
+===============================
+Section I — General Provisions
+
+1. This document defines the terms under which "WalkZen Labs" distributes its works.
+
+2. Within the scope of this agreement, the term "mod" refers to any addition to the game Minecraft — regardless of whether it is distributed as a datapack, Java mod, resource pack, texture pack, or a combination thereof. The provided rules apply equally to all such forms, as well as to the source code, assets, and documentation that accompany them.
+
+3. "WalkZen Labs" reserves the right to change the terms of this license at any time and at its sole discretion, without prior notice.
+
+===============================
+Section II — What You Are Allowed to Do
+
+1. Personal and private use - You are free to download, install, and modify any "WalkZen Labs" mod for your own needs. This includes unlimited experimentation in singleplayer. The only restriction is that you do not have the right to publicly distribute derivative versions you have created.
+
+2. Use on servers - "WalkZen Labs" mods can be installed on any Minecraft server — public or private, commercial or non-commercial. Modified versions are also permitted on servers, provided they are not distributed as standalone files. Although not mandatory, we would appreciate it if you credited "WalkZen Labs" in a place noticeable to players.
+
+3. Inclusion in modpacks - You may include an unmodified "WalkZen Labs" mod in any publicly distributed modpack, subject to the following conditions:
+- Clear credit is given to "WalkZen Labs";
+- A direct link to the original mod is provided;
+- The mod is distributed in its complete, unmodified form.
+
+4. Commercial use - The use of our mods in commercial projects (monetized servers, modpacks, etc.) is permitted, provided that all other points of the license are observed and there are no individual restrictions imposed by "WalkZen Labs".
+
+===============================
+Section III — What You Are Not Allowed to Do
+
+1. Distribution as a standalone file - Re-uploading, republishing, or distributing any "WalkZen Labs" mod — whether in its original or modified form — as an independent file is strictly prohibited.
+
+2. Unauthorized inclusion in "mod collections" - Including a "WalkZen Labs" mod in any publicly distributed mod collection (a "collection" is understood as a set of mods offered for download as a single archive, as opposed to a classic modpack) is only permitted with written permission from "WalkZen Labs".
+
+3. Modified versions in public builds - Without permission, it is forbidden to include a modified version of a "WalkZen Labs" mod in any public modpack or mod collection. This also applies to cases where the user is expected to download the mod separately and override its parts.
+
+4. Code reuse - You are entitled to study our code for educational purposes; however, copying parts of it into another project — be it a mod, plugin, datapack, resource pack, modpack, or mod collection — without explicit permission is prohibited.
+
+===============================
+Section IV — Special Permissions and Exemptions
+
+1. "WalkZen Labs" holds full copyright over all components of its mods. Consequently, any provision of this license may be waived or modified on an individual basis upon written permission from "WalkZen Labs".
+
+2. We reserve the unconditional right to create and distribute modified versions of our own mods at any time and for any reason.
+
+3. "WalkZen Labs" reserves the right, at its sole discretion, to prohibit specific individuals or organizations from profiting from our works. However, no individual will ever be denied the right to use our mods for personal or non-commercial purposes, provided the other provisions of this license are observed.
+
+===============
+РУССКАЯ ВЕРСИЯ
+===============
+
+Лицензия "WalkZen Labs"
+
+===============================
+Раздел I — Общие положения
+
+1. Настоящий документ определяет условия, на которых "WalkZen Labs" распространяет свои произведения.
+
+2. В рамках данного соглашения под термином «мод» понимается любое дополнение к игре Minecraft — вне зависимости от того, распространяется ли оно в виде датапака, Java-мода, ресурс-пака, текстур-пака или их комбинации. Приведённые правила в равной степени применяются ко всем таким формам, а также к исходному коду, ресурсам и документации, которые их сопровождают.
+
+3. "WalkZen Labs" оставляет за собой право в любое время и по собственному усмотрению изменять условия настоящей лицензии без предварительного уведомления.
+
+===============================
+Раздел II — Что вам разрешено
+
+1. Личное и частное использование - Вы вправе свободно скачивать, устанавливать и модифицировать любой мод "WalkZen Labs" для собственных нужд. Это включает неограниченные эксперименты в одиночной игре. Единственное ограничение — вы не имеете права публично распространять созданные вами производные версии.
+
+2. Использование на серверах - Моды "WalkZen Labs" могут быть установлены на любом сервере Minecraft — публичном или закрытом, коммерческом или некоммерческом. Изменённые версии также допускаются на серверах при условии, что они не распространяются в виде отдельных файлов. Хотя это не является обязательным, мы будем признательны, если вы укажете авторство "WalkZen Labs" в заметном для игроков месте.
+
+3. Включение в модпаки - Вы можете включать неизменённый мод "WalkZen Labs" в любой публично распространяемый модпак при соблюдении следующих условий:
+- Чётко указано авторство "WalkZen Labs";
+- Приведена прямая ссылка на оригинальный мод;
+- Мод распространяется в полном, неизменённом виде.
+
+4. Коммерческое использование
+Использование наших модов в коммерческих проектах (монетизируемых серверах, модпаках и т. п.) разрешено при условии соблюдения всех остальных пунктов лицензии и отсутствия индивидуальных ограничений, наложенных "WalkZen Labs".
+
+===============================
+Раздел III — Что вам запрещено
+
+1. Распространение в виде отдельного файла - Категорически запрещена повторная загрузка, переиздание или распространение любого мода "WalkZen Labs" — как в оригинальном, так и в изменённом виде — в качестве самостоятельного файла.
+
+2. Несанкционированное включение в «сборники модов» - Включение мода "WalkZen Labs" в любой публично распространяемый сборник модов (под «сборником» понимается комплект модов, предлагаемый для скачивания единым архивом, в отличие от классического модпака) допускается только при наличии письменного разрешения "WalkZen Labs".
+
+3. Изменённые версии в публичных сборках - Без разрешения запрещено включать изменённую версию мода "WalkZen Labs" в любой публичный модпак или сборник модов. Это относится и к случаям, когда пользователь должен самостоятельно скачать мод и переопределить его части.
+
+4. Повторное использование кода
+Вы вправе изучать наш код в образовательных целях, однако копирование его частей в другой проект — будь то мод, плагин, датапак, ресурспак, модпак или сборник модов — без явного разрешения запрещено.
+
+===============================
+Раздел IV — Особые разрешения и исключения
+
+1. "WalkZen Labs" обладает полным авторским правом на все компоненты своих модов. В связи с этим любой пункт настоящей лицензии может быть отменён или изменён в индивидуальном порядке при наличии письменного разрешения "WalkZen Labs".
+
+2. Мы оставляем за собой безусловное право создавать и распространять изменённые версии собственных модов в любое время и по любым причинам.
+
+3. "WalkZen Labs" оставляет за собой право по собственному усмотрению запретить конкретным лицам или организациям извлекать прибыль из наших произведений. Однако ни одному лицу никогда не будет отказано в праве использовать наши моды в личных или некоммерческих целях при условии соблюдения остальных пунктов настоящей лицензии.
