@@ -1,6 +1,0 @@
-v.1.0.0
-- The first release of datapack!
-- Amulets - new items that improve the characteristics of player
-- More than 20 PHENOMenal structures
-- New crafting recipes
-- New enchantments
