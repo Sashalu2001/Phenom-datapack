@@ -38,7 +38,8 @@
     "phenom:structures",
     "phenom:amulets",
     "phenom:enchantments",
-    "phenom:recipes"
+    "phenom:recipes",
+    "phenom:links"
   ],
   "exit_action": {
     "label": {

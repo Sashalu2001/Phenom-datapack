@@ -1,0 +1,34 @@
+{
+  "type": "minecraft:multi_action",
+  "body": [],
+  "actions": [
+    {
+      "label": {
+        "type": "text",
+        "text": "Boosty"
+      },
+      "width": 150,
+      "action": {
+        "type": "open_url",
+        "url": "https://boosty.to/walkzenlabs/donate"
+      }
+    }
+  ],
+  "columns": 1,
+  "exit_action": {
+    "label": {
+      "translate": "gui.back"
+    },
+    "width": 150
+  },
+  "external_title": {
+    "type": "translatable",
+    "translate": "phenom.dialog.help.links",
+    "fallback": "Links"
+  },
+  "title": {
+    "type": "translatable",
+    "translate": "phenom.dialog.help.links",
+    "fallback": "Links"
+  }
+}
