@@ -50,7 +50,7 @@
     "condition": "minecraft:entity_properties",
     "entity": "this",
     "predicate": {
-        "type": "minecraft:villager",
+        "entity_type": "minecraft:villager",
         "nbt": "{Tags:[\"wealthy_cartographer\"]}"
     }
   }

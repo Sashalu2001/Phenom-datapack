@@ -9,7 +9,7 @@
             "condition": "minecraft:entity_properties",
             "entity": "this",
             "predicate": {
-              "type": "minecraft:evoker",
+              "entity_type": "minecraft:evoker",
               "nbt": "{Tags:[\"leader_evoker\"]}"
             }
           }

@@ -9,7 +9,7 @@
             "condition": "minecraft:entity_properties",
             "entity": "this",
             "predicate": {
-              "type": "minecraft:pillager",
+              "entity_type": "minecraft:pillager",
               "nbt": "{Tags:[\"leader_pillager\"]}"
             }
           }
