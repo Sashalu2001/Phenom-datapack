@@ -1,37 +1,32 @@
 {
-  "type": "minecraft:entity",
-  "pools": [
-    {
-      "rolls": 1,
-      "entries": [
+    "type": "minecraft:entity",
+    "pools": [
         {
-          "type": "minecraft:item",
-          "name": "minecraft:debug_stick",
-          "weight": 1,
-          "functions": [
-            {
-              "function": "reference",
-              "name": "phenom:items/micropolymer_element"
-            }
-          ]
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:debug_stick",
+                    "weight": 1,
+                    "modifier": "phenom:items/micropolymer_element"
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:shulker_shell",
+                    "weight": 1,
+                    "modifier": [
+                        {
+                            "type": "minecraft:set_count",
+                            "count": 2
+                        }
+                    ]
+                }
+            ]
         }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
-       {
-          "type": "minecraft:item",
-          "name": "minecraft:shulker_shell",
-          "weight": 1,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": 2
-            }
-          ]
-        }
-      ]
-    }
-  ]
+    ]
 }

@@ -8,9 +8,9 @@
           "type": "minecraft:item",
           "name": "minecraft:mace",
           "weight": 4,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:enchant_with_levels",
+              "type": "minecraft:enchant_with_levels",
               "levels": {
                 "type": "minecraft:uniform",
                 "min": 25,
@@ -24,9 +24,9 @@
           "type": "minecraft:item",
           "name": "minecraft:book",
           "weight": 5,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_enchantments",
+              "type": "minecraft:set_enchantments",
               "enchantments": {
                 "phenom:rift": {
                   "type": "minecraft:uniform",
@@ -41,9 +41,9 @@
           "type": "minecraft:item",
           "name": "minecraft:book",
           "weight": 5,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_enchantments",
+              "type": "minecraft:set_enchantments",
               "enchantments": {
                 "phenom:lightness": {
                   "type": "minecraft:uniform",
@@ -58,9 +58,9 @@
           "type": "minecraft:item",
           "name": "minecraft:book",
           "weight": 1,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_enchantments",
+              "type": "minecraft:set_enchantments",
               "enchantments": {
                 "minecraft:unbreaking": {
                   "type": "minecraft:uniform",
@@ -75,9 +75,9 @@
           "type": "minecraft:item",
           "name": "minecraft:book",
           "weight": 1,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_enchantments",
+              "type": "minecraft:set_enchantments",
               "enchantments": {
                 "minecraft:mending": 1
               }
@@ -88,9 +88,9 @@
           "type": "minecraft:item",
           "name": "minecraft:book",
           "weight": 1,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_enchantments",
+              "type": "minecraft:set_enchantments",
               "enchantments": {
                 "minecraft:protection": {
                   "type": "minecraft:uniform",
@@ -105,9 +105,9 @@
           "type": "minecraft:item",
           "name": "minecraft:book",
           "weight": 1,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_enchantments",
+              "type": "minecraft:set_enchantments",
               "enchantments": {
                 "minecraft:projectile_protection": {
                   "type": "minecraft:uniform",
@@ -122,9 +122,9 @@
           "type": "minecraft:item",
           "name": "minecraft:book",
           "weight": 1,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_enchantments",
+              "type": "minecraft:set_enchantments",
               "enchantments": {
                 "minecraft:blast_protection": {
                   "type": "minecraft:uniform",
@@ -139,9 +139,9 @@
           "type": "minecraft:item",
           "name": "minecraft:book",
           "weight": 1,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_enchantments",
+              "type": "minecraft:set_enchantments",
               "enchantments": {
                 "minecraft:fire_protection": {
                   "type": "minecraft:uniform",
@@ -156,9 +156,9 @@
           "type": "minecraft:item",
           "name": "minecraft:book",
           "weight": 1,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_enchantments",
+              "type": "minecraft:set_enchantments",
               "enchantments": {
                 "minecraft:sharpness": {
                   "type": "minecraft:uniform",
@@ -173,9 +173,9 @@
           "type": "minecraft:item",
           "name": "minecraft:book",
           "weight": 1,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_enchantments",
+              "type": "minecraft:set_enchantments",
               "enchantments": {
                 "minecraft:smite": {
                   "type": "minecraft:uniform",
@@ -190,9 +190,9 @@
           "type": "minecraft:item",
           "name": "minecraft:book",
           "weight": 1,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_enchantments",
+              "type": "minecraft:set_enchantments",
               "enchantments": {
                 "minecraft:bane_of_arthropods": {
                   "type": "minecraft:uniform",
@@ -207,9 +207,9 @@
           "type": "minecraft:item",
           "name": "minecraft:book",
           "weight": 1,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_enchantments",
+              "type": "minecraft:set_enchantments",
               "enchantments": {
                 "minecraft:power": {
                   "type": "minecraft:uniform",
@@ -224,9 +224,9 @@
           "type": "minecraft:item",
           "name": "minecraft:book",
           "weight": 1,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_enchantments",
+              "type": "minecraft:set_enchantments",
               "enchantments": {
                 "minecraft:piercing": {
                   "type": "minecraft:uniform",
@@ -241,9 +241,9 @@
           "type": "minecraft:item",
           "name": "minecraft:book",
           "weight": 1,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_enchantments",
+              "type": "minecraft:set_enchantments",
               "enchantments": {
                 "minecraft:multishot": 1
               }
@@ -254,9 +254,9 @@
           "type": "minecraft:item",
           "name": "minecraft:book",
           "weight": 1,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_enchantments",
+              "type": "minecraft:set_enchantments",
               "enchantments": {
                 "minecraft:density": {
                   "type": "minecraft:uniform",
@@ -271,9 +271,9 @@
           "type": "minecraft:item",
           "name": "minecraft:book",
           "weight": 1,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_enchantments",
+              "type": "minecraft:set_enchantments",
               "enchantments": {
                 "minecraft:breach": {
                   "type": "minecraft:uniform",

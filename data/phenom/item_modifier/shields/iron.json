@@ -1,6 +1,8 @@
-[
+{
+    "type": "sequence",
+    "functions": [
     {
-        "function": "set_components",
+        "type": "set_components",
         "components": {
             "minecraft:item_name": {
         "translate": "phenom.item.iron_shield.name",
@@ -54,4 +56,4 @@
       }
         }
     }
-]
+]}

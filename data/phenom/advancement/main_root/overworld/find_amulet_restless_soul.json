@@ -4,7 +4,7 @@
     "generate_loot": {
       "trigger": "minecraft:player_generates_container_loot",
       "conditions": {
-        "loot_table": "phenom:ancient_tomb/chest_epic"
+        "loot_tables": "phenom:ancient_tomb/chest_epic"
       }
     },
     "find_amulet": {

@@ -1,21 +1,16 @@
 {
-  "type": "minecraft:chest",
-  "pools": [
-    {
-      "rolls": 1,
-      "entries": [
+    "type": "minecraft:chest",
+    "pools": [
         {
-          "type": "minecraft:item",
-          "name": "minecraft:splash_potion",
-          "weight": 1,
-          "functions": [
-            {
-              "function": "reference",
-              "name": "phenom:potions/splash_potion_of_wither"
-            }
-          ]
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:splash_potion",
+                    "weight": 1,
+                    "modifier": "phenom:potions/splash_potion_of_wither"
+                }
+            ]
         }
-      ]
-    }
-  ]
+    ]
 }

@@ -15,9 +15,9 @@
                             {
                                 "type": "minecraft:item",
                                 "name": "minecraft:leather_helmet",
-                                "functions": [
+                                "modifier": [
                                     {
-                                        "function": "minecraft:set_enchantments",
+                                        "type": "minecraft:set_enchantments",
                                         "enchantments": {
                                             "protection": 2,
                                             "projectile_protection": 1,
@@ -34,9 +34,9 @@
                             {
                                 "type": "minecraft:item",
                                 "name": "minecraft:leather_chestplate",
-                                "functions": [
+                                "modifier": [
                                     {
-                                        "function": "minecraft:set_enchantments",
+                                        "type": "minecraft:set_enchantments",
                                         "enchantments": {
                                             "protection": 2,
                                             "projectile_protection": 1,
@@ -53,9 +53,9 @@
                             {
                                 "type": "minecraft:item",
                                 "name": "minecraft:leather_leggings",
-                                "functions": [
+                                "modifier": [
                                     {
-                                        "function": "minecraft:set_enchantments",
+                                        "type": "minecraft:set_enchantments",
                                         "enchantments": {
                                             "protection": 2,
                                             "projectile_protection": 1,
@@ -72,9 +72,9 @@
                             {
                                 "type": "minecraft:item",
                                 "name": "minecraft:leather_boots",
-                                "functions": [
+                                "modifier": [
                                     {
-                                        "function": "minecraft:set_enchantments",
+                                        "type": "minecraft:set_enchantments",
                                         "enchantments": {
                                             "protection": 2,
                                             "projectile_protection": 1,
@@ -91,9 +91,9 @@
                             {
                                 "type": "minecraft:item",
                                 "name": "minecraft:golden_sword",
-                                "functions": [
+                                "modifier": [
                                     {
-                                        "function": "minecraft:set_enchantments",
+                                        "type": "minecraft:set_enchantments",
                                         "enchantments": {
                                             "knockback": 2
                                         }
@@ -116,9 +116,9 @@
                             {
                                 "type": "minecraft:item",
                                 "name": "minecraft:diamond_helmet",
-                                "functions": [
+                                "modifier": [
                                     {
-                                        "function": "minecraft:set_enchantments",
+                                        "type": "minecraft:set_enchantments",
                                         "enchantments": {
                                             "protection": 2,
                                             "projectile_protection": 1,
@@ -135,9 +135,9 @@
                             {
                                 "type": "minecraft:item",
                                 "name": "minecraft:diamond_chestplate",
-                                "functions": [
+                                "modifier": [
                                     {
-                                        "function": "minecraft:set_enchantments",
+                                        "type": "minecraft:set_enchantments",
                                         "enchantments": {
                                             "protection": 2,
                                             "projectile_protection": 1,
@@ -154,9 +154,9 @@
                             {
                                 "type": "minecraft:item",
                                 "name": "minecraft:diamond_leggings",
-                                "functions": [
+                                "modifier": [
                                     {
-                                        "function": "minecraft:set_enchantments",
+                                        "type": "minecraft:set_enchantments",
                                         "enchantments": {
                                             "protection": 2,
                                             "projectile_protection": 1,
@@ -173,9 +173,9 @@
                             {
                                 "type": "minecraft:item",
                                 "name": "minecraft:diamond_boots",
-                                "functions": [
+                                "modifier": [
                                     {
-                                        "function": "minecraft:set_enchantments",
+                                        "type": "minecraft:set_enchantments",
                                         "enchantments": {
                                             "protection": 2,
                                             "projectile_protection": 1,
@@ -192,9 +192,9 @@
                             {
                                 "type": "minecraft:item",
                                 "name": "minecraft:golden_axe",
-                                "functions": [
+                                "modifier": [
                                     {
-                                        "function": "minecraft:set_attributes",
+                                        "type": "minecraft:set_attributes",
                                         "modifiers": [
                                             {
                                                 "attribute": "scale",
@@ -220,7 +220,7 @@
                                         ]
                                     },
                                     {
-                                        "function": "minecraft:set_enchantments",
+                                        "type": "minecraft:set_enchantments",
                                         "enchantments": {
                                             "sharpness": 4,
                                             "knockback": 2

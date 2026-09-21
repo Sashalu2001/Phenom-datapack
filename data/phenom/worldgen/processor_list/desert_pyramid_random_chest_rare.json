@@ -15,7 +15,7 @@
               "predicate_type": "minecraft:always_true"
             },
             "output_state": {
-              "Name": "minecraft:chest"
+              "id": "minecraft:chest"
             },
             "block_entity_modifier": {
               "type": "minecraft:append_loot",
@@ -39,8 +39,8 @@
             "probability": 0.2
           },
           "output_state": {
-            "Name": "minecraft:suspicious_sand",
-            "Properties": {
+            "id": "minecraft:suspicious_sand",
+            "properties": {
               "dusted": "0"
             }
           },
@@ -59,7 +59,7 @@
             "block": "minecraft:decorated_pot"
           },
           "output_state": {
-            "Name": "minecraft:decorated_pot"
+            "id": "minecraft:decorated_pot"
           },
           "block_entity_modifier": {
             "type": "minecraft:append_loot",
@@ -76,7 +76,7 @@
             "predicate_type": "minecraft:always_true"
           },
           "output_state": {
-            "Name": "minecraft:packed_mud"
+            "id": "minecraft:packed_mud"
           }
         },
         {
@@ -89,7 +89,7 @@
             "predicate_type": "minecraft:always_true"
           },
           "output_state": {
-            "Name": "minecraft:terracotta"
+            "id": "minecraft:terracotta"
           }
         },
         {
@@ -102,7 +102,7 @@
             "predicate_type": "minecraft:always_true"
           },
           "output_state": {
-            "Name": "minecraft:granite"
+            "id": "minecraft:granite"
           }
         }
       ]

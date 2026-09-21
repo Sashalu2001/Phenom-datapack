@@ -3,9 +3,12 @@
     "id": "minecraft:blue_banner"
   },
   "max_uses": 12,
-  "merchant_predicate": [
+  "merchant_predicate": {
+    "type": "all_of",
+    "terms": 
+  [
     {
-        "condition": "minecraft:entity_properties",
+        "type": "minecraft:entity_properties",
         "entity": "this",
         "predicate": {
         "predicates": {
@@ -17,17 +20,18 @@
         }
     },
     {
-      "condition": "minecraft:inverted",
+      "type": "minecraft:inverted",
       "term": {
-          "condition": "minecraft:entity_properties",
+          "type": "minecraft:entity_properties",
           "entity": "this",
           "predicate": {
-              "type": "minecraft:villager",
+              "entity_type": "minecraft:villager",
               "nbt": "{Tags:[\"wealthy_cartographer\"]}"
           }
       }
     }
-    ],
+    ]
+  },
   "reputation_discount": 0.05,
   "wants": {
     "count": 2,

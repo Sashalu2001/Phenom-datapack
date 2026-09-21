@@ -1,21 +1,16 @@
 {
-  "type": "minecraft:chest",
-  "pools": [
-    {
-      "rolls": 1,
-      "entries": [
+    "type": "minecraft:chest",
+    "pools": [
         {
-          "type": "minecraft:item",
-          "name": "minecraft:map",
-          "weight": 1,
-          "functions": [
-            {
-              "function": "reference",
-              "name": "phenom:exploration_maps/ancient_tomb_map"
-            }
-          ]
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:map",
+                    "weight": 1,
+                    "modifier": "phenom:exploration_maps/ancient_tomb_map"
+                }
+            ]
         }
-      ]
-    }
-  ]
+    ]
 }

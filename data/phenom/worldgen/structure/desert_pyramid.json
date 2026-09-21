@@ -12,14 +12,12 @@
       "spawns": [
         {
           "type": "minecraft:husk",
-          "maxCount": 1,
-          "minCount": 1,
+          "count": 1,
           "weight": 4
         },
         {
           "type": "minecraft:parched",
-          "maxCount": 1,
-          "minCount": 1,
+          "count": 1,
           "weight": 4
         }
       ]

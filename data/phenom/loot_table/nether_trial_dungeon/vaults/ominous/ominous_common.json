@@ -8,9 +8,9 @@
           "type": "minecraft:item",
           "name": "minecraft:wind_charge",
           "weight": 4,
-          "functions": [
+          "modifier": [
             {
-              "function": "set_count",
+              "type": "set_count",
               "count": {
                 "type": "minecraft:uniform",
                 "min": 12,
@@ -23,9 +23,9 @@
           "type": "minecraft:item",
           "name": "minecraft:iron_block",
           "weight": 3,
-          "functions": [
+          "modifier": [
             {
-              "function": "set_count",
+              "type": "set_count",
               "count": {
                 "type": "minecraft:uniform",
                 "min": 2,
@@ -38,9 +38,9 @@
           "type": "minecraft:item",
           "name": "minecraft:gold_block",
           "weight": 3,
-          "functions": [
+          "modifier": [
             {
-              "function": "set_count",
+              "type": "set_count",
               "count": {
                 "type": "minecraft:uniform",
                 "min": 2,
@@ -53,9 +53,9 @@
           "type": "minecraft:item",
           "name": "minecraft:coal_block",
           "weight": 3,
-          "functions": [
+          "modifier": [
             {
-              "function": "set_count",
+              "type": "set_count",
               "count": {
                 "type": "minecraft:uniform",
                 "min": 3,
@@ -68,9 +68,9 @@
           "type": "minecraft:item",
           "name": "minecraft:netherite_ingot",
           "weight": 1,
-          "functions": [
+          "modifier": [
             {
-              "function": "set_count",
+              "type": "set_count",
               "count": 1
             }
           ]
@@ -79,9 +79,9 @@
           "type": "minecraft:item",
           "name": "minecraft:experience_bottle",
           "weight": 3,
-          "functions": [
+          "modifier": [
             {
-              "function": "set_count",
+              "type": "set_count",
               "count": {
                 "type": "minecraft:uniform",
                 "min": 12,
@@ -94,9 +94,9 @@
           "type": "minecraft:item",
           "name": "minecraft:glowstone",
           "weight": 3,
-          "functions": [
+          "modifier": [
             {
-              "function": "set_count",
+              "type": "set_count",
               "count": {
                 "type": "minecraft:uniform",
                 "min": 8,
@@ -109,9 +109,9 @@
           "type": "minecraft:item",
           "name": "minecraft:blaze_rod",
           "weight": 3,
-          "functions": [
+          "modifier": [
             {
-              "function": "set_count",
+              "type": "set_count",
               "count": {
                 "type": "minecraft:uniform",
                 "min": 8,
@@ -124,9 +124,9 @@
           "type": "minecraft:item",
           "name": "minecraft:golden_apple",
           "weight": 2,
-          "functions": [
+          "modifier": [
             {
-              "function": "set_count",
+              "type": "set_count",
               "count": {
                 "type": "minecraft:uniform",
                 "min": 3,
@@ -139,9 +139,9 @@
           "type": "minecraft:item",
           "name": "minecraft:golden_carrot",
           "weight": 3,
-          "functions": [
+          "modifier": [
             {
-              "function": "set_count",
+              "type": "set_count",
               "count": {
                 "type": "minecraft:uniform",
                 "min": 10,

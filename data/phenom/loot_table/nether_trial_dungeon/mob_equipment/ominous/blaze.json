@@ -15,9 +15,9 @@
                             {
                                 "type": "minecraft:item",
                                 "name": "minecraft:iron_boots",
-                                "functions": [
+                                "modifier": [
                                     {
-                                        "function": "minecraft:set_enchantments",
+                                        "type": "minecraft:set_enchantments",
                                         "enchantments": {
                                             "phenom:fire_step": 1,
                                             "protection": 8,
@@ -25,7 +25,7 @@
                                         }
                                     },
                                     {
-                                        "function": "minecraft:set_attributes",
+                                        "type": "minecraft:set_attributes",
                                         "modifiers": [
                                             {
                                                 "attribute": "armor",
@@ -46,9 +46,9 @@
                             {
                                 "type": "minecraft:item",
                                 "name": "minecraft:blaze_rod",
-                                "functions": [
+                                "modifier": [
                                     {
-                                        "function": "minecraft:set_enchantments",
+                                        "type": "minecraft:set_enchantments",
                                         "enchantments": {
                                             "fire_aspect": 2,
                                             "sharpness": 5
@@ -72,9 +72,9 @@
                             {
                                 "type": "minecraft:item",
                                 "name": "minecraft:iron_boots",
-                                "functions": [
+                                "modifier": [
                                     {
-                                        "function": "minecraft:set_enchantments",
+                                        "type": "minecraft:set_enchantments",
                                         "enchantments": {
                                             "phenom:fire_step": 1,
                                             "protection": 8,
@@ -82,7 +82,7 @@
                                         }
                                     },
                                     {
-                                        "function": "minecraft:set_attributes",
+                                        "type": "minecraft:set_attributes",
                                         "modifiers": [
                                             {
                                                 "attribute": "scale",
@@ -124,9 +124,9 @@
                             {
                                 "type": "minecraft:item",
                                 "name": "minecraft:blaze_rod",
-                                "functions": [
+                                "modifier": [
                                     {
-                                        "function": "minecraft:set_enchantments",
+                                        "type": "minecraft:set_enchantments",
                                         "enchantments": {
                                             "fire_aspect": 2,
                                             "sharpness": 5

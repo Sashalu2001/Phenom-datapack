@@ -7,9 +7,9 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:lingering_potion",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_components",
+              "type": "minecraft:set_components",
               "components": {
                 "minecraft:potion_contents": {
                   "custom_color": 12032343,
@@ -33,9 +33,9 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:lingering_potion",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_components",
+              "type": "minecraft:set_components",
               "components": {
                 "minecraft:potion_contents": {
                   "custom_color": 11779264,
@@ -59,9 +59,9 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:lingering_potion",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_components",
+              "type": "minecraft:set_components",
               "components": {
                 "minecraft:potion_contents": {
                   "custom_color": 1908001,
@@ -85,9 +85,9 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:tipped_arrow",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_components",
+              "type": "minecraft:set_components",
               "components": {
                 "minecraft:potion_contents": {
                   "custom_color": 12032343,
@@ -111,9 +111,9 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:tipped_arrow",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_components",
+              "type": "minecraft:set_components",
               "components": {
                 "minecraft:potion_contents": {
                   "custom_color": 11779264,
@@ -137,9 +137,9 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:tipped_arrow",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_components",
+              "type": "minecraft:set_components",
               "components": {
                 "minecraft:potion_contents": {
                   "custom_color": 1908001,

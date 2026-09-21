@@ -13,8 +13,8 @@
             "predicate_type": "minecraft:always_true"
           },
           "output_state": {
-            "Name": "minecraft:melon_stem",
-            "Properties": {
+            "id": "minecraft:melon_stem",
+            "properties": {
               "age": "0"
             }
           }

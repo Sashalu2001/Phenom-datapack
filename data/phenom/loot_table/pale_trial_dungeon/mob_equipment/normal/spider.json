@@ -95,9 +95,9 @@
                             {
                                 "type": "minecraft:item",
                                 "name": "minecraft:golden_axe",
-                                "functions": [
+                                "modifier": [
                                     {
-                                        "function": "minecraft:set_attributes",
+                                        "type": "minecraft:set_attributes",
                                         "modifiers": [
                                             {
                                                 "attribute": "scale",

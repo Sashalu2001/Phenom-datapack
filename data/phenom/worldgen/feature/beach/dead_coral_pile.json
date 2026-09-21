@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:block_pile",
+    "state_provider": {
+      "type": "minecraft:weighted",
+      "entries": [
+        {
+          "weight": 4,
+          "data": {
+            "id": "minecraft:dead_tube_coral_block"
+          }
+        },
+        {
+          "weight": 3,
+          "data": {
+            "id": "minecraft:dead_brain_coral_block"
+          }
+        },
+        {
+          "weight": 2,
+          "data": {
+            "id": "minecraft:dead_bubble_coral_block"
+          }
+        },
+        {
+          "weight": 1,
+          "data": {
+            "id": "minecraft:dead_fire_coral_block"
+          }
+        }
+      ]
+    }
+  
+}

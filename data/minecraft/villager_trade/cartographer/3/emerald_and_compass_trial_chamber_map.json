@@ -2,35 +2,27 @@
   "additional_wants": {
     "id": "minecraft:compass"
   },
-  "given_item_modifiers": [
+  "given_item_modifier": [
     {
       "decoration": "minecraft:trial_chambers",
-      "destination": "minecraft:on_trial_chambers_maps",
-      "function": "minecraft:exploration_map",
+      "destination": "#minecraft:on_buried_trial_chambers_maps",
+      "type": "minecraft:exploration_map",
       "search_radius": 100
     },
     {
-      "function": "minecraft:set_name",
-      "name": {
-        "translate": "filled_map.trial_chambers"
-      },
-      "target": "item_name"
-    },
-    {
-      "function": "minecraft:filtered",
+      "type": "minecraft:filtered",
       "item_filter": {
-        "items": "minecraft:filled_map",
         "predicates": {
           "minecraft:map_id": {}
         }
       },
       "on_fail": {
-        "function": "minecraft:discard"
+        "type": "minecraft:discard"
       }
     }
   ],
   "gives": {
-    "id": "minecraft:map"
+    "id": "minecraft:buried_trial_chambers_map"
   },
   "max_uses": 12,
   "reputation_discount": 0.2,
@@ -40,12 +32,12 @@
   },
   "xp": 10,
   "merchant_predicate": {
-    "condition": "minecraft:inverted",
+    "type": "minecraft:inverted",
     "term": {
-        "condition": "minecraft:entity_properties",
+        "type": "minecraft:entity_properties",
         "entity": "this",
         "predicate": {
-            "type": "minecraft:villager",
+            "entity_type": "minecraft:villager",
             "nbt": "{Tags:[\"wealthy_cartographer\"]}"
         }
     }

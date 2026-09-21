@@ -13,7 +13,7 @@
             "predicate_type": "minecraft:always_true"
           },
           "output_state": {
-            "Name": "minecraft:mossy_cobblestone_wall"
+            "id": "minecraft:mossy_cobblestone_wall"
           }
         },
         {
@@ -26,7 +26,7 @@
             "predicate_type": "minecraft:always_true"
           },
           "output_state": {
-            "Name": "minecraft:mossy_stone_brick_wall"
+            "id": "minecraft:mossy_stone_brick_wall"
           }
         },
         {
@@ -39,7 +39,7 @@
             "predicate_type": "minecraft:always_true"
           },
           "output_state": {
-            "Name": "minecraft:mossy_stone_bricks"
+            "id": "minecraft:mossy_stone_bricks"
           }
         },
         {
@@ -52,7 +52,7 @@
             "predicate_type": "minecraft:always_true"
           },
           "output_state": {
-            "Name": "minecraft:cracked_stone_bricks"
+            "id": "minecraft:cracked_stone_bricks"
           }
         },
         {
@@ -65,7 +65,7 @@
             "predicate_type": "minecraft:always_true"
           },
           "output_state": {
-            "Name": "minecraft:cracked_deepslate_tiles"
+            "id": "minecraft:cracked_deepslate_tiles"
           }
         },
         {
@@ -78,7 +78,7 @@
             "predicate_type": "minecraft:always_true"
           },
           "output_state": {
-            "Name": "minecraft:cracked_deepslate_bricks"
+            "id": "minecraft:cracked_deepslate_bricks"
           }
         }
       ]

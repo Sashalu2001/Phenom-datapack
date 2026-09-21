@@ -15,9 +15,9 @@
                             {
                                 "type": "minecraft:item",
                                 "name": "minecraft:iron_chestplate",
-                                "functions": [
+                                "modifier": [
                                     {
-                                        "function": "minecraft:set_attributes",
+                                        "type": "minecraft:set_attributes",
                                         "modifiers": [
                                             {
                                                 "attribute": "armor",
@@ -29,7 +29,7 @@
                                         ]
                                     },
                                     {
-                                        "function": "minecraft:set_enchantments",
+                                        "type": "minecraft:set_enchantments",
                                         "enchantments": {
                                             "protection": 8,
                                             "projectile_protection": 4,
@@ -46,9 +46,9 @@
                             {
                                 "type": "minecraft:item",
                                 "name": "minecraft:golden_hoe",
-                                "functions": [
+                                "modifier": [
                                     {
-                                        "function": "minecraft:set_enchantments",
+                                        "type": "minecraft:set_enchantments",
                                         "enchantments": {
                                             "sharpness": 4,
                                             "knockback": 1
@@ -72,9 +72,9 @@
                             {
                                 "type": "minecraft:item",
                                 "name": "minecraft:iron_chestplate",
-                                "functions": [
+                                "modifier": [
                                     {
-                                        "function": "minecraft:set_attributes",
+                                        "type": "minecraft:set_attributes",
                                         "modifiers": [
                                             {
                                                 "attribute": "scale",
@@ -107,7 +107,7 @@
                                         ]
                                     },
                                     {
-                                        "function": "minecraft:set_enchantments",
+                                        "type": "minecraft:set_enchantments",
                                         "enchantments": {
                                             "protection": 8,
                                             "projectile_protection": 4,
@@ -124,9 +124,9 @@
                             {
                                 "type": "minecraft:item",
                                 "name": "minecraft:golden_axe",
-                                "functions": [
+                                "modifier": [
                                     {
-                                        "function": "minecraft:set_enchantments",
+                                        "type": "minecraft:set_enchantments",
                                         "enchantments": {
                                             "sharpness": 4,
                                             "knockback": 2

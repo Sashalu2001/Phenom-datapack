@@ -4,13 +4,13 @@
     "generate_loot_1": {
       "trigger": "minecraft:player_generates_container_loot",
       "conditions": {
-        "loot_table": "phenom:forgotten_tower/chest_common"
+        "loot_tables": "phenom:forgotten_tower/chest_common"
       }
     },
     "generate_loot_2": {
       "trigger": "minecraft:player_generates_container_loot",
       "conditions": {
-        "loot_table": "phenom:badlands_tower/chest_common"
+        "loot_tables": "phenom:badlands_tower/chest_common"
       }
     },
     "find_amulet": {

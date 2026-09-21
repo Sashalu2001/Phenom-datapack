@@ -13,7 +13,7 @@
             "block": "minecraft:mud_bricks"
           },
           "output_state": {
-            "Name": "minecraft:spruce_planks"
+            "id": "minecraft:spruce_planks"
           }
         },
         {
@@ -26,7 +26,7 @@
             "block": "minecraft:packed_mud"
           },
           "output_state": {
-            "Name": "minecraft:spruce_planks"
+            "id": "minecraft:spruce_planks"
           }
         },
         {
@@ -39,7 +39,7 @@
             "block": "minecraft:coarse_dirt"
           },
           "output_state": {
-            "Name": "minecraft:spruce_planks"
+            "id": "minecraft:spruce_planks"
           }
         }
       ]

@@ -4,7 +4,7 @@
     "celestial_island": {
       "trigger": "minecraft:player_generates_container_loot",
       "conditions": {
-        "loot_table": "phenom:celestial_island/celestial_island_chest"
+        "loot_tables": "phenom:celestial_island/celestial_island_chest"
       }
     },
     "eat_god_porkchop": {

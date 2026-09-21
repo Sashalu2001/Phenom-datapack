@@ -8,9 +8,9 @@
           "type": "minecraft:item",
           "name": "minecraft:netherite_upgrade_smithing_template",
           "weight": 4,
-          "functions": [
+          "modifier": [
             {
-              "function": "set_count",
+              "type": "set_count",
               "count": {
                 "type": "minecraft:uniform",
                 "min": 1,
@@ -33,9 +33,9 @@
           "type": "minecraft:item",
           "name": "minecraft:ender_pearl",
           "weight": 3,
-          "functions": [
+          "modifier": [
             {
-              "function": "set_count",
+              "type": "set_count",
               "count": {
                 "type": "minecraft:uniform",
                 "min": 4,
@@ -48,9 +48,9 @@
           "type": "minecraft:item",
           "name": "minecraft:ominous_bottle",
           "weight": 4,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_ominous_bottle_amplifier",
+              "type": "minecraft:set_ominous_bottle_amplifier",
               "amplifier": {
                 "type": "minecraft:uniform",
                 "max": 4,
@@ -63,20 +63,16 @@
           "type": "minecraft:item",
           "name": "minecraft:shield",
           "weight": 2,
-          "functions": [
-            {
-              "function": "reference",
-              "name": "phenom:shields/diamond"
-            }
-          ]
+          "modifier": "phenom:shields/diamond"
+            
         },
         {
           "type": "minecraft:item",
           "name": "minecraft:diamond_sword",
           "weight": 2,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:enchant_with_levels",
+              "type": "minecraft:enchant_with_levels",
               "levels": {
                 "type": "minecraft:uniform",
                 "min": 25,
@@ -90,9 +86,9 @@
           "type": "minecraft:item",
           "name": "minecraft:diamond_pickaxe",
           "weight": 1,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:enchant_with_levels",
+              "type": "minecraft:enchant_with_levels",
               "levels": {
                 "type": "minecraft:uniform",
                 "min": 25,
@@ -106,9 +102,9 @@
           "type": "minecraft:item",
           "name": "minecraft:diamond_shovel",
           "weight": 1,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:enchant_with_levels",
+              "type": "minecraft:enchant_with_levels",
               "levels": {
                 "type": "minecraft:uniform",
                 "min": 25,
@@ -122,9 +118,9 @@
           "type": "minecraft:item",
           "name": "minecraft:diamond_axe",
           "weight": 1,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:enchant_with_levels",
+              "type": "minecraft:enchant_with_levels",
               "levels": {
                 "type": "minecraft:uniform",
                 "min": 25,
@@ -138,9 +134,9 @@
           "type": "minecraft:item",
           "name": "minecraft:diamond_helmet",
           "weight": 2,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:enchant_with_levels",
+              "type": "minecraft:enchant_with_levels",
               "levels": {
                 "type": "minecraft:uniform",
                 "min": 25,
@@ -154,9 +150,9 @@
           "type": "minecraft:item",
           "name": "minecraft:diamond_chestplate",
           "weight": 2,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:enchant_with_levels",
+              "type": "minecraft:enchant_with_levels",
               "levels": {
                 "type": "minecraft:uniform",
                 "min": 25,
@@ -170,9 +166,9 @@
           "type": "minecraft:item",
           "name": "minecraft:diamond_leggings",
           "weight": 2,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:enchant_with_levels",
+              "type": "minecraft:enchant_with_levels",
               "levels": {
                 "type": "minecraft:uniform",
                 "min": 25,
@@ -186,9 +182,9 @@
           "type": "minecraft:item",
           "name": "minecraft:diamond_boots",
           "weight": 2,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:enchant_with_levels",
+              "type": "minecraft:enchant_with_levels",
               "levels": {
                 "type": "minecraft:uniform",
                 "min": 25,
@@ -202,9 +198,9 @@
           "type": "minecraft:item",
           "name": "minecraft:bow",
           "weight": 2,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:enchant_with_levels",
+              "type": "minecraft:enchant_with_levels",
               "levels": {
                 "type": "minecraft:uniform",
                 "min": 25,
@@ -218,9 +214,9 @@
           "type": "minecraft:item",
           "name": "minecraft:crossbow",
           "weight": 1,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:enchant_with_levels",
+              "type": "minecraft:enchant_with_levels",
               "levels": {
                 "type": "minecraft:uniform",
                 "min": 25,

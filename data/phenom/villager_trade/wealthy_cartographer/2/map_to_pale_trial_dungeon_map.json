@@ -8,21 +8,20 @@
     "count": 3
   },
   "gives": {
-    "id": "minecraft:map",
+    "id": "minecraft:buried_trial_chambers_map",
     "count": 1
   },
-  "given_item_modifiers": [
+  "given_item_modifier": [
     {
-        "function": "minecraft:exploration_map",
-        "destination": "phenom:is_pale_trial_dungeon",
+        "type": "minecraft:exploration_map",
+        "destination": "#phenom:is_pale_trial_dungeon",
         "decoration": "minecraft:target_x",
         "zoom": 2,
         "skip_existing_chunks": false
     },
     {
-        "function": "minecraft:set_components",
+        "type": "minecraft:set_components",
         "components": {
-            "minecraft:map_color": 10724259,
             "minecraft:item_name": {
                 "type": "translatable",
                 "translate": "phenom.item.pale_trial_dungeon_map.name",
@@ -31,15 +30,14 @@
         }
     },
     {
-      "function": "minecraft:filtered",
+      "type": "minecraft:filtered",
       "item_filter": {
-        "items": "minecraft:filled_map",
         "predicates": {
           "minecraft:map_id": {}
         }
       },
       "on_fail": {
-        "function": "minecraft:discard"
+        "type": "minecraft:discard"
       }
     }
   ],
@@ -47,10 +45,10 @@
   "xp": 1,
   "reputation_discount": 0.05,
   "merchant_predicate": {
-    "condition": "minecraft:entity_properties",
+    "type": "minecraft:entity_properties",
     "entity": "this",
     "predicate": {
-        "type": "minecraft:villager",
+        "entity_type": "minecraft:villager",
         "nbt": "{Tags:[\"wealthy_cartographer\"]}"
     }
   }

@@ -1,21 +1,16 @@
 {
-  "type": "minecraft:chest",
-  "pools": [
-    {
-      "rolls": 1,
-      "entries": [
+    "type": "minecraft:chest",
+    "pools": [
         {
-          "type": "minecraft:item",
-          "name": "minecraft:music_disc_mall",
-          "weight": 1,
-          "functions": [
-            {
-              "function": "reference",
-              "name": "phenom:items/music_disc_credits"
-            }
-          ]
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:music_disc_mall",
+                    "weight": 1,
+                    "modifier": "phenom:items/music_disc_credits"
+                }
+            ]
         }
-      ]
-    }
-  ]
+    ]
 }

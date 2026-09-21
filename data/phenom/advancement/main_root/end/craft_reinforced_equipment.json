@@ -4,31 +4,31 @@
     "craft_reinforced_elytra": {
       "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "recipe_id": "phenom:super_elytra"
+        "recipes": "phenom:super_elytra"
       }
     },
     "craft_reinforced_helmet": {
       "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "recipe_id": "phenom:reinforced_helmet"
+        "recipes": "phenom:reinforced_helmet"
       }
     },
     "craft_reinforced_chestplate": {
       "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "recipe_id": "phenom:reinforced_chestplate"
+        "recipes": "phenom:reinforced_chestplate"
       }
     },
     "craft_reinforced_leggings": {
       "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "recipe_id": "phenom:reinforced_leggings"
+        "recipes": "phenom:reinforced_leggings"
       }
     },
     "craft_reinforced_boots": {
       "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "recipe_id": "phenom:reinforced_boots"
+        "recipes": "phenom:reinforced_boots"
       }
     }
   },

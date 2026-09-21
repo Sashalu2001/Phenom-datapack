@@ -13,7 +13,7 @@
             "block": "minecraft:cobbled_deepslate"
           },
           "output_state": {
-            "Name": "minecraft:deepslate_bricks"
+            "id": "minecraft:deepslate_bricks"
           }
         },
         {
@@ -26,7 +26,7 @@
             "block": "minecraft:deepslate_tiles"
           },
           "output_state": {
-            "Name": "minecraft:deepslate_bricks"
+            "id": "minecraft:deepslate_bricks"
           }
         },
         {
@@ -39,7 +39,7 @@
             "block": "minecraft:podzol"
           },
           "output_state": {
-            "Name": "minecraft:deepslate_bricks"
+            "id": "minecraft:deepslate_bricks"
           }
         }
       ]

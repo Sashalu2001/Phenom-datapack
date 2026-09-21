@@ -14,8 +14,11 @@
       "spawns": [
         {
           "type": "minecraft:stray",
-          "maxCount": 4,
-          "minCount": 1,
+          "count": {
+            "type": "uniform",
+            "min_inclusive": 1,
+            "max_inclusive": 4
+          },
           "weight": 1
         }
       ]

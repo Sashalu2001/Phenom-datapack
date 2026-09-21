@@ -4,7 +4,7 @@
     "generate_loot": {
       "trigger": "minecraft:player_generates_container_loot",
       "conditions": {
-        "loot_table": "phenom:haunted_mansion/chest_rare"
+        "loot_tables": "phenom:haunted_mansion/chest_rare"
       }
     },
     "find_amulet": {

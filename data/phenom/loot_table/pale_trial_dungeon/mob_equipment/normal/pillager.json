@@ -15,9 +15,9 @@
                             {
                                 "type": "minecraft:item",
                                 "name": "minecraft:crossbow",
-                                "functions": [
+                                "modifier": [
                                     {
-                                        "function": "minecraft:set_enchantments",
+                                        "type": "minecraft:set_enchantments",
                                         "enchantments": {
                                             "power": 3
                                         }
@@ -76,9 +76,9 @@
                             {
                                 "type": "minecraft:item",
                                 "name": "minecraft:crossbow",
-                                "functions": [
+                                "modifier": [
                                     {
-                                        "function": "minecraft:set_enchantments",
+                                        "type": "minecraft:set_enchantments",
                                         "enchantments": {
                                             "power": 3
                                         }
@@ -137,9 +137,9 @@
                             {
                                 "type": "minecraft:item",
                                 "name": "minecraft:crossbow",
-                                "functions": [
+                                "modifier": [
                                     {
-                                        "function": "minecraft:set_enchantments",
+                                        "type": "minecraft:set_enchantments",
                                         "enchantments": {
                                             "power": 4
                                         }

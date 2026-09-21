@@ -1,46 +1,44 @@
 {
-  "type": "minecraft:chest",
-  "pools": [
-    {
-      "rolls": {
-        "type": "minecraft:uniform",
-        "min": 2,
-        "max": 3
-      },
-      "entries": [
+    "type": "minecraft:chest",
+    "pools": [
         {
-          "type": "minecraft:loot_table",
-          "value": "phenom:pale_trial_dungeon/vaults/normal/normal_common"
-        }
-      ]
-    },
-    {
-      "rolls": {
-        "type": "minecraft:uniform",
-        "min": 1,
-        "max": 2
-      },
-      "entries": [
+            "rolls": {
+                "type": "minecraft:uniform",
+                "min": 2,
+                "max": 3
+            },
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "phenom:pale_trial_dungeon/vaults/normal/normal_common"
+                }
+            ]
+        },
         {
-          "type": "minecraft:loot_table",
-          "value": "phenom:pale_trial_dungeon/vaults/normal/normal_rare"
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
+            "rolls": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+            },
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "phenom:pale_trial_dungeon/vaults/normal/normal_rare"
+                }
+            ]
+        },
         {
-          "type": "minecraft:loot_table",
-          "value": "phenom:pale_trial_dungeon/vaults/normal/normal_epic"
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "phenom:pale_trial_dungeon/vaults/normal/normal_epic"
+                }
+            ],
+            "condition": {
+                "chance": 0.6,
+                "type": "minecraft:random_chance"
+            }
         }
-      ],
-      "conditions": [
-        {
-          "chance": 0.6,
-          "condition": "minecraft:random_chance"
-        }
-      ]
-    }
-  ]
+    ]
 }

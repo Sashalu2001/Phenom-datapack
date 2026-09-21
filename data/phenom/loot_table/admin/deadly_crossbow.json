@@ -1,21 +1,16 @@
 {
-  "type": "minecraft:chest",
-  "pools": [
-    {
-      "rolls": 1,
-      "entries": [
+    "type": "minecraft:chest",
+    "pools": [
         {
-          "type": "minecraft:item",
-          "name": "minecraft:crossbow",
-          "weight": 1,
-          "functions": [
-            {
-              "function": "reference",
-              "name": "phenom:items/deadly_crossbow"
-            }
-          ]
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:crossbow",
+                    "weight": 1,
+                    "modifier": "phenom:items/deadly_crossbow"
+                }
+            ]
         }
-      ]
-    }
-  ]
+    ]
 }

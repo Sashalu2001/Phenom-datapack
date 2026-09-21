@@ -19,9 +19,9 @@
                             {
                                 "type": "minecraft:item",
                                 "name": "minecraft:leather_helmet",
-                                "functions": [
+                                "modifier": [
                                     {
-                                    "function": "minecraft:set_components",
+                                    "type": "minecraft:set_components",
                                     "components": {
                                         "minecraft:trim": {
                                             "material": "minecraft:quartz",
@@ -39,9 +39,9 @@
                             {
                                 "type": "minecraft:item",
                                 "name": "minecraft:leather_chestplate",
-                                "functions": [
+                                "modifier": [
                                     {
-                                    "function": "minecraft:set_components",
+                                    "type": "minecraft:set_components",
                                     "components": {
                                         "minecraft:trim": {
                                             "material": "minecraft:quartz",
@@ -59,9 +59,9 @@
                             {
                                 "type": "minecraft:item",
                                 "name": "minecraft:leather_leggings",
-                                "functions": [
+                                "modifier": [
                                     {
-                                    "function": "minecraft:set_components",
+                                    "type": "minecraft:set_components",
                                     "components": {
                                         "minecraft:trim": {
                                             "material": "minecraft:quartz",
@@ -79,9 +79,9 @@
                             {
                                 "type": "minecraft:item",
                                 "name": "minecraft:leather_boots",
-                                "functions": [
+                                "modifier": [
                                     {
-                                    "function": "minecraft:set_components",
+                                    "type": "minecraft:set_components",
                                     "components": {
                                         "minecraft:trim": {
                                             "material": "minecraft:quartz",
@@ -116,9 +116,9 @@
                             {
                                 "type": "minecraft:item",
                                 "name": "minecraft:copper_helmet",
-                                "functions": [
+                                "modifier": [
                                     {
-                                    "function": "minecraft:set_components",
+                                    "type": "minecraft:set_components",
                                     "components": {
                                         "minecraft:trim": {
                                             "material": "minecraft:quartz",
@@ -136,9 +136,9 @@
                             {
                                 "type": "minecraft:item",
                                 "name": "minecraft:copper_chestplate",
-                                "functions": [
+                                "modifier": [
                                     {
-                                    "function": "minecraft:set_components",
+                                    "type": "minecraft:set_components",
                                     "components": {
                                         "minecraft:trim": {
                                             "material": "minecraft:quartz",
@@ -156,9 +156,9 @@
                             {
                                 "type": "minecraft:item",
                                 "name": "minecraft:copper_leggings",
-                                "functions": [
+                                "modifier": [
                                     {
-                                    "function": "minecraft:set_components",
+                                    "type": "minecraft:set_components",
                                     "components": {
                                         "minecraft:trim": {
                                             "material": "minecraft:quartz",
@@ -176,9 +176,9 @@
                             {
                                 "type": "minecraft:item",
                                 "name": "minecraft:copper_boots",
-                                "functions": [
+                                "modifier": [
                                     {
-                                    "function": "minecraft:set_components",
+                                    "type": "minecraft:set_components",
                                     "components": {
                                         "minecraft:trim": {
                                             "material": "minecraft:quartz",

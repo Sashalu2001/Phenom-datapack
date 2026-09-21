@@ -8,9 +8,9 @@
     "count": 12,
     "id": "minecraft:emerald"
   },
-  "given_item_modifiers": [
+  "given_item_modifier": [
     {
-        "function": "set_components",
+        "type": "set_components",
         "components": {
             "minecraft:item_name": {
         "translate": "phenom.item.iron_shield.name",

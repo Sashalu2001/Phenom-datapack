@@ -11,9 +11,9 @@
     "id": "minecraft:trial_key",
     "count": 1
   },
-  "given_item_modifiers": [
+  "given_item_modifier": [
     {
-        "function": "set_components",
+        "type": "set_components",
         "components": {
            "custom_data":{
                 "ether_vault_key": true
@@ -30,10 +30,10 @@
   "xp": 10,
   "reputation_discount": 0.05,
   "merchant_predicate": {
-    "condition": "minecraft:entity_properties",
+    "type": "minecraft:entity_properties",
     "entity": "this",
     "predicate": {
-        "type": "minecraft:villager",
+        "entity_type": "minecraft:villager",
         "nbt": "{Tags:[\"wealthy_cartographer\"]}"
     }
   }

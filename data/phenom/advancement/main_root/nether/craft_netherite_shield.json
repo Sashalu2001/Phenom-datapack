@@ -4,7 +4,7 @@
     "craft_netherite_shield": {
       "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "recipe_id": "phenom:netherite_shield"
+        "recipes": "phenom:netherite_shield"
       }
     }
   },

@@ -1,68 +1,59 @@
 {
-  "type": "minecraft:chest",
-  "pools": [
-    {
-      "rolls": {
-        "type": "minecraft:uniform",
-        "min": 2,
-        "max": 3
-      },
-      "entries": [
+    "type": "minecraft:chest",
+    "pools": [
         {
-          "type": "minecraft:loot_table",
-          "value": "phenom:nether_trial_dungeon/vaults/ominous/ominous_common"
-        }
-      ]
-    },
-    {
-      "rolls": {
-        "type": "minecraft:uniform",
-        "min": 1,
-        "max": 2
-      },
-      "entries": [
+            "rolls": {
+                "type": "minecraft:uniform",
+                "min": 2,
+                "max": 3
+            },
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "phenom:nether_trial_dungeon/vaults/ominous/ominous_common"
+                }
+            ]
+        },
         {
-          "type": "minecraft:loot_table",
-          "value": "phenom:nether_trial_dungeon/vaults/ominous/ominous_rare"
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
+            "rolls": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+            },
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "phenom:nether_trial_dungeon/vaults/ominous/ominous_rare"
+                }
+            ]
+        },
         {
-          "type": "minecraft:loot_table",
-          "value": "phenom:nether_trial_dungeon/vaults/ominous/ominous_epic"
-        }
-      ],
-      "conditions": [
-        {
-          "chance": 0.6,
-          "condition": "minecraft:random_chance"
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:totem_of_undying",
-          "weight": 1,
-          "functions": [
-            {
-              "function": "reference",
-              "name": "phenom:amulets/righteous_wrath"
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "phenom:nether_trial_dungeon/vaults/ominous/ominous_epic"
+                }
+            ],
+            "condition": {
+                "chance": 0.6,
+                "type": "minecraft:random_chance"
             }
-          ]
-        }
-      ],
-      "conditions": [
+        },
         {
-          "chance": 0.08,
-          "condition": "minecraft:random_chance"
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:totem_of_undying",
+                    "weight": 1,
+                    "modifier": "phenom:amulets/righteous_wrath"
+                }
+            ],
+            "condition": {
+                "chance": 0.08,
+                "type": "minecraft:random_chance"
+            }
         }
-      ]
-    }
-  ]
+    ]
 }

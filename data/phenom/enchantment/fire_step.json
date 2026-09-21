@@ -9,16 +9,16 @@
       {
         "effect": {},
         "requirements": {
-          "condition": "minecraft:damage_source_properties",
+          "type": "minecraft:damage_source_properties",
           "predicate": {
             "tags": [
               {
                 "expected": true,
-                "id": "minecraft:burn_from_stepping"
+                "id": "#minecraft:burn_from_stepping"
               },
               {
                 "expected": false,
-                "id": "minecraft:bypasses_invulnerability"
+                "id": "#minecraft:bypasses_invulnerability"
               }
             ]
           }
@@ -30,13 +30,7 @@
         "effect": {
           "type": "minecraft:replace_block",
           "block_state": {
-            "type": "minecraft:simple_state_provider",
-            "state": {
-              "Name": "minecraft:fire",
-              "Properties": {
-                "age": "0"
-              }
-            }
+            "id": "minecraft:fire"
           },
           "offset": [
             0,
@@ -60,10 +54,10 @@
           "trigger_game_event": "minecraft:block_place"
         },
         "requirements": {
-          "condition": "minecraft:all_of",
+          "type": "minecraft:all_of",
           "terms": [
             {
-              "condition": "minecraft:entity_properties",
+              "type": "minecraft:entity_properties",
               "entity": "this",
               "predicate": {
                 "flags": {
@@ -72,9 +66,9 @@
               }
             },
             {
-              "condition": "minecraft:inverted",
+              "type": "minecraft:inverted",
               "term": {
-                "condition": "minecraft:entity_properties",
+                "type": "minecraft:entity_properties",
                 "entity": "this",
                 "predicate": {
                   "vehicle": {}

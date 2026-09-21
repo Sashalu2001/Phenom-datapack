@@ -13,7 +13,7 @@
             "block": "minecraft:decorated_pot"
           },
           "output_state": {
-            "Name": "minecraft:decorated_pot"
+            "id": "minecraft:decorated_pot"
           },
           "block_entity_modifier": {
             "type": "minecraft:append_loot",

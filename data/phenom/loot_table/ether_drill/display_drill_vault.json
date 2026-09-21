@@ -1,20 +1,15 @@
 {
-  "type": "minecraft:chest",
-  "pools": [
-    {
-      "rolls": 1,
-      "entries": [
+    "type": "minecraft:chest",
+    "pools": [
         {
-          "type": "minecraft:item",
-          "name": "trial_key",
-          "functions": [
-            {
-              "function": "reference",
-              "name": "phenom:items/ether_vault_key"
-            }
-          ]
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "trial_key",
+                    "modifier": "phenom:items/ether_vault_key"
+                }
+            ]
         }
-      ]
-    }
-  ]
+    ]
 }

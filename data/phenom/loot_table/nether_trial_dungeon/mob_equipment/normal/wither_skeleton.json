@@ -32,9 +32,9 @@
                             {
                                 "type": "minecraft:item",
                                 "name": "minecraft:leather_helmet",
-                                "functions": [
+                                "modifier": [
                                     {
-                                    "function": "minecraft:set_components",
+                                    "type": "minecraft:set_components",
                                     "components": {
                                         "minecraft:trim": {
                                             "material": "minecraft:redstone",
@@ -52,9 +52,9 @@
                             {
                                 "type": "minecraft:item",
                                 "name": "minecraft:leather_chestplate",
-                                "functions": [
+                                "modifier": [
                                     {
-                                    "function": "minecraft:set_components",
+                                    "type": "minecraft:set_components",
                                     "components": {
                                         "minecraft:trim": {
                                             "material": "minecraft:redstone",
@@ -72,9 +72,9 @@
                             {
                                 "type": "minecraft:item",
                                 "name": "minecraft:leather_leggings",
-                                "functions": [
+                                "modifier": [
                                     {
-                                    "function": "minecraft:set_components",
+                                    "type": "minecraft:set_components",
                                     "components": {
                                         "minecraft:trim": {
                                             "material": "minecraft:redstone",
@@ -92,9 +92,9 @@
                             {
                                 "type": "minecraft:item",
                                 "name": "minecraft:leather_boots",
-                                "functions": [
+                                "modifier": [
                                     {
-                                    "function": "minecraft:set_components",
+                                    "type": "minecraft:set_components",
                                     "components": {
                                         "minecraft:trim": {
                                             "material": "minecraft:redstone",
@@ -129,9 +129,9 @@
                             {
                                 "type": "minecraft:item",
                                 "name": "minecraft:golden_helmet",
-                                "functions": [
+                                "modifier": [
                                     {
-                                    "function": "minecraft:set_components",
+                                    "type": "minecraft:set_components",
                                     "components": {
                                         "minecraft:trim": {
                                             "material": "minecraft:redstone",
@@ -149,9 +149,9 @@
                             {
                                 "type": "minecraft:item",
                                 "name": "minecraft:golden_chestplate",
-                                "functions": [
+                                "modifier": [
                                     {
-                                    "function": "minecraft:set_components",
+                                    "type": "minecraft:set_components",
                                     "components": {
                                         "minecraft:trim": {
                                             "material": "minecraft:redstone",
@@ -169,9 +169,9 @@
                             {
                                 "type": "minecraft:item",
                                 "name": "minecraft:golden_leggings",
-                                "functions": [
+                                "modifier": [
                                     {
-                                    "function": "minecraft:set_components",
+                                    "type": "minecraft:set_components",
                                     "components": {
                                         "minecraft:trim": {
                                             "material": "minecraft:redstone",
@@ -189,9 +189,9 @@
                             {
                                 "type": "minecraft:item",
                                 "name": "minecraft:golden_boots",
-                                "functions": [
+                                "modifier": [
                                     {
-                                    "function": "minecraft:set_components",
+                                    "type": "minecraft:set_components",
                                     "components": {
                                         "minecraft:trim": {
                                             "material": "minecraft:redstone",

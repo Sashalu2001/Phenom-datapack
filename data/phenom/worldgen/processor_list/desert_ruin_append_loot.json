@@ -14,8 +14,8 @@
             "probability": 0.05
           },
           "output_state": {
-            "Name": "minecraft:suspicious_sand",
-            "Properties": {
+            "id": "minecraft:suspicious_sand",
+            "properties": {
               "dusted": "0"
             }
           },

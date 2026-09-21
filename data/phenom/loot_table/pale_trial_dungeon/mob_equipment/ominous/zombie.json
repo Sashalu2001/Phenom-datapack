@@ -15,9 +15,9 @@
                             {
                                 "type": "minecraft:item",
                                 "name": "minecraft:chainmail_helmet",
-                                "functions": [
+                                "modifier": [
                                     {
-                                        "function": "minecraft:set_components",
+                                        "type": "minecraft:set_components",
                                         "components": {
                                             "minecraft:trim": {
                                                 "material": "minecraft:quartz",
@@ -26,7 +26,7 @@
                                         }
                                     },
                                     {
-                                        "function": "minecraft:set_enchantments",
+                                        "type": "minecraft:set_enchantments",
                                         "enchantments": {
                                             "protection": 2,
                                             "projectile_protection": 1,
@@ -43,9 +43,9 @@
                             {
                                 "type": "minecraft:item",
                                 "name": "minecraft:chainmail_chestplate",
-                                "functions": [
+                                "modifier": [
                                     {
-                                        "function": "minecraft:set_components",
+                                        "type": "minecraft:set_components",
                                         "components": {
                                             "minecraft:trim": {
                                                 "material": "minecraft:quartz",
@@ -54,7 +54,7 @@
                                         }
                                     },
                                     {
-                                        "function": "minecraft:set_enchantments",
+                                        "type": "minecraft:set_enchantments",
                                         "enchantments": {
                                             "protection": 2,
                                             "projectile_protection": 1,
@@ -71,9 +71,9 @@
                             {
                                 "type": "minecraft:item",
                                 "name": "minecraft:chainmail_leggings",
-                                "functions": [
+                                "modifier": [
                                     {
-                                        "function": "minecraft:set_components",
+                                        "type": "minecraft:set_components",
                                         "components": {
                                             "minecraft:trim": {
                                                 "material": "minecraft:quartz",
@@ -82,7 +82,7 @@
                                         }
                                     },
                                     {
-                                        "function": "minecraft:set_enchantments",
+                                        "type": "minecraft:set_enchantments",
                                         "enchantments": {
                                             "protection": 2,
                                             "projectile_protection": 1,
@@ -99,9 +99,9 @@
                             {
                                 "type": "minecraft:item",
                                 "name": "minecraft:chainmail_boots",
-                                "functions": [
+                                "modifier": [
                                     {
-                                        "function": "minecraft:set_components",
+                                        "type": "minecraft:set_components",
                                         "components": {
                                             "minecraft:trim": {
                                                 "material": "minecraft:quartz",
@@ -110,7 +110,7 @@
                                         }
                                     },
                                     {
-                                        "function": "minecraft:set_enchantments",
+                                        "type": "minecraft:set_enchantments",
                                         "enchantments": {
                                             "protection": 2,
                                             "projectile_protection": 1,
@@ -127,9 +127,9 @@
                             {
                                 "type": "minecraft:item",
                                 "name": "minecraft:iron_sword",
-                                "functions": [
+                                "modifier": [
                                     {
-                                        "function": "minecraft:set_enchantments",
+                                        "type": "minecraft:set_enchantments",
                                         "enchantments": {
                                             "sharpness": 4,
                                             "knockback": 2
@@ -153,9 +153,9 @@
                             {
                                 "type": "minecraft:item",
                                 "name": "minecraft:iron_helmet",
-                                "functions": [
+                                "modifier": [
                                     {
-                                        "function": "minecraft:set_components",
+                                        "type": "minecraft:set_components",
                                         "components": {
                                             "minecraft:trim": {
                                                 "material": "minecraft:quartz",
@@ -164,7 +164,7 @@
                                         }
                                     },
                                     {
-                                        "function": "minecraft:set_enchantments",
+                                        "type": "minecraft:set_enchantments",
                                         "enchantments": {
                                             "protection": 2,
                                             "projectile_protection": 1,
@@ -181,9 +181,9 @@
                             {
                                 "type": "minecraft:item",
                                 "name": "minecraft:iron_chestplate",
-                                "functions": [
+                                "modifier": [
                                     {
-                                        "function": "minecraft:set_components",
+                                        "type": "minecraft:set_components",
                                         "components": {
                                             "minecraft:trim": {
                                                 "material": "minecraft:quartz",
@@ -192,7 +192,7 @@
                                         }
                                     },
                                     {
-                                        "function": "minecraft:set_enchantments",
+                                        "type": "minecraft:set_enchantments",
                                         "enchantments": {
                                             "protection": 2,
                                             "projectile_protection": 1,
@@ -209,9 +209,9 @@
                             {
                                 "type": "minecraft:item",
                                 "name": "minecraft:iron_leggings",
-                                "functions": [
+                                "modifier": [
                                     {
-                                        "function": "minecraft:set_components",
+                                        "type": "minecraft:set_components",
                                         "components": {
                                             "minecraft:trim": {
                                                 "material": "minecraft:quartz",
@@ -220,7 +220,7 @@
                                         }
                                     },
                                     {
-                                        "function": "minecraft:set_enchantments",
+                                        "type": "minecraft:set_enchantments",
                                         "enchantments": {
                                             "protection": 2,
                                             "projectile_protection": 1,
@@ -237,9 +237,9 @@
                             {
                                 "type": "minecraft:item",
                                 "name": "minecraft:iron_boots",
-                                "functions": [
+                                "modifier": [
                                     {
-                                        "function": "minecraft:set_components",
+                                        "type": "minecraft:set_components",
                                         "components": {
                                             "minecraft:trim": {
                                                 "material": "minecraft:quartz",
@@ -248,7 +248,7 @@
                                         }
                                     },
                                     {
-                                        "function": "minecraft:set_enchantments",
+                                        "type": "minecraft:set_enchantments",
                                         "enchantments": {
                                             "protection": 2,
                                             "projectile_protection": 1,
@@ -265,9 +265,9 @@
                             {
                                 "type": "minecraft:item",
                                 "name": "minecraft:iron_sword",
-                                "functions": [
+                                "modifier": [
                                     {
-                                        "function": "minecraft:set_enchantments",
+                                        "type": "minecraft:set_enchantments",
                                         "enchantments": {
                                             "sharpness": 4,
                                             "knockback": 2
@@ -291,9 +291,9 @@
                             {
                                 "type": "minecraft:item",
                                 "name": "minecraft:diamond_helmet",
-                                "functions": [
+                                "modifier": [
                                     {
-                                        "function": "minecraft:set_components",
+                                        "type": "minecraft:set_components",
                                         "components": {
                                             "minecraft:trim": {
                                                 "material": "minecraft:quartz",
@@ -302,7 +302,7 @@
                                         }
                                     },
                                     {
-                                        "function": "minecraft:set_enchantments",
+                                        "type": "minecraft:set_enchantments",
                                         "enchantments": {
                                             "protection": 2,
                                             "projectile_protection": 1,
@@ -319,9 +319,9 @@
                             {
                                 "type": "minecraft:item",
                                 "name": "minecraft:diamond_chestplate",
-                                "functions": [
+                                "modifier": [
                                     {
-                                        "function": "minecraft:set_components",
+                                        "type": "minecraft:set_components",
                                         "components": {
                                             "minecraft:trim": {
                                                 "material": "minecraft:quartz",
@@ -330,7 +330,7 @@
                                         }
                                     },
                                     {
-                                        "function": "minecraft:set_enchantments",
+                                        "type": "minecraft:set_enchantments",
                                         "enchantments": {
                                             "protection": 2,
                                             "projectile_protection": 1,
@@ -347,9 +347,9 @@
                             {
                                 "type": "minecraft:item",
                                 "name": "minecraft:diamond_leggings",
-                                "functions": [
+                                "modifier": [
                                     {
-                                        "function": "minecraft:set_components",
+                                        "type": "minecraft:set_components",
                                         "components": {
                                             "minecraft:trim": {
                                                 "material": "minecraft:quartz",
@@ -358,7 +358,7 @@
                                         }
                                     },
                                     {
-                                        "function": "minecraft:set_enchantments",
+                                        "type": "minecraft:set_enchantments",
                                         "enchantments": {
                                             "protection": 2,
                                             "projectile_protection": 1,
@@ -375,9 +375,9 @@
                             {
                                 "type": "minecraft:item",
                                 "name": "minecraft:diamond_boots",
-                                "functions": [
+                                "modifier": [
                                     {
-                                        "function": "minecraft:set_components",
+                                        "type": "minecraft:set_components",
                                         "components": {
                                             "minecraft:trim": {
                                                 "material": "minecraft:quartz",
@@ -386,7 +386,7 @@
                                         }
                                     },
                                     {
-                                        "function": "minecraft:set_enchantments",
+                                        "type": "minecraft:set_enchantments",
                                         "enchantments": {
                                             "protection": 2,
                                             "projectile_protection": 1,
@@ -403,9 +403,9 @@
                             {
                                 "type": "minecraft:item",
                                 "name": "minecraft:diamond_sword",
-                                "functions": [
+                                "modifier": [
                                     {
-                                        "function": "minecraft:set_enchantments",
+                                        "type": "minecraft:set_enchantments",
                                         "enchantments": {
                                             "sharpness": 4,
                                             "knockback": 2

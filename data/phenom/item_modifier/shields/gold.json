@@ -1,6 +1,8 @@
-[
+{
+    "type": "sequence",
+    "functions": [
     {
-        "function": "set_components",
+        "type": "set_components",
         "components": {
             "minecraft:item_name": {
         "translate": "phenom.item.gold_shield.name",
@@ -62,4 +64,4 @@
       }
         }
     }
-]
+]}

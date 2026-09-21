@@ -1,21 +1,16 @@
 {
-  "type": "minecraft:chest",
-  "pools": [
-    {
-      "rolls": 1,
-      "entries": [
+    "type": "minecraft:chest",
+    "pools": [
         {
-          "type": "minecraft:item",
-          "name": "minecraft:magma_cream",
-          "weight": 1,
-          "functions": [
-            {
-              "function": "reference",
-              "name": "phenom:items/fire_resistance_cream"
-            }
-          ]
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:magma_cream",
+                    "weight": 1,
+                    "modifier": "phenom:items/fire_resistance_cream"
+                }
+            ]
         }
-      ]
-    }
-  ]
+    ]
 }

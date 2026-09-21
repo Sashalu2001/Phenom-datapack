@@ -1,21 +1,16 @@
 {
-  "type": "minecraft:chest",
-  "pools": [
-    {
-      "rolls": 1,
-      "entries": [
+    "type": "minecraft:chest",
+    "pools": [
         {
-          "type": "minecraft:item",
-          "name": "minecraft:shield",
-          "weight": 1,
-          "functions": [
-            {
-              "function": "reference",
-              "name": "phenom:shields/gold"
-            }
-          ]
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:shield",
+                    "weight": 1,
+                    "modifier": "phenom:shields/gold"
+                }
+            ]
         }
-      ]
-    }
-  ]
+    ]
 }

@@ -13,8 +13,8 @@
             "predicate_type": "minecraft:always_true"
           },
           "output_state": {
-            "Name": "minecraft:pumpkin_stem",
-            "Properties": {
+            "id": "minecraft:pumpkin_stem",
+            "properties": {
               "age": "0"
             }
           }
@@ -29,8 +29,8 @@
             "predicate_type": "minecraft:always_true"
           },
           "output_state": {
-            "Name": "minecraft:potatoes",
-            "Properties": {
+            "id": "minecraft:potatoes",
+            "properties": {
               "age": "0"
             }
           }

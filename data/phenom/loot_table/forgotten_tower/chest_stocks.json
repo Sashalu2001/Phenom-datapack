@@ -12,9 +12,9 @@
           "type": "minecraft:item",
           "name": "minecraft:stick",
           "weight": 3,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
                 "min": 3,
@@ -27,9 +27,9 @@
           "type": "minecraft:item",
           "name": "minecraft:gunpowder",
           "weight": 2,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
                 "min": 1,
@@ -42,9 +42,9 @@
           "type": "minecraft:item",
           "name": "minecraft:string",
           "weight": 3,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
                 "min": 2,
@@ -57,9 +57,9 @@
           "type": "minecraft:item",
           "name": "minecraft:cobweb",
           "weight": 2,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": 1
             }
           ]
@@ -68,9 +68,9 @@
           "type": "minecraft:item",
           "name": "minecraft:oak_sapling",
           "weight": 3,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
                 "min": 1,
@@ -83,9 +83,9 @@
           "type": "minecraft:item",
           "name": "minecraft:birch_sapling",
           "weight": 2,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
                 "min": 1,
@@ -98,9 +98,9 @@
           "type": "minecraft:item",
           "name": "minecraft:spruce_planks",
           "weight": 2,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
                 "min": 1,
@@ -113,9 +113,9 @@
           "type": "minecraft:item",
           "name": "minecraft:rotten_flesh",
           "weight": 1,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
                 "min": 1,

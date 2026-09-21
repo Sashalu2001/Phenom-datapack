@@ -4,7 +4,7 @@
     "desert_ruin": {
       "trigger": "minecraft:player_generates_container_loot",
       "conditions": {
-        "loot_table": "phenom:desert_ruin/desert_ruin_sand"
+        "loot_tables": "phenom:desert_ruin/desert_ruin_sand"
       }
     },
     "eat_special_sugar": {

@@ -1,20 +1,22 @@
-[
-    {
-        "function": "minecraft:exploration_map",
-        "destination": "phenom:is_ancient_tomb",
-        "decoration": "minecraft:target_x",
-        "zoom": 2,
-        "skip_existing_chunks": false
-    },
-    {
-        "function": "minecraft:set_components",
-        "components": {
-            "minecraft:map_color": 359807,
-            "minecraft:item_name": {
-                "type": "translatable",
-                "translate": "phenom.item.ancient_tomb_map.name",
-                "fallback": "Ancient Tomb Map"
+{
+    "type": "sequence",
+    "functions": [
+        {
+            "type": "minecraft:exploration_map",
+            "destination": "#phenom:is_ancient_tomb",
+            "decoration": "minecraft:target_x",
+            "zoom": 2,
+            "skip_existing_chunks": false
+        },
+        {
+            "type": "minecraft:set_components",
+            "components": {
+                "minecraft:item_name": {
+                    "type": "translatable",
+                    "translate": "phenom.item.ancient_tomb_map.name",
+                    "fallback": "Ancient Tomb Map"
+                }
             }
         }
-    }
-]
+    ]
+}

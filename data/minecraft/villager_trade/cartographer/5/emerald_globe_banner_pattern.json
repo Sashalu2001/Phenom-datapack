@@ -10,12 +10,12 @@
   },
   "xp": 30,
   "merchant_predicate": {
-    "condition": "minecraft:inverted",
+    "type": "minecraft:inverted",
     "term": {
-        "condition": "minecraft:entity_properties",
+        "type": "minecraft:entity_properties",
         "entity": "this",
         "predicate": {
-            "type": "minecraft:villager",
+            "entity_type": "minecraft:villager",
             "nbt": "{Tags:[\"wealthy_cartographer\"]}"
         }
     }

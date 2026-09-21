@@ -1,17 +1,20 @@
-[
-    {
-              "function": "set_custom_data",
-              "tag": {
+{
+    "type": "sequence",
+    "functions": [
+        {
+            "type": "set_custom_data",
+            "tag": {
                 "pale_key": true
-              }
-            },
-            {
-              "function": "minecraft:set_name",
-              "name": {
+            }
+        },
+        {
+            "type": "minecraft:set_name",
+            "name": {
                 "type": "translatable",
                 "translate": "phenom.item.pale_trial_key.name",
                 "fallback": "Pale trial key"
-              },
-              "target": "item_name"
-            }
-]
+            },
+            "target": "item_name"
+        }
+    ]
+}

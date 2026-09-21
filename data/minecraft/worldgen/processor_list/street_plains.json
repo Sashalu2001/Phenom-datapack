@@ -13,7 +13,7 @@
             "block": "minecraft:tuff_bricks"
           },
           "output_state": {
-            "Name": "minecraft:stone_bricks"
+            "id": "minecraft:stone_bricks"
           }
         },
         {
@@ -26,7 +26,7 @@
             "block": "minecraft:polished_tuff"
           },
           "output_state": {
-            "Name": "minecraft:stone_bricks"
+            "id": "minecraft:stone_bricks"
           }
         },
         {
@@ -39,7 +39,7 @@
             "block": "minecraft:chiseled_tuff_bricks"
           },
           "output_state": {
-            "Name": "minecraft:stone_bricks"
+            "id": "minecraft:stone_bricks"
           }
         },
         {
@@ -52,7 +52,7 @@
             "block": "minecraft:cobblestone"
           },
           "output_state": {
-            "Name": "minecraft:stone_bricks"
+            "id": "minecraft:stone_bricks"
           }
         },
         {
@@ -65,7 +65,7 @@
             "block": "minecraft:mossy_cobblestone"
           },
           "output_state": {
-            "Name": "minecraft:stone_bricks"
+            "id": "minecraft:stone_bricks"
           }
         }
       ]

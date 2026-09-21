@@ -12,9 +12,9 @@
           "type": "minecraft:item",
           "name": "minecraft:glass_bottle",
           "weight": 3,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
                 "min": 2,
@@ -27,9 +27,9 @@
           "type": "minecraft:item",
           "name": "minecraft:gunpowder",
           "weight": 3,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
                 "min": 1,
@@ -42,9 +42,9 @@
           "type": "minecraft:item",
           "name": "minecraft:glowstone_dust",
           "weight": 3,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
                 "min": 1,
@@ -57,9 +57,9 @@
           "type": "minecraft:item",
           "name": "minecraft:redstone",
           "weight": 3,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
                 "min": 1,
@@ -72,9 +72,9 @@
           "type": "minecraft:item",
           "name": "minecraft:nether_wart",
           "weight": 3,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
                 "min": 2,
@@ -87,9 +87,9 @@
           "type": "minecraft:item",
           "name": "minecraft:dragon_breath",
           "weight": 1,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": 1
             }
           ]
@@ -98,9 +98,9 @@
           "type": "minecraft:item",
           "name": "minecraft:fermented_spider_eye",
           "weight": 3,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
                 "min": 1,

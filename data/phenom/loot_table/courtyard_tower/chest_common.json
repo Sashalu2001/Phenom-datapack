@@ -12,9 +12,9 @@
           "type": "minecraft:item",
           "name": "minecraft:stick",
           "weight": 3,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
                 "min": 3,
@@ -27,9 +27,9 @@
           "type": "minecraft:item",
           "name": "minecraft:oak_log",
           "weight": 2,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
                 "min": 1,
@@ -42,9 +42,9 @@
           "type": "minecraft:item",
           "name": "minecraft:cherry_log",
           "weight": 1,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
                 "min": 1,
@@ -57,9 +57,9 @@
           "type": "minecraft:item",
           "name": "minecraft:gunpowder",
           "weight": 2,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
                 "min": 1,
@@ -72,9 +72,9 @@
           "type": "minecraft:item",
           "name": "minecraft:string",
           "weight": 3,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
                 "min": 2,
@@ -87,9 +87,9 @@
           "type": "minecraft:item",
           "name": "minecraft:oak_sapling",
           "weight": 3,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
                 "min": 2,
@@ -102,9 +102,9 @@
           "type": "minecraft:item",
           "name": "minecraft:cherry_sapling",
           "weight": 2,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
                 "min": 2,
@@ -117,9 +117,9 @@
           "type": "minecraft:item",
           "name": "minecraft:pink_wool",
           "weight": 2,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
                 "min": 1,
@@ -132,9 +132,9 @@
           "type": "minecraft:item",
           "name": "minecraft:cooked_mutton",
           "weight": 2,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
                 "min": 2,
@@ -147,9 +147,9 @@
           "type": "minecraft:item",
           "name": "minecraft:charcoal",
           "weight": 2,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
                 "min": 2,
@@ -162,9 +162,9 @@
           "type": "minecraft:item",
           "name": "minecraft:iron_nugget",
           "weight": 2,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
                 "min": 3,
@@ -177,9 +177,9 @@
           "type": "minecraft:item",
           "name": "minecraft:iron_ingot",
           "weight": 1,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
                 "min": 1,
@@ -192,9 +192,9 @@
           "type": "minecraft:item",
           "name": "minecraft:book",
           "weight": 1,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": 1
             }
           ]
@@ -203,9 +203,9 @@
           "type": "minecraft:item",
           "name": "minecraft:shears",
           "weight": 1,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_damage",
+              "type": "minecraft:set_damage",
               "damage": {
                 "type": "minecraft:uniform",
                 "min": 0.55,
@@ -218,9 +218,9 @@
           "type": "minecraft:item",
           "name": "minecraft:stone_axe",
           "weight": 1,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_damage",
+              "type": "minecraft:set_damage",
               "damage": {
                 "type": "minecraft:uniform",
                 "min": 0.55,
@@ -233,9 +233,9 @@
           "type": "minecraft:item",
           "name": "minecraft:iron_axe",
           "weight": 1,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_damage",
+              "type": "minecraft:set_damage",
               "damage": {
                 "type": "minecraft:uniform",
                 "min": 0.55,
