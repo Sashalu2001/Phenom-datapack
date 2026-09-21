@@ -1,3 +1,6 @@
+v.1.0.2
+- Some technical changes
+
 v.1.0.1
 - Some technical changes
 
