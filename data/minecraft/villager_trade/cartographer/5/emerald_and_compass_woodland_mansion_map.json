@@ -21,7 +21,7 @@
     }
   ],
   "gives": {
-    "id": "minecraft:map"
+    "id": "minecraft:woodland_mansion_map"
   },
   "max_uses": 12,
   "reputation_discount": 0.2,
